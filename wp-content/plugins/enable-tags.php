@@ -17,6 +17,7 @@ function tags_support_all() {
 // ensure all tags are included in queries
 function tags_support_query($wp_query) {
     if ($wp_query->get('tag')) $wp_query->set('post_type', 'any');
+    if ($wp_query->get('category_name')) $wp_query->set('post_type', 'any');
 }
 
 // tag hooks
