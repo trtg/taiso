@@ -1,6 +1,6 @@
 <?php
-add_action( 'init', 'create_post_type' );
-function create_post_type() {
+add_action( 'init', 'create_post_types' );
+function create_post_types() {
     register_post_type( 'movement',
         array(
             'labels' => array(
@@ -11,6 +11,17 @@ function create_post_type() {
             'has_archive' => true,
         )
     );
+    register_post_type( 'wod',
+        array(
+            'labels' => array(
+                'name' => __( 'WODs' ),
+                'singular_name' => __( 'WOD' )
+            ),
+            'public' => true,
+            'has_archive' => true,
+        )
+    );
+
 }
 
 add_action('init', 'cptui_register_my_taxonomies');

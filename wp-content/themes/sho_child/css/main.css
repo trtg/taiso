@@ -3,6 +3,12 @@
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+//FIXME: use selector to only grab first img child, not all
+.carousel-inner>.item>img
+{
+    display:block;
+    margin:auto;
+}
 
 
 
