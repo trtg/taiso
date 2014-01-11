@@ -9,6 +9,7 @@ function create_post_types() {
             ),
             'public' => true,
             'has_archive' => true,
+            'supports' => array('title','editor','comments','excerpt','custom-fields','thumbnail'),
         )
     );
     register_post_type( 'wod',
@@ -19,6 +20,7 @@ function create_post_types() {
             ),
             'public' => true,
             'has_archive' => true,
+            'supports' => array('title','editor','comments','excerpt','custom-fields','thumbnail'),
         )
     );
 
