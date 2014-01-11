@@ -64,7 +64,7 @@
 <div id="this-carousel-id" class="carousel slide"><!-- class of slide for animation -->
   <div class="carousel-inner">
     <div class="item active"><!-- class of active since it's the first item -->
-      <img id="wtfmate" src="http://placehold.it/1200x480" alt="" />
+      <img src="http://placehold.it/1200x480" alt="" />
       <div class="carousel-caption">
         <h2>力</h2>
       </div>
