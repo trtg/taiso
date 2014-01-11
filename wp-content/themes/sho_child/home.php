@@ -64,30 +64,24 @@
 <div id="this-carousel-id" class="carousel slide"><!-- class of slide for animation -->
   <div class="carousel-inner">
     <div class="item active"><!-- class of active since it's the first item -->
-      <img src="http://placehold.it/1200x480" alt="" />
+      <img id="wtfmate" src="http://placehold.it/1200x480" alt="" />
       <div class="carousel-caption">
-<img src="http://chinesecalligraphystore.com/free-chinese-symbols/chinese-symbol-pictures-medium/chinese-symbol-for-strength.gif">
+        <h2>力</h2>
       </div>
     </div>
     <div class="item">
       <img src="http://placehold.it/1200x480" alt="" />
       <div class="carousel-caption">
-        <p>Caption text here</p>
+        <h2>平衡</h2>
       </div>
     </div>
     <div class="item">
       <img src="http://placehold.it/1200x480" alt="" />
       <div class="carousel-caption">
-        <p>Caption text here</p>
+        <h2>管制 </h2>
       </div>
     </div>
-    <div class="item">
-      <img src="http://placehold.it/1200x480" alt="" />
-      <div class="carousel-caption">
-        <p>Caption text here</p>
-      </div>
-    </div>
-  </div><!-- /.carousel-inner -->
+</div><!-- /.carousel-inner -->
   <!--  Next and Previous controls below
         href values must reference the id for this carousel -->
     <a class="carousel-control left" href="#this-carousel-id" data-slide="prev">&lsaquo;</a>

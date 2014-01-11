@@ -3,26 +3,15 @@
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-//FIXME: use selector to only grab first img child, not all
-.carousel-inner>.item>img
+/*FIXME: use selector to only grab first img child, not all*/
+.carousel-inner > .item >img,
+.carousel-inner > .item > a >img
 {
-    display:block;
-    margin:auto;
+    display:block !important;
+    margin:auto !important;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.carousel-caption>h2
+{
+    text-align:left;
+    font-size:90px;
+}
