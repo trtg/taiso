@@ -15,3 +15,13 @@
     text-align:left;
     font-size:90px;
 }
+.movement_title_thumb
+{
+    /*background-color:#ECECEC;*/
+}
+.movement_panel_title,
+.movement_icons,
+.thumbnail_link
+{
+    display:inline-block;
+}
