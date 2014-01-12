@@ -106,12 +106,18 @@
 <?php while($wods->have_posts()) : $wods->the_post();?>
       <!-- Example row of columns -->
       <div class="row">
-        <div class="col-lg-4">
-        <span class="label label-info"><?php echo DateTime::createFromFormat('Ymd',get_field('wod_date'))->format('Y/m/d');?></span>
-          <p><?php the_excerpt();?></p>
-          <p><a class="btn btn-default" href="<?php the_permalink();?>" >View details &raquo;</a></p>
+        <div class="col-xs-6 col-lg-4">
+            <div class="date">
+                <?php $wod_date = DateTime::createFromFormat('Ymd',get_field('wod_date'));?> 
+                <p><?php echo $wod_date->format('d');?> <span><?php echo $wod_date->format('M');?> </span></p>
+            </div>
+        </div>
+        <div class="col-xs-12 col-lg-8">
+            <div class="wod_body"><?php the_excerpt();?></div>
+            <p><a class="btn btn-default" href="<?php the_permalink();?>" >View details &raquo;</a></p>
         </div>
     </div>
+<hr>
 <?php endwhile; ?>
       </div>
 

@@ -8,7 +8,6 @@
  */
 
 get_header(); ?>
-
 	<div id="primary" class="content-area">
 		<div id="content" class="site-content" role="main">
 			<?php
@@ -23,7 +22,8 @@ get_header(); ?>
 					get_template_part( 'content', get_post_format() );
 
 					// Previous/next post navigation.
-					twentyfourteen_post_nav();
+					//twentyfourteen_post_nav();
+                    echo get_field('youtube_embed_code');
 
 					// If comments are open or we have at least one comment, load up the comment template.
 					if ( comments_open() || get_comments_number() ) {
