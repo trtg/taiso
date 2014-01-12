@@ -46,8 +46,8 @@ endwhile;
             <div class="panel-heading">
                 <h5 class="movement_panel_title"><?php the_title();?></h5>
                 <div class="movement_icons">
-                <?php $terms = get_the_terms(get_the_ID(),'apparatus'); 
-                foreach ($terms as $term){
+                <?php $apparatus_terms = get_the_terms(get_the_ID(),'apparatus'); 
+                foreach ($apparatus_terms as $term){
                     $apparatus_link =  (get_term_link($term->slug,'apparatus')) ; 
 
                     switch($term->slug){
@@ -60,12 +60,28 @@ endwhile;
                     case "floor":
                         $apparatus_icon = "/wp-content/themes/sho_child/img/floor_icon.png";
                         break;
-                        }
+                    }
                     echo "<a href=\"$apparatus_link\"> <img src=\"$apparatus_icon\"></a>";
                 }
                 ?>
+                <?php $level_terms = get_the_terms(get_the_ID(),'level');
+                    foreach ($level_terms as $term){
 
-                        <a href="/level/advanced"><span class="badge">A</span></a>
+                        switch($term->slug){
+                        case "beginner":
+                            $level_name = "B";
+                            break;
+                        case "intermediate":
+                            $level_name = "I";
+                            break;
+                        case "advanced":
+                            $level_name = "A";
+                            break;
+                        }
+                        $level_link =  (get_term_link($term->slug,'level')) ; 
+                        echo "<a href=\"$level_link\"><span class=\"badge\">$level_name</span></a>";
+                    }
+                ?>
                 </div>
             </div>
         <div class="movement_thumbnail_div panel-body">
