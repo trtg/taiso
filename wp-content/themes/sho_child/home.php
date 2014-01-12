@@ -102,21 +102,34 @@
     'post_type' => 'wod'
 ));?>
 
+<div class="jumbotron">
+<h1>Workout of the Day:</h1>
+</div>
     <div class="container">
 <?php while($wods->have_posts()) : $wods->the_post();?>
       <!-- Example row of columns -->
       <div class="row">
-        <div class="col-xs-6 col-lg-4">
+        <div class="col-xs-2 col-lg-2">
             <div class="date">
                 <?php $wod_date = DateTime::createFromFormat('Ymd',get_field('wod_date'));?> 
-                <p><?php echo $wod_date->format('d');?> <span><?php echo $wod_date->format('M');?> </span></p>
+                <p style="font-size:12px; margin:0 0 0px;text-align:left"> <?php echo $wod_date->format('M');?></p><p> <?php echo $wod_date->format('d');?> <span><?php echo $wod_date->format('Y');?> </span></p>
             </div>
         </div>
-        <div class="col-xs-12 col-lg-8">
-            <div class="wod_body"><?php the_excerpt();?></div>
-            <p><a class="btn btn-default" href="<?php the_permalink();?>" >View details &raquo;</a></p>
+<div class="col-xs-2 col-lg-2">
+</div>
+        <div class="col-xs-8 col-lg-8">
+            <div class="panel panel-default">
+              <div class="panel-heading">
+              <h3 class="panel-title"><?php echo the_title();?></h3>
+              </div>
+              <div class="panel-body">
+                <div class="wod_body"><?php the_excerpt();?></div>
+                <p><a class="btn btn-default" href="<?php the_permalink();?>" >View details &raquo;</a></p>
+              </div>
+            </div>
+            
         </div>
-    </div>
+    </div><!--end row-->
 <hr>
 <?php endwhile; ?>
       </div>
