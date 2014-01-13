@@ -27,7 +27,8 @@
 {
     display:inline-block;
 }
-.thumbnail_link
+.thumbnail_link,
+.movement_thumbnail_div
 {
     vertical-align: middle;
 }
