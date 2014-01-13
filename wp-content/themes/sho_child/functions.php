@@ -100,8 +100,9 @@ function cptui_register_my_taxonomies() {
     )
 ) ); 
 
+}//end cptui_register_my_taxonomies
 
-}
+add_image_size('movement_thumbnail',100,100);
 
 
 
