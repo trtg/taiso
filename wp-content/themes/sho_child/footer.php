@@ -1,27 +1,25 @@
 <?php
 /**
- * The template for displaying the footer
- *
- * Contains footer content and the closing of the #main and #page div elements.
- *
- * @package WordPress
- * @subpackage Twenty_Fourteen
- * @since Twenty Fourteen 1.0
+ * displays footer and holds any javascript includes
+ * that appear at the end of <body>
  */
 ?>
+<hr>
 
-		</div><!-- #main -->
+      <footer>
+        <p>&copy; Total Taiso 2013</p>
+      </footer>
+    </div> <!-- /container -->        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.1.min.js"><\/script>')</script>
 
-		<footer id="colophon" class="site-footer" role="contentinfo">
+        <script src="/wp-content/themes/sho_child/js/vendor/bootstrap.min.js"></script>
 
-			<?php //get_sidebar( 'footer' ); ?>
+        <script src="/wp-content/themes/sho_child/js/main.js"></script>
 
-			<div class="site-info">
-				<?php do_action( 'twentyfourteen_credits' ); ?>
-			</div><!-- .site-info -->
-		</footer><!-- #colophon -->
-	</div><!-- #page -->
+        <script>
+            var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
+            (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+            g.src='//www.google-analytics.com/ga.js';
+            s.parentNode.insertBefore(g,s)}(document,'script'));
+        </script>
 
-	<?php wp_footer(); ?>
-</body>
-</html>

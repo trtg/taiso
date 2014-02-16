@@ -1,11 +1,12 @@
 <?php
 /**
  * Template Name: Movements
- * The template for displaying all pages
+ * The template for the searchable movements directory 
+ * This is a one-page backbone app based on an endpoint 
+ * which exposes all custom posts of type movement as a JSON
+ * list.
  *
- * @package WordPress
- * @subpackage Twenty_Fourteen
- * @since Twenty Fourteen 1.0
+ * @package taiso
  */
 
 get_header(); ?>
@@ -123,6 +124,13 @@ endwhile;
     <?php //get_sidebar( 'content' ); ?>
 </div><!-- #main-content -->
 
-<?php
-//get_sidebar();
-//get_footer();
+<?php include 'footer.php';?>
+
+                <script>
+                $(document).ready(function(){
+                    $('.nav_link').removeClass('active');
+                    $('#movements_link').addClass('active');
+                });
+                </script>
+    </body>
+</html>
