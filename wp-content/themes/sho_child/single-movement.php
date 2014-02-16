@@ -8,6 +8,7 @@
  */
 
 get_header(); ?>
+
 	<div id="primary" class="content-area">
 		<div id="content" class="site-content" role="main">
 			<?php
@@ -20,7 +21,7 @@ get_header(); ?>
 					 * (where ___ is the post format) and that will be used instead.
 					 */
 					//get_template_part( 'content', get_post_format() );
-					get_template_part( 'content', 'single_movement' );
+					//get_template_part( 'content', 'single_movement' );
 
 					// Previous/next post navigation.
 					//twentyfourteen_post_nav();
