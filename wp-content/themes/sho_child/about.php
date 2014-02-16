@@ -1,11 +1,9 @@
 <?php
 /**
- * Template Name: Movements
- * The template for displaying all pages
+ * Template Name: About
+ * The template for the about page with biographic info 
  *
- * @package WordPress
- * @subpackage Twenty_Fourteen
- * @since Twenty Fourteen 1.0
+ * @package taiso
  */
 
 get_header(); ?>
