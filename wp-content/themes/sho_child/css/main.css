@@ -86,4 +86,6 @@ a.navbar-brand {
 
 div.carousel-caption img {
     float: left;
+    height: auto;
+    max-width: 20%;
 }
