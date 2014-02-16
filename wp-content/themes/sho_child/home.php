@@ -70,13 +70,13 @@
     <div class="item">
       <img src="http://placehold.it/1200x480" alt="" />
       <div class="carousel-caption">
-        <h2>平衡</h2>
+        <img src="/wp-content/images/balance_half.png">
       </div>
     </div>
     <div class="item">
       <img src="http://placehold.it/1200x480" alt="" />
       <div class="carousel-caption">
-        <h2>管制 </h2>
+        <img src="/wp-content/images/flexibility_half.png">
       </div>
     </div>
 </div><!-- /.carousel-inner -->
