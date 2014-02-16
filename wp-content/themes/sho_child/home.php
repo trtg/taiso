@@ -64,7 +64,7 @@
     <div class="item active"><!-- class of active since it's the first item -->
       <img src="http://placehold.it/1200x480" alt="" />
       <div class="carousel-caption">
-        <h2>力</h2>
+        <img src="/wp-content/images/strength_30x30.png">
       </div>
     </div>
     <div class="item">
