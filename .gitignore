@@ -12,6 +12,7 @@ www/*
 .svn
 .cvs
 *.bak
+*.swo
 *.swp
 Thumbs.db
 

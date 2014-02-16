@@ -46,7 +46,6 @@
             <li class="active"><a href="#">Home</a></li>
             <li><a href="/movements">Movements</a></li>
             <li><a href="#about">About</a></li>
-            <li><a href="#contact">Contact</a></li>
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">Contact<b class="caret"></b></a>
               <ul class="dropdown-menu">
