@@ -31,6 +31,7 @@ get_header(); ?>
                         }
                         echo "<a href=\"$apparatus_link\"> <img src=\"$apparatus_icon\"></a>";
                     }
+                    echo get_field('youtube_embed_code');
 
 					/*
 					 * Include the post format-specific template for the content. If you want to

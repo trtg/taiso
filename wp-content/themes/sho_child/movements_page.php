@@ -39,6 +39,7 @@ endwhile;
 <h1>Directory of Movements</h1>
 <div class="panel">
 <span class="glyphicon glyphicon-search"></span><input type="text" id="searchBox"/><br><br>
+<p>Filter:</p>
 
 <div class="row">
 <div class="col-xs-4 col-lg-4">
