@@ -38,7 +38,7 @@ endwhile;
 ?>
 <h1>Directory of Movements</h1>
 <div class="panel">
-<input type="text" id="searchBox"/><br>
+<span class="glyphicon glyphicon-search"></span><input type="text" id="searchBox"/><br><br>
 
 <div class="row">
 <div class="col-xs-4 col-lg-4">
@@ -54,9 +54,9 @@ endwhile;
 <p><span class="badge">B</span>Rope</p>
 </div>
 <div class="col-xs-4 col-lg-4">
-<p><span class="badge">B</span>Beginner</p>
-<p><span class="badge">I</span>Intermediate</p>
-<p><span class="badge">B</span>Advanced</p>
+<p><span class="badge">B</span>Gymnastics</p>
+<p><span class="badge">I</span>Core</p>
+<p><span class="badge">B</span>Flexibility</p>
 </div>
 
 </div>
