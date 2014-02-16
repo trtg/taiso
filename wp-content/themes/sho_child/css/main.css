@@ -83,3 +83,7 @@ div.row.latest_wod
 a.navbar-brand {
     float:none;
 }
+
+div.carousel-caption img {
+    float: left;
+}
