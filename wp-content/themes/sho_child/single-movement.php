@@ -14,6 +14,23 @@ get_header(); ?>
 			<?php
 				// Start the Loop.
 				while ( have_posts() ) : the_post();
+                    the_post_thumbnail('movement_thumbnail');
+                    $apparatus_terms = get_the_terms(get_the_ID(),'apparatus'); 
+                    foreach ($apparatus_terms as $term){
+                        $apparatus_link =  (get_term_link($term->slug,'apparatus')) ; 
+                        switch($term->slug){
+                        case "mushroom":
+                            $apparatus_icon = "/wp-content/themes/sho_child/img/mushroom_icon.png";
+                            break;
+                        case "rings":
+                            $apparatus_icon = "/wp-content/themes/sho_child/img/rings_icon.png";
+                            break;
+                        case "floor":
+                            $apparatus_icon = "/wp-content/themes/sho_child/img/floor_icon.png";
+                            break;
+                        }
+                        echo "<a href=\"$apparatus_link\"> <img src=\"$apparatus_icon\"></a>";
+                    }
 
 					/*
 					 * Include the post format-specific template for the content. If you want to
