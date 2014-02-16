@@ -36,9 +36,10 @@ while ( have_posts() ) : the_post();
                     }*/
 endwhile;
 ?>
-<h1>Glossary of Movements</h1>
+<h1>Directory of Movements</h1>
 <div class="panel">
-<p>Legend</p>
+<input type="text" id="searchBox"/><br>
+
 <div class="row">
 <div class="col-xs-4 col-lg-4">
 <p><span class="badge">B</span>Beginner</p>

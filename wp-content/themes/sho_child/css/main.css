@@ -100,3 +100,10 @@ img.gym_side_image{
     height:100%;
     width:20%;
 }
+
+#searchBox {
+    padding:7px;
+    border:none;
+    border-radius:5px;
+    font-size:1.2em;
+}
