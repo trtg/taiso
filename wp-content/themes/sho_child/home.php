@@ -38,8 +38,8 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-         <a href="/" class="navbar-brand"><img src="/wp-content/images/total_taiso_logo_60x50.png"> Total Taiso</a>
-          <!--<a class="navbar-brand" href="/">Total Taiso</a>-->
+         <a href="/"><img src="/wp-content/images/total_taiso_logo_60x50.png"></a>
+          <a class="navbar-brand" href="/">Total Taiso</a>
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav">

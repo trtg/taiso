@@ -78,3 +78,8 @@ div.row.latest_wod
 {
     outline: #000000 solid thin;
 }
+
+/*display logo next to title*/
+a.navbar-brand {
+    float:none;
+}
