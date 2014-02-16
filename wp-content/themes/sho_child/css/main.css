@@ -93,3 +93,10 @@ div.carousel-caption img {
 div.jumbotron.wod_header{
     padding:0px;
 }
+
+img.gym_side_image{
+    position:absolute;
+    top:0;
+    height:100%;
+    width:20%;
+}

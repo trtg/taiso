@@ -82,7 +82,7 @@
 </div><!-- /.carousel-inner -->
   <!--  Next and Previous controls below
         href values must reference the id for this carousel -->
-    <img src="/wp-content/images/gymnastics_30.png">
+    <img class="gym_side_image" src="/wp-content/images/gymnastics_30.png">
     <a class="carousel-control left" href="#this-carousel-id" data-slide="prev">&lsaquo;</a>
     <a class="carousel-control right" href="#this-carousel-id" data-slide="next">&rsaquo;</a>
 </div><!-- /.carousel -->
