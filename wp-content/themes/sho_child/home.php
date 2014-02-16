@@ -99,8 +99,8 @@
     'post_type' => 'wod'
 ));?>
 
-<div class="jumbotron">
-<h1>Workout of the Day:</h1>
+<div class="jumbotron wod_header">
+<h1>Taiso WOD:</h1>
 </div>
     <div class="container">
 <?php $is_latest_wod = 1; ?>

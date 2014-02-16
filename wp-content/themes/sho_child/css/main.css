@@ -89,3 +89,7 @@ div.carousel-caption img {
     height: auto;
     max-width: 20%;
 }
+
+div.jumbotron.wod_header{
+    padding:0px;
+}
