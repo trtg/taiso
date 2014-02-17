@@ -22,7 +22,7 @@ $movements = new WP_Query(array(
 
 $list_of_movements = array();
 while($movements->have_posts()) : $movements->the_post();
-array_push($list_of_movements,the_post());
+array_push($list_of_movements,(array)the_post());
 endwhile;
 echo json_encode($list_of_movements);
 ?>
