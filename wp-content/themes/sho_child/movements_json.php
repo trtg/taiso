@@ -26,7 +26,7 @@ foreach ($movement_posts as $movement_post){
     $movement_data = (array)$movement_post;
 
     $post_data = array();
-    $post_data['id'] = $movement_post->ID;
+    $post_data['ID'] = $movement_post->ID;
     //can also use wp_get_attachment_url
     //and specify the specific thumbnail type, e.g. movement_thumbnail
     $url = wp_get_attachment_image_src( get_post_thumbnail_id($movement_post->ID) );
