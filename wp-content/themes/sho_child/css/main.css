@@ -122,4 +122,5 @@ img.gym_side_image{
     display:block;
     margin-left:auto;
     margin-right:auto;
+    max-width:100%;
 }
