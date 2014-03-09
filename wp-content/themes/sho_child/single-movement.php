@@ -8,6 +8,8 @@
  */
 
 get_header(); ?>
+<body>
+<?php include 'navbar.php';?>
 
 	<div id="primary" class="content-area">
 		<div id="content" class="site-content" role="main">

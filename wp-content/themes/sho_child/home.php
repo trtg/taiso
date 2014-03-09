@@ -3,6 +3,8 @@
  */
 ?>
 <?php include 'header.php'; ?>
+<body>
+<?php include 'navbar.php';?>
 
 <div id="this-carousel-id" class="carousel slide"><!-- class of slide for animation -->
   <div class="carousel-inner">

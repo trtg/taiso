@@ -11,6 +11,8 @@
 
 get_header(); ?>
 
+<?php include 'navbar.php';?>
+<body>
 <div id="main-content" class="main-content">
 
 <?php

@@ -112,4 +112,5 @@ img.gym_side_image{
 {
     background-image: url(../../../images/about_sho_background.jpg);
     background-repeat: no-repeat;
+    background-size: 100%;
 }
