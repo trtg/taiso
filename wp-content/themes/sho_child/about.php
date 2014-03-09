@@ -8,9 +8,9 @@
 
 get_header(); ?>
 
-<body class="about_body">
+<body>
 <?php include 'navbar.php';?>
-
+<img class="about_sho_banner" src="/wp-content/images/sho_pommel_horse.jpg">
 <h3>About TotalTaiso:</h3>
 <p>
 The foundations of TotalTaiso stem from the principles of gymnastics - a sport that combines the elements of strength, balance, and flexibility.  Although the direct translation for the Japanese word Taiso is “gymnastics”, it is much more than the artistic gymnastics you see on TV.  Broadly, taiso refers to the act of manipulating the body; using the body as the main apparatus for achieving fitness. TotalTaiso believes that a fancy gym and intricate equipment are not always necessary to achieve your fitness goals - in many cases, all you need is your body.  Whether you are a hardcore CrossFitter, a weekend warrior, or somebody maintaining a New Year’s resolution, we hope that TotalTaiso delivers the resources necessary to take you to the next level.  
