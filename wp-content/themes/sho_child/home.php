@@ -7,19 +7,25 @@
 <div id="this-carousel-id" class="carousel slide"><!-- class of slide for animation -->
   <div class="carousel-inner">
     <div class="item active"><!-- class of active since it's the first item -->
-      <img src="http://placehold.it/1200x480" alt="" />
+      <img src="/wp-content/images/banner.jpg" alt="" />
+      <div class="carousel-caption">
+        <img src="/wp-content/images/gymnastics_30.png">
+      </div>
+    </div>
+    <div class="item">
+      <img src="/wp-content/images/strength.jpg" alt="" />
       <div class="carousel-caption">
         <img src="/wp-content/images/strength_half.png">
       </div>
     </div>
     <div class="item">
-      <img src="http://placehold.it/1200x480" alt="" />
+      <img src="/wp-content/images/balance.jpg" alt="" />
       <div class="carousel-caption">
         <img src="/wp-content/images/balance_half.png">
       </div>
     </div>
     <div class="item">
-      <img src="http://placehold.it/1200x480" alt="" />
+      <img src="/wp-content/images/flexibility.jpg" alt="" />
       <div class="carousel-caption">
         <img src="/wp-content/images/flexibility_half.png">
       </div>
@@ -27,7 +33,8 @@
 </div><!-- /.carousel-inner -->
   <!--  Next and Previous controls below
         href values must reference the id for this carousel -->
-    <img class="gym_side_image" src="/wp-content/images/gymnastics_30.png">
+    <!--the gym_side_image class does not move with the slides and is full height-->
+    <!--<img class="gym_side_image" src="/wp-content/images/gymnastics_30.png">-->
     <a class="carousel-control left" href="#this-carousel-id" data-slide="prev">&lsaquo;</a>
     <a class="carousel-control right" href="#this-carousel-id" data-slide="next">&rsaquo;</a>
 </div><!-- /.carousel -->
