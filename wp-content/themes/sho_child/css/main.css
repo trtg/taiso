@@ -1,5 +1,4 @@
 
-
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
@@ -114,7 +113,13 @@ img.gym_side_image{
     background-repeat: no-repeat;
     background-size: 100%;
 }
+/*center the image for now
+ *TODO: setup flexible grid
+ *put this image in a div
+ */
 .about_sho_banner
 {
-    width:100%;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
 }
