@@ -108,3 +108,8 @@ img.gym_side_image{
     font-size:1.2em;
     border: 1px solid #B9B8B8;
 }
+.about_body
+{
+    background-image: url(../../../images/about_sho_background.jpg);
+    background-repeat: no-repeat;
+}
