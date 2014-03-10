@@ -15,7 +15,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-         <a href="/"><img src="/wp-content/images/total_taiso_logo_60x50.png"></a>
+         <a href="/"><img src="/wp-content/images/total_taiso_logo_47x50.png"></a>
           <a class="navbar-brand" href="/">Total Taiso</a>
         </div>
         <div class="navbar-collapse collapse">
