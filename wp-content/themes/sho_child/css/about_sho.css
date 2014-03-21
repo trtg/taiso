@@ -2,7 +2,7 @@
     #the_wrapper{
         background-image: url(../../../images/sho_pommel_horse.jpg);
         background-repeat: no-repeat;
-        background-position: -250px 0px;
+        background-position: -180px 0px;
     }
 }
 @media (max-width:960px) {
