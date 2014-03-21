@@ -20,16 +20,15 @@ get_header(); ?>
                  </div>
              
              <div class="row">
-                 <div class="col-sm-5" >
+                 <div class="col-sm-7" >
                  </div>
-                 <div id="profile_box" class="col-sm-7">
+                 <div id="profile_box" class="col-sm-5">
                      <h1>Sho Nakamori</h1>
                      <h2>Athlete & Coach</h2>
                      <p>
                      <div class="profile_photo">
                          <img src="/wp-content/images/sho_v.png">
                      </div>
-                     <h3>About Sho:</h3>
                      Sho was born into a family of gymnasts and grew up flipping around at the gym.  By age twelve, he made the US National Team and maintained his spot until his retirement in 2012.  During his career, he garnered multiple National Championships and represented the United States in various international competitions including the World Cup, World Championships, and Pan American Games.  He went on to captain the Stanford University gymnastics team to an NCAA Championship, while also capturing 9 individual All-American awards.  
                      </p> 
                      <p>
