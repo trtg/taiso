@@ -1,7 +1,7 @@
 <?php
 /**
- * Template Name: About
- * The template for the about page with biographic info 
+ * Template Name: coaching
+ * The template for the testimonials page 
  *
  * @package taiso
  */
