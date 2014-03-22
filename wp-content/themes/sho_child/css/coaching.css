@@ -1,0 +1,42 @@
+@media (min-width:992px) {
+    #the_wrapper{
+        background-repeat: no-repeat;
+        background-position: -180px 0px;
+    }
+}
+#the_wrapper{
+    padding-top:50px;
+}
+
+@media (max-width:992px) {
+    .testimonial_body{
+        padding-top:10px;
+    }
+}
+
+@media (min-width:992px) {
+    .mobile_top_image_div{
+        display:none;
+    }
+}
+
+.testimonial_name{
+    font-weight:bold;
+}
+
+body{
+    background-color:#FFFFFF;
+    color:#000000;
+}
+.mobile_placeholder{
+    height:20%;
+}
+.profile_photo{
+    float:left;
+    padding-right:10px;
+    cursor:pointer;/*visual hint that clicking gives you bigger image*/
+}
+
+.row{
+    padding-top:20px;
+}
