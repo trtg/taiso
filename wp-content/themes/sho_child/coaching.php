@@ -96,7 +96,7 @@ I highly recommend Sho to anyone looking for an elite level trainer/clinician re
 <script>
 $(document).ready(function(){
     $('.nav_link').removeClass('active');
-    $('#about_link').addClass('active');
+    $('#coaching_link').addClass('active');
 });
 </script>
     </body>
