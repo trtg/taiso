@@ -27,9 +27,10 @@
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">Contact<b class="caret"></b></a>
               <ul class="dropdown-menu">
-                <li><a href="#">Facebook</a></li>
-                <li><a href="#">Twitter</a></li>
-                <li><a href="#">Instagram</a></li>
+                <li><a href="https://facebook.com/">Facebook</a></li>
+                <li><a href="https://twitter.com/totaltaiso">Twitter</a></li>
+                <li><a href="http://instagram.com/totaltaiso">Instagram</a></li>
+                <li><a href="https://www.youtube.com/channel/UCOkNIXO1o8fhllf7esxM5Ug">Youtube</a></li>
                 <li><a href="#">Email us</a></li>
               </ul>
             </li>
