@@ -41,19 +41,6 @@ get_header(); ?>
         <div class="row">
                  <div class="col-xs-12 col-sm-12 col-md-7" >
                  </div>
-                 <div id="video_div" class="col-xs-12 col-sm-12 col-md-5">
-                <iframe width="100%" height="315" src="//www.youtube.com/embed/QrQDKhrEgLI" frameborder="0" allowfullscreen></iframe>
-                <video id="keen_commercial_video" class="video-js vjs-default-skin vjs-big-play-centered" 
-                controls preload="auto" width="100%" height="272" data-setup="{}"> 
-                <source src="/wp-content/uploads/videos/gymnast_482.mp4" type='video/mp4' />
-                 <source src="/wp-content/uploads/videos/gymnast_482.ogv" type='video/ogg' />
-                 <source src="/wp-content/uploads/videos/gymnast_482.webm" type='video/webm' />
-                </video>
-                    </div> <!--/video_div--> 
-        </div><!--/row-->
-<div class="row">
-                 <div class="col-xs-12 col-sm-12 col-md-7" >
-                 </div>
                  <div id="social_media_div" class="col-xs-12 col-sm-12 col-md-5">
                     <a href="https://twitter.com/snakamori"> <img src='/wp-content/images/twitter_logo_60x60.png'/></a>
                     <a href="http://instagram.com/shonakamori"> <img src='/wp-content/images/instagram_logo_60x60.png'/></a>
@@ -64,12 +51,19 @@ get_header(); ?>
         <div class="row">
                  <div class="col-xs-12 col-sm-12 col-md-7" >
                  </div>
-                 <div id="social_media_div" class="col-xs-12 col-sm-12 col-md-5">
-                    <a href=""> <img src=''/></a>
-                    <a href=""> <img src=''/></a>
-
-                    </div> <!--/social_media_div--> 
+                 <div id="video_div" class="col-xs-12 col-sm-12 col-md-5">
+                <iframe width="100%" height="315" src="//www.youtube.com/embed/QrQDKhrEgLI?rel=0&showinfo=0" frameborder="0" allowfullscreen></iframe>
+                <video id="keen_commercial_video" class="video-js vjs-default-skin vjs-big-play-centered" 
+                controls preload="auto" width="100%" height="272" data-setup="{}"> 
+                <source src="/wp-content/uploads/videos/gymnast_482.mp4" type='video/mp4' />
+                 <source src="/wp-content/uploads/videos/gymnast_482.ogv" type='video/ogg' />
+                 <source src="/wp-content/uploads/videos/gymnast_482.webm" type='video/webm' />
+                </video>
+                    </div> <!--/video_div--> 
         </div><!--/row-->
+        
+
+        
 
          </div><!--/the_wrapper-->
 
