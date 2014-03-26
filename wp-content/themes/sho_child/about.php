@@ -46,7 +46,7 @@ get_header(); ?>
                 <video id="keen_commercial_video" class="small_video" preload="auto" data-setup="{}" src="/wp-content/uploads/videos/gymnast_482.ogv"> </video>
                     </div> <!--/video_div--> 
         </div><!--/row-->
-div class="row">
+<div class="row">
                  <div class="col-xs-12 col-sm-12 col-md-7" >
                  </div>
                  <div id="social_media_div" class="col-xs-12 col-sm-12 col-md-5">
