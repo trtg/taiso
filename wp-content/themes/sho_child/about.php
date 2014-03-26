@@ -8,7 +8,7 @@
 
 get_header(); ?>
 <link rel="stylesheet" type="text/css" href="/wp-content/themes/sho_child/css/about_sho.css">
-
+<link href="//vjs.zencdn.net/4.4/video-js.css" rel="stylesheet">
 <body>
 <?php include 'navbar.php';?>
 
@@ -18,7 +18,7 @@ get_header(); ?>
                      <img class="mobile_top_image" src="/wp-content/images/sho_pommel_horse.jpg">
                  </div>
                  </div>
-             
+
              <div class="row">
                  <div class="col-xs-12 col-sm-12 col-md-7" >
                  </div>
@@ -42,8 +42,13 @@ get_header(); ?>
                  <div class="col-xs-12 col-sm-12 col-md-7" >
                  </div>
                  <div id="video_div" class="col-xs-12 col-sm-12 col-md-5">
-                <iframe width="560" height="315" src="//www.youtube.com/embed/QrQDKhrEgLI" frameborder="0" allowfullscreen></iframe>
-                <video id="keen_commercial_video" class="small_video" preload="auto" data-setup="{}" src="/wp-content/uploads/videos/gymnast_482.ogv"> </video>
+                <iframe width="100%" height="315" src="//www.youtube.com/embed/QrQDKhrEgLI" frameborder="0" allowfullscreen></iframe>
+                <video id="keen_commercial_video" class="video-js vjs-default-skin vjs-big-play-centered" 
+                controls preload="auto" width="100%" height="272" data-setup="{}"> 
+                <source src="/wp-content/uploads/videos/gymnast_482.mp4" type='video/mp4' />
+                 <source src="/wp-content/uploads/videos/gymnast_482.ogv" type='video/ogg' />
+                 <source src="/wp-content/uploads/videos/gymnast_482.webm" type='video/webm' />
+                </video>
                     </div> <!--/video_div--> 
         </div><!--/row-->
 <div class="row">
@@ -51,7 +56,7 @@ get_header(); ?>
                  </div>
                  <div id="social_media_div" class="col-xs-12 col-sm-12 col-md-5">
                     <a href="https://twitter.com/snakamori"> <img src='/wp-content/images/twitter_logo_60x60.png'/></a>
-                    <a href="http://instagram.com/shonakamori"> <img src='/wp-content/images/twitter_logo_60x60.png'/></a>
+                    <a href="http://instagram.com/shonakamori"> <img src='/wp-content/images/instagram_logo_60x60.png'/></a>
 
                     </div> <!--/social_media_div--> 
         </div><!--/row-->
@@ -72,12 +77,13 @@ get_header(); ?>
 
 <?php include 'footer.php';?>
 
-                <script>
-                $(document).ready(function(){
-                    $('.nav_link').removeClass('active');
-                    $('#about_link').addClass('active');
-                });
-                </script>
+<script>
+$(document).ready(function(){
+    $('.nav_link').removeClass('active');
+    $('#about_link').addClass('active');
+});
+</script>
+<script src="//vjs.zencdn.net/4.4/video.js"></script>
     </body>
 </html>
 
