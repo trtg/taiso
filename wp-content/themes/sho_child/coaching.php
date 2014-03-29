@@ -13,6 +13,54 @@ get_header(); ?>
 <?php include 'navbar.php';?>
                     <div id="the_wrapper" class="container">
                         <div class="row">
+                            <div class="col-xs-12 col-sm-12 col-md-12" >
+                    <h3>Coaching<h3>
+
+TotalTaiso and Coach Sho provides various types of training sessions to fit any athlete’s needs.  Check below for more information.  
+
+<h3>Private Coaching</h3>
+If you are looking to achieve specific goals and/or to emphasize and drive home the fundamentals, there is nothing better than private coaching.  TotalTaiso provides private coaching for those interested in an individualized program. Moreover, sessions can also be used to work on specific skills or techniques in an uninterrupted one-on-one or small group environment. TotalTaiso coaches design individualized workout programs tailored to your specific needs, whether you are trying to get stronger, build better balance abilities, become more flexible, or all of the above. Private coaching sessions are perfect for those who have specific sport-related goals (CrossFit, Yoga Sport, Breakdancing, etc), or those that would like to take their health and fitness to the next level. 
+
+If you are interested or would like more information about private coaching sessions, please click <a href="/contact_us#private_coaching">here</a>.
+
+
+<h3>Remote Coaching</h3>
+
+TotalTaiso provides remote coaching via video review or real-time video chat sessions.  Participants will either submit a training video for review and corrections, or schedule a real-time training session via live video chat.  Similar to private coaching, remote coaching sessions are perfect for those that are interested in designing and working on an individualized program and/or working on specific skills and techniques in a one-on-one environment. 
+
+
+If you are interested or would like more information about remote coaching sessions, please 
+<div class="panel-group" id="accordion">
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+         click here 
+        </a>
+      </h4>
+    </div>
+    <div id="collapseOne" class="panel-collapse collapse in">
+      <div class="panel-body">
+        <?php echo do_shortcode("[contact-form 1 'Contact form 1']"); ?>
+
+      </div>
+    </div>
+  </div>
+
+
+<h3>TotalTaiso Seminar</h3>
+
+TotalTaiso provides one-day seminars for those interested in learning the fundamentals of gymnastics-based movements, balance exercises, and flexibility routines.  Coach Sho will break down specific skills and introduce progressions to drive home the fundamentals and techniques required to reach intermediate to advanced-level skills.  TotalTaiso Seminars are geared towards a variety of athletes, including gymnasts, CrossFitters, and yoga professionals.  Seminars are perfect for those committed to increasing bodyweight strength, balance, and flexibility through gymnastics-inspired fitness - from serious competitors to casual fitness enthusiasts.
+
+
+Seminars are meant to be hands-on, spending more time engaging and moving the body than sitting in a classroom setting.  Attendees will have the the opportunity to receive immediate corrections, feedback, and suggestions from Coach Sho throughout the day.  
+
+
+If you are interested or would like more information about TotalTaiso Seminars, please click <a href="/contact_us#seminars">here</a>.
+                            </div>
+                        </div>
+
+                        <div class="row">
                             <div id="profile_box" class="col-xs-12 col-sm-12 col-md-5">
                                 <img class="img-thumbnail" src="/wp-content/images/david_durante.jpg"> 
                             </div>
