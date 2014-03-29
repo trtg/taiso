@@ -116,7 +116,7 @@ I highly recommend Sho to anyone looking for an elite level trainer/clinician re
                                     </p>
                                 </div>
                             </div>
-                    <div id="#contact_form" class="row">
+                    <div id="contact_form" class="row">
                             <div class="col-xs-12 col-sm-12 col-md-12" >
                             <?php echo do_shortcode( '[contact-form-7 id="48" title="Contact form 1"]' ); ?>
                             </div>
