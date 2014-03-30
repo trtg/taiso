@@ -45,6 +45,9 @@ If you are interested or would like more information about TotalTaiso Seminars, 
                             </div>
                         </div>
 
+   <hr> 
+<h3>Testimonials</h3>
+
                         <div class="row">
                             <div id="profile_box" class="col-xs-12 col-sm-12 col-md-5">
                                 <img class="img-thumbnail" src="/wp-content/images/david_durante.jpg"> 
