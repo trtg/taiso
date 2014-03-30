@@ -120,12 +120,38 @@ I highly recommend Sho to anyone looking for an elite level trainer/clinician re
                                     </p>
                                 </div>
                             </div>
+
+
+<div class="row">
+                            <div id="profile_box" class="col-xs-12 col-sm-12 col-md-5">
+                                <img class="img-thumbnail" src="/wp-content/images/umihiko.jpg"> 
+                            </div>
+                            <div class="col-xs-12 col-sm-12 col-md-7" >
+                                <p class="testimonial_body">
+                               I have known Sho for many years as an elite level athlete who competed at the highest level. Nobody can deny his passion and motivation for the sport of gymnastics - a sport that requires speed, strength, flexibility, and physical capabilities. His knowledge of each skill and technique are very theoretical and practical. Sho has a unique ability to extract and dissect various elements and apply them to fit each person's needs. Taiso, is a Japanese word that means "gymnastics".  It is written using 2 symbols - separately, these symbols read: "body" and "coordination". Once you obtain total body coordination, you will become more confident about everything and realize that your potential is limitless. Sho has the knowledge and abilities to help you realize this. 
+                                </p>
+                                <p>
+                                <span class="testimonial_name">
+                                 Umihiko Miya<br>
+                                 Performer - Cirque Du Soleil's Totem<br>
+                                 Japanese National Champion<br>
+                                </p>
+                            </div>
+                        </div>
+
+
+
+
                     <div id="contact_form" class="row">
                             <div class="col-xs-12 col-sm-12 col-md-12" >
                             <?php echo do_shortcode( '[contact-form-7 id="48" title="Contact form 1"]' ); ?>
                             </div>
                     </div>
-                        </div><!--/the_wrapper-->
+
+
+
+
+</div><!--/the_wrapper-->
 
 
 
