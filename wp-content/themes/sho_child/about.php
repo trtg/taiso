@@ -25,6 +25,9 @@ get_header(); ?>
                  <div id="profile_box" class="col-xs-12 col-sm-12 col-md-5">
                      <h1>Sho Nakamori</h1>
                      <h2>Athlete & Coach</h2>
+                    <a href="https://twitter.com/snakamori"> <img src='/wp-content/images/twitter_logo_60x60.png'/></a>
+                    <a href="http://instagram.com/shonakamori"> <img src='/wp-content/images/instagram_logo_60x60.png'/></a>
+
                      <p>
                      <div class="profile_photo">
                          <img src="/wp-content/images/sho_v.png">
@@ -53,6 +56,9 @@ get_header(); ?>
                  </div>
                  <div id="video_div" class="col-xs-12 col-sm-12 col-md-5">
                 <iframe width="100%" height="315" src="//www.youtube.com/embed/QrQDKhrEgLI?rel=0&showinfo=0" frameborder="0" allowfullscreen></iframe>
+                <iframe width="100%" height="315" src="//www.youtube.com/embed/SkXmZEkgLp4?rel=0&showinfo=0" frameborder="0" allowfullscreen></iframe>
+                <iframe width="100%" height="315" src="//www.youtube.com/embed/DOQ1E0xofgw?rel=0&showinfo=0" frameborder="0" allowfullscreen></iframe>
+
                 <video id="keen_commercial_video" class="video-js vjs-default-skin vjs-big-play-centered" 
                 controls preload="auto" width="100%" height="272" data-setup="{}"> 
                 <source src="/wp-content/uploads/videos/gymnast_482.mp4" type='video/mp4' />
