@@ -22,11 +22,11 @@ get_header(); ?>
  <div class="row">
                  <div class="col-xs-12 col-sm-12 col-md-7" >
                  </div>
-                <div  class="col-xs-6 col-sm-6 col-md-3">
+                <div  class="col-xs-6 col-sm-5 col-md-3">
                      <h1>Sho Nakamori</h1>
                      <h2>Athlete & Coach</h2>
                 </div>
-                <div  class="col-xs-6 col-sm-6 col-md-2">
+                <div  class="col-xs-6 col-sm-7 col-md-2">
                     <a href="https://twitter.com/snakamori"> <img src='/wp-content/images/twitter_logo_60x60.png'/></a>
                     <a href="http://instagram.com/shonakamori"> <img src='/wp-content/images/instagram_logo_60x60.png'/></a>
                 </div>
