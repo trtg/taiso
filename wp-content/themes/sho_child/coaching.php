@@ -13,11 +13,12 @@ get_header(); ?>
 <?php include 'navbar.php';?>
                     <div id="the_wrapper" class="container">
                         <div class="row">
-                            <div class="col-xs-12 col-sm-12 col-md-12" >
-                    <h3>Coaching</h3>
 
-TotalTaiso and Coach Sho provides various types of training sessions to fit any athlete's needs.  Check below for more information.  
+                            <div id="profile_box" class="col-xs-12 col-sm-12 col-md-5">
+                            <img src="/wp-content/images/handstand_coach.jpg">
+                            </div>
 
+                            <div class="col-xs-12 col-sm-12 col-md-7" >
 <h3>Private Coaching</h3>
 If you are looking to achieve specific goals and/or to emphasize and drive home the fundamentals, there is nothing better than private coaching.  TotalTaiso provides private coaching for those interested in an individualized program. Moreover, sessions can also be used to work on specific skills or techniques in an uninterrupted one-on-one or small group environment. TotalTaiso coaches design individualized workout programs tailored to your specific needs, whether you are trying to get stronger, build better balance abilities, become more flexible, or all of the above. Private coaching sessions are perfect for those who have specific sport-related goals (CrossFit, Yoga Sport, Breakdancing, etc), or those that would like to take their health and fitness to the next level. 
 
@@ -105,7 +106,7 @@ I highly recommend Sho to anyone looking for an elite level trainer/clinician re
                             </div>
                             <div class="col-xs-12 col-sm-12 col-md-7" >
                                 <p class="testimonial_body">
-                                I am an avid athlete and competitor but I have always struggled with movements that are anything more than single motion. My body just doesn’t seem to understand how to bring it all together. Sho has a wonderful way of putting together progressions that allow me to break down a movement into single components. He not only is able to complete all the skills himself but understands the mechanics behind them. In a few short sessions with Sho, I have been able to master skills that I have been working on for year with other coaches. Sho is the real deal.
+                                I am an avid athlete and competitor but I have always struggled with movements that are anything more than single motion. My body just doesn't seem to understand how to bring it all together. Sho has a wonderful way of putting together progressions that allow me to break down a movement into single components. He not only is able to complete all the skills himself but understands the mechanics behind them. In a few short sessions with Sho, I have been able to master skills that I have been working on for year with other coaches. Sho is the real deal.
                                 </p>
                                 <p>
                                 <span class="testimonial_name">
