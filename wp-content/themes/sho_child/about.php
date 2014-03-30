@@ -41,15 +41,7 @@ get_header(); ?>
 
              </div><!--/row-->
 
-        <div class="row">
-                 <div class="col-xs-12 col-sm-12 col-md-7" >
-                 </div>
-                 <div id="social_media_div" class="col-xs-12 col-sm-12 col-md-5">
-                    <a href="https://twitter.com/snakamori"> <img src='/wp-content/images/twitter_logo_60x60.png'/></a>
-                    <a href="http://instagram.com/shonakamori"> <img src='/wp-content/images/instagram_logo_60x60.png'/></a>
-
-                    </div> <!--/social_media_div--> 
-        </div><!--/row-->
+        
 
         <div class="row">
                  <div class="col-xs-12 col-sm-12 col-md-7" >
