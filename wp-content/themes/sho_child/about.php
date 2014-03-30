@@ -18,16 +18,25 @@ get_header(); ?>
                      <img class="mobile_top_image" src="/wp-content/images/sho_pommel_horse.jpg">
                  </div>
                  </div>
+   
+ <div class="row">
+                 <div class="col-xs-12 col-sm-12 col-md-7" >
+                 </div>
+                <div  class="col-xs-6 col-sm-6 col-md-3">
+                     <h1>Sho Nakamori</h1>
+                     <h2>Athlete & Coach</h2>
+                </div>
+                <div  class="col-xs-6 col-sm-6 col-md-2">
+                    <a href="https://twitter.com/snakamori"> <img src='/wp-content/images/twitter_logo_60x60.png'/></a>
+                    <a href="http://instagram.com/shonakamori"> <img src='/wp-content/images/instagram_logo_60x60.png'/></a>
+                </div>
 
+</div>
              <div class="row">
                  <div class="col-xs-12 col-sm-12 col-md-7" >
                  </div>
                  <div id="profile_box" class="col-xs-12 col-sm-12 col-md-5">
-                     <h1>Sho Nakamori</h1>
-                     <h2>Athlete & Coach</h2>
-                    <a href="https://twitter.com/snakamori"> <img src='/wp-content/images/twitter_logo_60x60.png'/></a>
-                    <a href="http://instagram.com/shonakamori"> <img src='/wp-content/images/instagram_logo_60x60.png'/></a>
-
+                     
                      <p>
                      <div class="profile_photo">
                          <img src="/wp-content/images/sho_v.png">
