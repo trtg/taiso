@@ -139,7 +139,24 @@ I highly recommend Sho to anyone looking for an elite level trainer/clinician re
                             </div>
                         </div>
 
+<div id="profile_box" class="col-xs-12 col-sm-12 col-md-5">
+                                <img class="img-thumbnail" src="/wp-content/images/sergei_dmitriev.jpg"> 
+                            </div>
+                            <div class="col-xs-12 col-sm-12 col-md-7" >
+                                <p class="testimonial_body">
+<p>Choosing to train and compete as a gymnast for over 18 years was one of the best decisions I have ever made. Besides helping me reach my physical goals, gymnastics tested my boundaries, pushed my limits, and taught me the importance of perseverance. Gymnastics is a sport that demands focus, dedication, and consistency - elements that I have been able to translate to other aspects of my life.  </p>
 
+<p>During my gymnastic career, I trained and competed with Sho, who in my opinion, was one of the hardest working and most dedicated athletes I've come across. I highly recommend Sho as a trainer because he understands what it takes to excel, both in body and mind. Sho has extensive knowledge of proper training methods and knows what it takes to maintain a healthy lifestyle to support a body in training. It's important to have a trainer who understands the physical and mental dedication it takes to reach your physical goals and Sho knows exactly how to customize workouts to accommodate specific needs. As an athlete that maintained elite-status throughout his entire competitive career, you can't get anyone better than Sho!</p>
+                               
+                                </p>
+                                <p>
+                                <span class="testimonial_name">
+                                Sergei Dmitriev<br>
+                                Former NCAA Gymnast for UofM (Minnesota)<br>
+                                Professional Stuntman - 300 (film), NCIS (TV), United Airlines (National Commercial), etc<br>
+                                </p>
+                            </div>
+                        </div>
 
 
                     <div id="contact_form" class="row">
