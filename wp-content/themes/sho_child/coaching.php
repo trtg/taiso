@@ -139,6 +139,7 @@ I highly recommend Sho to anyone looking for an elite level trainer/clinician re
                             </div>
                         </div>
 
+<div class="row">
 <div id="profile_box" class="col-xs-12 col-sm-12 col-md-5">
                                 <img class="img-thumbnail" src="/wp-content/images/sergei_dmitriev.jpg"> 
                             </div>
