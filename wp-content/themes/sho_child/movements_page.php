@@ -10,6 +10,7 @@
  */
 
 get_header(); ?>
+<link rel="stylesheet" type="text/css" href="/wp-content/themes/sho_child/css/movement_directory.css">
 
 <?php include 'navbar.php';?>
 <body>
@@ -54,10 +55,10 @@ if ( is_front_page() && twentyfourteen_has_featured_posts() ) {
          <script src="//cdnjs.cloudflare.com/ajax/libs/backbone.js/1.1.2/backbone-min.js" type="text/javascript"></script>
 
 
-         <script src="js/routers/router.js" type="text/javascript"></script>
-         <script src="js/models/movement-model.js" type="text/javascript"></script>
-         <script src="js/views/movement-views.js" type="text/javascript"></script>
-         <script src="js/app.js" type="text/javascript"></script>
+         <script src="/wp-content/themes/sho_child/js/routers/router.js" type="text/javascript"></script>
+         <script src="/wp-content/themes/sho_child/js/models/movement-model.js" type="text/javascript"></script>
+         <script src="/wp-content/themes/sho_child/js/views/movement-views.js" type="text/javascript"></script>
+         <script src="/wp-content/themes/sho_child/js/app.js" type="text/javascript"></script>
 
         </div><!-- #content -->
     </div><!-- #primary -->
