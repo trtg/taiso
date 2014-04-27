@@ -29,7 +29,7 @@ $more = 0;
                 <?php the_content('Read more ...');?>
         </div>
     </div><!--end row-->
-<hr>
+
 <? $is_latest_blog_post =0; ?>
 <?php endwhile; ?>
       </div><!--/container-->
