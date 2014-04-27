@@ -10,6 +10,10 @@
     'post_type' => 'post'
 ));?>
 
+<?php
+global $more;
+$more = 0;
+?>
     <div class="container">
 <?php $is_latest_blog_post = 1; ?>
 <?php while($blog_posts->have_posts()) : $blog_posts->the_post();?>
