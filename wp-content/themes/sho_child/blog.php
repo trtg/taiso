@@ -21,7 +21,6 @@ $more = 0;
         <div class="col-xs-12">
                 <?php echo the_title();?>
                 <?php the_content('Read more ...');?>
-                <p><a class="btn btn-default" href="<?php the_permalink();?>" >Read more &raquo;</a></p>
         </div>
     </div><!--end row-->
 <hr>
