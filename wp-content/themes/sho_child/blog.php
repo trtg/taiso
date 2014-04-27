@@ -10,18 +10,17 @@
     'post_type' => 'post'
 ));?>
 
+    <div class="container">
+<?php $is_latest_blog_post = 1; ?>
+<?php while($blog_posts->have_posts()) : $blog_posts->the_post();?>
 <?php
 global $more;
 $more = 0;
 ?>
-    <div class="container">
-<?php $is_latest_blog_post = 1; ?>
-<?php while($blog_posts->have_posts()) : $blog_posts->the_post();?>
-      <!-- Example row of columns -->
           <div class="blog_post row <? if ($is_latest_blog_post) {echo 'latest_blog_post';} ?>">
         <div class="col-xs-12">
                 <?php echo the_title();?>
-                <?php the_content();?>
+                <?php the_content('Read more ...');?>
                 <p><a class="btn btn-default" href="<?php the_permalink();?>" >Read more &raquo;</a></p>
         </div>
     </div><!--end row-->
