@@ -133,3 +133,8 @@ img.gym_side_image{
     display:inline;
     padding:20px;
 }
+/*hide post category for now
+ * since archive page isn't useful yet*/
+.cat-links{
+    display:none;
+}
