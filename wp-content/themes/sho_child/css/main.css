@@ -128,3 +128,8 @@ img.gym_side_image{
 .share-end{
     display:none;
 }
+/*display share-daddy links horizontally*/
+.sd-content li {
+    display:inline;
+    padding:20px;
+}
