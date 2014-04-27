@@ -5,7 +5,7 @@
 }
 
 body{
-    background-image:url("/wp-content/images/stardust.png");
+    background-image:url("/wp-content/images/binding_dark.png");
     background-repeat:repeat;
 }
 
@@ -13,6 +13,7 @@ body{
  * page background is textured*/
 .blog_post{
     background:#FFFFFF;
+    margin-bottom:20px;
 }
 .blog_post:hover{
 -webkit-transition-duration: .3s;
@@ -21,4 +22,9 @@ body{
 -ms-transition-duration: .3s;
 background:#D4D4D4;
 }
-
+.copyright_text{
+    color:#FFFFFF;
+}
+h1{
+    color:#FFFFFF;
+}
