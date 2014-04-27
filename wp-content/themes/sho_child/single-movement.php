@@ -14,9 +14,16 @@ get_header(); ?>
 	<div class="container">
 		<div class="row" role="main">
             <div class="col-xs-12">
-			<?php
-				// Start the Loop.
-				while ( have_posts() ) : the_post();
+            <h1><?php the_title(); ?></h1>
+            </div>
+        </div>
+
+        
+            <?php  while ( have_posts() ) : the_post();?>
+
+                <div class="row" role="main">
+                    <div class="col-xs-12">
+                <?php
                     the_post_thumbnail('movement_thumbnail');
                     $apparatus_terms = get_the_terms(get_the_ID(),'apparatus'); 
                     foreach ($apparatus_terms as $term){
@@ -34,9 +41,24 @@ get_header(); ?>
                         }
                         echo "<a href=\"$apparatus_link\"> <img src=\"$apparatus_icon\"></a>";
                     }
-                    echo get_field('youtube_embed_code');
-                    the_content();
+                ?>
+                    </div>
+                </div>
 
+                <div class="row" role="main">
+                    <div class="col-xs-12">
+                <?php echo get_field('youtube_embed_code');?>
+                    </div>
+                    </div>
+
+                <div class="row" role="main">
+                    <div class="col-xs-12">
+                <?php
+                    the_content();
+                    ?>
+                    </div><!--/.col-->
+		        </div><!--/.row -->
+        <?php
 					/*
 					 * Include the post format-specific template for the content. If you want to
 					 * use this in a child theme, then include a file called called content-___.php
@@ -54,8 +76,7 @@ get_header(); ?>
 					}
 				endwhile;
 			?>
-            </div><!--/.col-->
-		</div><!--/.row -->
+            
 	</div><!--/.container -->
 
 <?php
