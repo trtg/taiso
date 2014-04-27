@@ -32,12 +32,18 @@ get_header(); ?>
 
 <script type="text/template" id="movement-template">
 <span> </span>
-    <span class="list-header"> <%= name %> (<%= level %>) </span>
-    <div class="details">
-    apparatus: <%= apparatus %> <br>
-    <img src="<%= thumbnail_url[0] %>">
-    <a href="<%= permalink %>">Read more </a>
-    </div>
+             <span class="list-header"> <%= name %> 
+                 <img src="/<%= level.toLowerCase() %>_30x30.png" class="skill_level_icon"> 
+                 <% _.each(apparatus,function(one_apparatus) {%>
+                     <a href="/apparatus/<%= one_apparatus.toLowerCase() %>" ><img src="/<%= one_apparatus.toLowerCase() %>_30x30.png" class="apparatus_icon"> </a>
+                 <% }) ; %>
+             
+             </span>
+             <div class="details">
+                 apparatus: <%= apparatus %> <br>
+                 <img src="<%= thumbnail_url[0] %>">
+                 <a href="<%= permalink %>">Read more </a>
+             </div>
     </script>
 
          <!--<script src="js/data.json" type="text/javascript"></script>-->
