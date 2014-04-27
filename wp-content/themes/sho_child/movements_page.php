@@ -12,8 +12,8 @@
 get_header(); ?>
 <link rel="stylesheet" type="text/css" href="/wp-content/themes/sho_child/css/movement_directory.css">
 
-<?php include 'navbar.php';?>
 <body>
+<?php include 'navbar.php';?>
 <div id="main-content" class="main-content">
 
 <?php
