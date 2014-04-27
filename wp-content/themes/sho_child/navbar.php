@@ -21,16 +21,26 @@
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
             <li class="nav_link" id="home_link"><a href="/">Home</a></li>
+            <li class="nav_link" id="blog_link"><a href="/blog">Blog</a></li>
             <li class="nav_link" id="movements_link"><a href="/movements">Movements</a></li>
-            <li class="nav_link" id="about_link"><a href="/about">About</a></li>
+
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">About<b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="/about">About Sho</a></li>
+                <li><a href="/about_total_taiso">About TotalTaiso</a></li>
+              </ul>
+            </li>
+
             <li class="nav_link" id="coaching_link"><a href="/coaching">Coaching</a></li>
+
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">Contact<b class="caret"></b></a>
               <ul class="dropdown-menu">
                 <li><a href="https://facebook.com/">Facebook</a></li>
                 <li><a href="https://twitter.com/totaltaiso">Twitter</a></li>
                 <li><a href="http://instagram.com/totaltaiso">Instagram</a></li>
-                <li><a href="https://www.youtube.com/channel/UCOkNIXO1o8fhllf7esxM5Ug">Youtube</a></li>
+                <li><a href="https://www.youtube.com/user/totaltaiso">Youtube</a></li>
                 <li><a href="#">Email us</a></li>
               </ul>
             </li>
