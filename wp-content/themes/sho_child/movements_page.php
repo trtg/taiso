@@ -33,9 +33,9 @@ get_header(); ?>
 <script type="text/template" id="movement-template">
 <span> </span>
              <span class="list-header"> <%= name %> 
-                 <img src="/<%= level.toLowerCase() %>_30x30.png" class="skill_level_icon"> 
+                 <img src="/wp-content/images/<%= level.toLowerCase() %>_30x30.png" class="skill_level_icon"> 
                  <% _.each(apparatus,function(one_apparatus) {%>
-                     <a href="/apparatus/<%= one_apparatus.toLowerCase() %>" ><img src="/<%= one_apparatus.toLowerCase() %>_30x30.png" class="apparatus_icon"> </a>
+                     <a href="/apparatus/<%= one_apparatus.toLowerCase() %>" ><img src="/wp-content/images/<%= one_apparatus.toLowerCase() %>_30x30.png" class="apparatus_icon"> </a>
                  <% }) ; %>
              
              </span>
