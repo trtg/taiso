@@ -11,8 +11,9 @@ get_header(); ?>
 <body>
 <?php include 'navbar.php';?>
 
-	<div id="primary" class="content-area">
-		<div id="content" class="site-content" role="main">
+	<div class="container">
+		<div class="row" role="main">
+            <div class="col-xs-12">
 			<?php
 				// Start the Loop.
 				while ( have_posts() ) : the_post();
@@ -34,6 +35,7 @@ get_header(); ?>
                         echo "<a href=\"$apparatus_link\"> <img src=\"$apparatus_icon\"></a>";
                     }
                     echo get_field('youtube_embed_code');
+                    the_content();
 
 					/*
 					 * Include the post format-specific template for the content. If you want to
@@ -52,8 +54,9 @@ get_header(); ?>
 					}
 				endwhile;
 			?>
-		</div><!-- #content -->
-	</div><!-- #primary -->
+            </div><!--/.col-->
+		</div><!--/.row -->
+	</div><!--/.container -->
 
 <?php
 //get_sidebar( 'content' );
