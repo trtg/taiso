@@ -3,6 +3,17 @@
 .sharedaddy{
     display:none;
 }
+
+body{
+    background-image:url("/wp-content/images/stardust.png");
+    background-repeat:repeat;
+}
+
+/*default white, grey on hover,
+ * page background is textured*/
+.blog_post{
+    background:#FFFFFF;
+}
 .blog_post:hover{
 -webkit-transition-duration: .3s;
 -moz-transition-duration: .3s;
