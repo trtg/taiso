@@ -22,7 +22,7 @@ if ( is_front_page() && twentyfourteen_has_featured_posts() ) {
     get_template_part( 'featured-content' );
 }
 ?>
-    <div id="primary" class="content-area">
+    <div id="primary" class="container">
         <div id="content" class="site-content" role="main">
 
 
@@ -37,6 +37,10 @@ if ( is_front_page() && twentyfourteen_has_featured_posts() ) {
              </div><!--/tools-->
              <ul id="listing"> </ul>
          </div><!--/wrapper-->
+
+        </div><!-- #content -->
+    </div><!-- #primary -->
+</div><!-- #main-content -->
 
 <script type="text/template" id="movement-template">
 <span> </span>
@@ -60,9 +64,6 @@ if ( is_front_page() && twentyfourteen_has_featured_posts() ) {
          <script src="/wp-content/themes/sho_child/js/views/movement-views.js" type="text/javascript"></script>
          <script src="/wp-content/themes/sho_child/js/app.js" type="text/javascript"></script>
 
-        </div><!-- #content -->
-    </div><!-- #primary -->
-</div><!-- #main-content -->
 
 <?php include 'footer.php';?>
 
