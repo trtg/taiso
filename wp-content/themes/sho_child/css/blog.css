@@ -1,0 +1,13 @@
+/*conceal share links to save space
+ * only show them on the individual post pages*/
+.sharedaddy{
+    display:none;
+}
+.blog_post:hover{
+-webkit-transition-duration: .3s;
+-moz-transition-duration: .3s;
+-o-transition-duration: .3s;
+-ms-transition-duration: .3s;
+background:#D4D4D4;
+}
+

@@ -3,6 +3,7 @@
  */
 ?>
 <?php include 'header.php'; ?>
+<link rel="stylesheet" type="text/css" href="/wp-content/themes/sho_child/css/blog.css">
 <body>
 <?php include 'navbar.php';?>
 
@@ -11,6 +12,11 @@
 ));?>
 
     <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                 <h1>Total Taiso Blog</h1>
+            </div>
+        </div>
 <?php $is_latest_blog_post = 1; ?>
 <?php while($blog_posts->have_posts()) : $blog_posts->the_post();?>
 <?php
