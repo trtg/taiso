@@ -51,7 +51,7 @@ get_header(); ?>
                     if ($youtube_embed_code){
                         echo $youtube_embed_code;
                     }else{
-                        echo '<div class="video_placeholder">Video coming soon</div>';
+                        echo '<div class="well video_placeholder">Video coming soon</div>';
                     }
 
                 ?>
