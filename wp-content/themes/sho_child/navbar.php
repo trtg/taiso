@@ -41,7 +41,7 @@
                 <li><a href="https://twitter.com/totaltaiso">Twitter</a></li>
                 <li><a href="http://instagram.com/totaltaiso">Instagram</a></li>
                 <li><a href="https://www.youtube.com/user/totaltaiso">Youtube</a></li>
-                <li><a href="#">Email us</a></li>
+                <li><a href="/contact-us">Email us</a></li>
               </ul>
             </li>
           </ul>

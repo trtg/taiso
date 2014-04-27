@@ -22,7 +22,7 @@ get_header(); ?>
 <h3>Private Coaching</h3>
 If you are looking to achieve specific goals and/or to emphasize and drive home the fundamentals, there is nothing better than private coaching.  TotalTaiso provides private coaching for those interested in an individualized program. Moreover, sessions can also be used to work on specific skills or techniques in an uninterrupted one-on-one or small group environment. TotalTaiso coaches design individualized workout programs tailored to your specific needs, whether you are trying to get stronger, build better balance abilities, become more flexible, or all of the above. Private coaching sessions are perfect for those who have specific sport-related goals (CrossFit, Yoga Sport, Breakdancing, etc), or those that would like to take their health and fitness to the next level. 
 
-If you are interested or would like more information about private coaching sessions, please click <a href="#contact_form">here</a>.
+If you are interested or would like more information about private coaching sessions, please click <a href="/contact-us">here</a>.
 
 
 <h3>Remote Coaching</h3>
@@ -30,7 +30,7 @@ If you are interested or would like more information about private coaching sess
 TotalTaiso provides remote coaching via video review or real-time video chat sessions.  Participants will either submit a training video for review and corrections, or schedule a real-time training session via live video chat.  Similar to private coaching, remote coaching sessions are perfect for those that are interested in designing and working on an individualized program and/or working on specific skills and techniques in a one-on-one environment. 
 
 
-If you are interested or would like more information about remote coaching sessions, please click <a href="#contact_form">here</a>.
+If you are interested or would like more information about remote coaching sessions, please click <a href="/contact-us">here</a>.
 
 
 <h3>TotalTaiso Seminar</h3>
@@ -41,7 +41,7 @@ TotalTaiso provides one-day seminars for those interested in learning the fundam
 Seminars are meant to be hands-on, spending more time engaging and moving the body than sitting in a classroom setting.  Attendees will have the the opportunity to receive immediate corrections, feedback, and suggestions from Coach Sho throughout the day.  
 
 
-If you are interested or would like more information about TotalTaiso Seminars, please click <a href="#contact_form">here</a>.
+If you are interested or would like more information about TotalTaiso Seminars, please click <a href="/contact-us">here</a>.
                             </div>
                         </div>
 
@@ -158,16 +158,6 @@ I highly recommend Sho to anyone looking for an elite level trainer/clinician re
                                 </p>
                             </div>
                         </div>
-
-
-                    <div id="contact_form" class="row">
-                            <div class="col-xs-12 col-sm-12 col-md-12" >
-                            <?php echo do_shortcode( '[contact-form-7 id="48" title="Contact form 1"]' ); ?>
-                            </div>
-                    </div>
-
-
-
 
 </div><!--/the_wrapper-->
 
