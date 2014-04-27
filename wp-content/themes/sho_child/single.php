@@ -8,6 +8,9 @@
 
 get_header(); ?>
 
+<body>
+<?php include 'navbar.php';?>
+
 	<div id="primary" class="content-area">
 		<div id="content" class="site-content" role="main">
 			<?php
@@ -32,8 +35,6 @@ get_header(); ?>
 			?>
 		</div><!-- #content -->
 	</div><!-- #primary -->
-
-<?php
-get_sidebar( 'content' );
-get_sidebar();
-get_footer();
+</body>
+<?php include 'footer.php';?>
+<?php //get_sidebar( 'content' ); get_sidebar(); get_footer(); ?>
