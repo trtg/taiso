@@ -14,33 +14,21 @@ get_header(); ?>
 
 <body>
 <?php include 'navbar.php';?>
-<div id="main-content" class="main-content">
-
-<?php
-if ( is_front_page() && twentyfourteen_has_featured_posts() ) {
-    // Include the featured content template.
-    get_template_part( 'featured-content' );
-}
-?>
-    <div id="primary" class="container">
-        <div id="content" class="site-content" role="main">
-
-
-         <div id="wrapper">
-             <h1> Movement Directory</h1>
-             <div class="tools">
-                 Search: <br>
-                 <input type="text" id="searchBox" /><br><br>
-                 Filter:
-                 <div id="filters"></div>
-                 <div id="count"></div>
-             </div><!--/tools-->
-             <ul id="listing"> </ul>
-         </div><!--/wrapper-->
-
-        </div><!-- #content -->
-    </div><!-- #primary -->
-</div><!-- #main-content -->
+<div id="wrapper" class="container">
+   <div class="row">
+        <div class="col-xs-12">
+           <h1> Movement Directory</h1>
+           <div class="tools">
+               Search: <br>
+               <input type="text" id="searchBox" /><br><br>
+               Filter:
+               <div id="filters"></div>
+               <div id="count"></div>
+           </div><!--/tools-->
+           <ul id="listing"> </ul>
+       </div><!--/col-->
+   </div><!--/row-->
+</div><!--/wrapper-->
 
 <script type="text/template" id="movement-template">
 <span> </span>
