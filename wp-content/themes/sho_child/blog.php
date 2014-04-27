@@ -20,12 +20,14 @@
 <?php $is_latest_blog_post = 1; ?>
 <?php while($blog_posts->have_posts()) : $blog_posts->the_post();?>
 <?php
+//to make <!--more--> tag work on custom template
 global $more;
 $more = 0;
 ?>
           <div class="blog_post row <? if ($is_latest_blog_post) {echo 'latest_blog_post';} ?>">
         <div class="col-xs-12">
-                <?php echo the_title();?>
+                <h3><?php echo the_title();?></h3>
+                <p class="blog_post_date"><?php the_date(); ?></p>
                 <?php the_content('Read more ...');?>
         </div>
     </div><!--end row-->

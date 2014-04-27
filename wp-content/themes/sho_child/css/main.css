@@ -125,13 +125,6 @@ img.gym_side_image{
     max-width:100%;
 }
 
-.blog_post:hover{
--webkit-transition-duration: .3s;
--moz-transition-duration: .3s;
--o-transition-duration: .3s;
--ms-transition-duration: .3s;
-background:#FFEDED;
-}
 .share-end{
     display:none;
 }
