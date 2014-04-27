@@ -47,7 +47,14 @@ get_header(); ?>
 
                 <div class="row" role="main">
                     <div class="col-xs-12">
-                <?php echo get_field('youtube_embed_code');?>
+                <?php $youtube_embed_code =  get_field('youtube_embed_code');
+                    if ($youtube_embed_code){
+                        echo $youtube_embed_code;
+                    }else{
+                        echo '<div class="video_placeholder">Video coming soon</div>';
+                    }
+
+                ?>
                     </div>
                     </div>
 
