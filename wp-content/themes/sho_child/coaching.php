@@ -160,7 +160,7 @@ I highly recommend Sho to anyone looking for an elite level trainer/clinician re
                         </div><!--/row-->
 <div class="row">
                             <div id="profile_box" class="col-xs-12 col-sm-12 col-md-5">
-                                <img class="img-thumbnail" src="/wp-content/images/taqyi.jpg"> 
+                                <img class="img-thumbnail" src="/wp-content/images/taqiy.jpg"> 
                             </div>
                             <div class="col-xs-12 col-sm-12 col-md-7" >
                                 <p class="testimonial_body">
