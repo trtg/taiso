@@ -157,7 +157,26 @@ I highly recommend Sho to anyone looking for an elite level trainer/clinician re
                                 Professional Stuntman - 300 (film), NCIS (TV), United Airlines (National Commercial), etc<br>
                                 </p>
                             </div>
+                        </div><!--/row-->
+<div class="row">
+                            <div id="profile_box" class="col-xs-12 col-sm-12 col-md-5">
+                                <img class="img-thumbnail" src="/wp-content/images/taqyi.jpg"> 
+                            </div>
+                            <div class="col-xs-12 col-sm-12 col-md-7" >
+                                <p class="testimonial_body">
+                              As a former competitor and national team member with Sho, I have had the opportunity to compete against and train alongside Sho. His attention to detail is without comparison. His cerebral approach to the sport has allowed him to understand the intricate mechanics of the human body. Sho's road to success was not an easy one, which has given him tremendous insight to the mental and physical strength it takes to achieve greatness at any level of sport. In my time as a gymnast I saw few gymnasts garner the respect of his peers more than Sho for his perseverance, wiliness to give aid to his fellow competitors, and overall knowledge of the sport. People like Sho are hard to come by, and I know that he applies the same knowledge and attention to detail with anybody he works with. 
+                                </p>
+                                <p>
+                                <span class="testimonial_name">
+                                 Taqiy Abdullah-Simmons<br>
+                                 2007 NCAA National Champion<br>
+                                 3x NCAA Team Champion<br>
+                                 Owner of Gymcrew LLC<br>
+                                 Co-Founder of Freestyle Acrobatics<br>
+                                </p>
+                            </div>
                         </div>
+
 
 </div><!--/the_wrapper-->
 
