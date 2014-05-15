@@ -13,7 +13,8 @@
 <?php 
 
 $movements = new WP_Query(array(
-    'post_type' => 'movement'
+    'post_type' => 'movement',
+    'posts_per_page' => '-1'
 ));
 
 $movement_posts = $movements->posts;
