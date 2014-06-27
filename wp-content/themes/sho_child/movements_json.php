@@ -38,7 +38,7 @@ foreach ($movement_posts as $movement_post){
     $apparatus_terms = get_the_terms($movement_post->ID,'apparatus');
     $post_data['apparatus'] = array();
     foreach($apparatus_terms as $term){
-        array_push($post_data['apparatus'],$term->name);
+        array_push($post_data['apparatus'],$term->slug);
     }
     //can a skill have more than 1 level?
     $level_terms = get_the_terms($movement_post->ID,'level');
