@@ -4,6 +4,7 @@ app.models.Movement = Backbone.Model.extend({
     defaults: {
         "ID": "",
     "thumbnail_url": "",
+    "title": "",
     "name": "",
     "permalink": "",
     "apparatus": "",
