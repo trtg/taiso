@@ -33,6 +33,7 @@
             </li>
 
             <li class="nav_link" id="coaching_link"><a href="/coaching">Coaching</a></li>
+            <li class="nav_link" id="faq_link"><a href="/faq">FAQ</a></li>
 
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">Contact<b class="caret"></b></a>
