@@ -30,7 +30,7 @@ get_header(); ?>
 
 <h3>I am new to gymnastics and any form of exercising.  What do you advise?</h3>
 
-<p>All movements are categorized into three different levels - Beginner, Intermediate, and Advanced.  Use the filters included in the \u2018Movement\u2019 page to find an exercise or movement that fits your level of fitness.  You can always scale down the workouts so that you feel comfortable with your routine, and work your way up to different levels. As always, please be mindful that not all exercises and movements are for everyone.</p>
+<p>All movements are categorized into three different levels - Beginner, Intermediate, and Advanced.  Use the filters included in the <a href="/movements">'Movements'</a> page to find an exercise or movement that fits your level of fitness.  You can always scale down the workouts so that you feel comfortable with your routine, and work your way up to different levels. As always, please be mindful that not all exercises and movements are for everyone.</p>
 
 <h3>I do not have the proper equipment to perform an exercise. What should I do?</h3>
 
