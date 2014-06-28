@@ -9,11 +9,11 @@
 get_header(); ?>
 <link rel="stylesheet" type="text/css" href="/wp-content/themes/sho_child/css/coaching.css">
 
-<body style="background-image:url('/wp-content/images/rings_planche_blur.jpg');background-position:center;background-repeat:no-repeat;">
+<body style="background-image:url('/wp-content/images/rings_planche_blur.jpg');background-position:center;background-repeat:no-repeat;background-size:cover;">
 <?php include 'navbar.php';?>
                     <div id="the_wrapper" class="container" >
                         <div class="row">
-                            <div class="col-xs-12" style="background:rgba(255,255,255,0.5);background-size:cover;">
+                            <div class="col-xs-12" style="background:rgba(255,255,255,0.5);">
 
 <h3>What is gymnastics, and why TotalTaiso?</h3>
 
