@@ -11,7 +11,7 @@ get_header(); ?>
 
 <body style="background-image:url('/wp-content/images/rings_planche_blur.jpg');background-position:center;background-repeat:no-repeat;">
 <?php include 'navbar.php';?>
-                    <div id="the_wrapper" class="container">
+                    <div id="the_wrapper" class="container" style="background:rgba(255,255,255,0.5);">
                         <div class="row">
                             <div class="col-xs-12" >
 
