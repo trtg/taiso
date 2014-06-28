@@ -9,7 +9,7 @@
 get_header(); ?>
 <link rel="stylesheet" type="text/css" href="/wp-content/themes/sho_child/css/coaching.css">
 
-<body>
+<body style="background-image:url('/wp-content/images/rings_planche_blur.jpg');background-position:center;background-repeat:no-repeat;">
 <?php include 'navbar.php';?>
                     <div id="the_wrapper" class="container">
                         <div class="row">
