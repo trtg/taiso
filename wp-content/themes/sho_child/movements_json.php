@@ -36,6 +36,7 @@ foreach ($movement_posts as $movement_post){
     $post_data['title'] = $movement_post->post_title;
     $post_data['permalink'] = get_post_permalink($movement_post->ID);
     $post_data['apparatus'] = array();
+    $post_data['movement_function'] = array();
 
     $apparatus_terms = get_the_terms($movement_post->ID,'apparatus');
     foreach($apparatus_terms as $term){
