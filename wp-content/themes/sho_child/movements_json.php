@@ -49,10 +49,10 @@ foreach ($movement_posts as $movement_post){
     $function_terms = get_the_terms($movement_post->ID,'function');
     if (!empty($function_terms)){
         foreach($function_terms as $function_term){
-            $post_data['function'] = $function_term->slug;
+            $post_data['movement_function'] = $function_term->slug;
         }
     }else{
-        $post_data['function'] = "";
+        $post_data['movement_function'] = "";
     }
     //wp_get_attachment_url(get_the_post_thumbnail(($movement_post->ID)));
     array_push($list_of_movements,$post_data);
