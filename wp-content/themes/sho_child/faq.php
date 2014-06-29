@@ -13,7 +13,7 @@ get_header(); ?>
 <?php include 'navbar.php';?>
                     <div id="the_wrapper" class="container" >
                         <div class="row">
-                            <div class="col-xs-12" style="background:rgba(255,255,255,0.5);">
+                            <div class="col-xs-12" style="background:rgba(255,255,255,0.7);">
 
 <h3>What is gymnastics, and why TotalTaiso?</h3>
 

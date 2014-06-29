@@ -21,7 +21,7 @@ get_header(); ?>
            <div class="tools">
                Search: <br>
                <input type="text" id="searchBox" /><br><br>
-               Filter:
+               Click to Filter:
                <div id="filters"></div>
                <div id="count"></div>
            </div><!--/tools-->

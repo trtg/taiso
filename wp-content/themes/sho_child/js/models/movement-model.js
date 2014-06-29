@@ -8,6 +8,7 @@ app.models.Movement = Backbone.Model.extend({
     "name": "",
     "permalink": "",
     "apparatus": "",
+    "function": "",
     "level": ""
     },
 

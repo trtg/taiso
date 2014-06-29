@@ -35,8 +35,9 @@ foreach ($movement_posts as $movement_post){
     $post_data['name'] = $movement_post->post_name;
     $post_data['title'] = $movement_post->post_title;
     $post_data['permalink'] = get_post_permalink($movement_post->ID);
-    $apparatus_terms = get_the_terms($movement_post->ID,'apparatus');
     $post_data['apparatus'] = array();
+
+    $apparatus_terms = get_the_terms($movement_post->ID,'apparatus');
     foreach($apparatus_terms as $term){
         array_push($post_data['apparatus'],$term->slug);
     }
@@ -44,6 +45,10 @@ foreach ($movement_posts as $movement_post){
     $level_terms = get_the_terms($movement_post->ID,'level');
     foreach($level_terms as $level_term){
         $post_data['level'] = $level_term->name;
+    }
+    $function_terms = get_the_terms($movement_post->ID,'function');
+    foreach($level_terms as $level_term){
+        $post_data['function'] = $level_term->slug;
     }
     //wp_get_attachment_url(get_the_post_thumbnail(($movement_post->ID)));
     array_push($list_of_movements,$post_data);
