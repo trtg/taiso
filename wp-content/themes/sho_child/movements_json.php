@@ -47,8 +47,8 @@ foreach ($movement_posts as $movement_post){
         $post_data['level'] = $level_term->name;
     }
     $function_terms = get_the_terms($movement_post->ID,'function');
-    foreach($level_terms as $level_term){
-        $post_data['function'] = $level_term->slug;
+    foreach($function_terms as $function_term){
+        $post_data['function'] = $function_term->slug;
     }
     //wp_get_attachment_url(get_the_post_thumbnail(($movement_post->ID)));
     array_push($list_of_movements,$post_data);
