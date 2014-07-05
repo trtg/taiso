@@ -81,10 +81,9 @@ app.views.Movements = Backbone.View.extend({
     //dynamically determine the types available
     getTypes: function() {
         console.log(this.collection.pluck('type'));
-        mov_func = _.uniq([].concat.apply([],this.collection.pluck('movement_function')));
         appar = _.uniq([].concat.apply([],this.collection.pluck('apparatus')));
         console.log(appar);
-        return _.uniq(this.collection.pluck('level').concat(appar).concat(mov_func));
+        return _.uniq(this.collection.pluck('level').concat(appar));
     },
 
     setListLength:function(l){
@@ -94,9 +93,7 @@ app.views.Movements = Backbone.View.extend({
     createFilters: function(){
         var filters = '<a class="filter" href="#all">all</a>';
         _.each(this.getTypes(), function(item){
-            if (item!='Beginner' && item!='Intermediate' && item!='Advanced'){
-                filters += '<a class="filter" href="#' + item +'"><img src="/wp-content/images/'+item+'_30x30.png">' + item+ '</a>';
-            }
+            filters += '<a class="filter" href="#' + item +'">' + item+ '</a>';
         });
         return filters;
     },
