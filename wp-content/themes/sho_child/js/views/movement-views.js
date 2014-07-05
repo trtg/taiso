@@ -93,7 +93,7 @@ app.views.Movements = Backbone.View.extend({
     createFilters: function(){
         var filters = '<a class="filter" href="#all">all</a>';
         _.each(this.getTypes(), function(item){
-            filters += '<a class="filter" href="#' + item +'"><img src="'+item.toLowerCase()+'_30x30.png">' + item+ '</a>';
+            filters += '<a class="filter" href="#' + item +'"><img src="/wp-content/images/'+item.toLowerCase()+'_30x30.png">' + item+ '</a>';
         });
         return filters;
     },
