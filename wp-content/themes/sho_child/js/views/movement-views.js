@@ -93,7 +93,7 @@ app.views.Movements = Backbone.View.extend({
     createFilters: function(){
         var filters = '<a class="filter" href="#all">all</a>';
         _.each(this.getTypes(), function(item){
-            filters += '<a class="filter" href="#' + item +'">' + item+ '</a>';
+            filters += '<a class="filter" href="#' + item +'"><img src="'+item.toLowerCase()+'_30x30.png">' + item+ '</a>';
         });
         return filters;
     },
@@ -105,7 +105,7 @@ app.views.Movements = Backbone.View.extend({
 
     setFilter: function(e){
         e.preventDefault();
-        this.filterType = e.currentTarget.innerHTML;
+        this.filterType = e.currentTarget.innerText;
         //only allow one filter to be active at a time
         //$('.activeFilter').toggleClass('activeFilter');
         $(e.currentTarget).toggleClass('activeFilter');
