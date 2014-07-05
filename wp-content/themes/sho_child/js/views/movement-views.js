@@ -82,8 +82,9 @@ app.views.Movements = Backbone.View.extend({
     getTypes: function() {
         console.log(this.collection.pluck('type'));
         appar = _.uniq([].concat.apply([],this.collection.pluck('apparatus')));
+        mov_func = _.uniq([].concat.apply([],this.collection.pluck('movement_function')));
         console.log(appar);
-        return _.uniq(this.collection.pluck('level').concat(appar));
+        return _.uniq(this.collection.pluck('level').concat(appar).concat(mov_func)).filter(function(n) {return n != ''});
     },
 
     setListLength:function(l){
