@@ -157,7 +157,7 @@ app.views.Movements = Backbone.View.extend({
                     //console.log(item.get('level')=== filterType);
                     console.log(filterType);
                     //console.log(item.get('apparatus'));
-                    return (item.get('level') === filterType) || (_.contains(item.get('apparatus'),filterType));
+                    return (item.get('level') === filterType) || (_.contains(item.get('apparatus'),filterType)) || (_.contains(item.get('movement_function'),filterType));
                 });
             this.setListLength(filtered.length);
             this.collection.reset(filtered);
