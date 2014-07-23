@@ -11,44 +11,119 @@ get_header(); ?>
 
 <body>
 <?php include 'navbar.php';?>
-                    <div id="the_wrapper" class="container">
+
+    <section id="coaching" class="">
+
+        <h1 class="text-center">Coaching</h1>
+
+        <div class="container">
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+
+                <ul class="nav nav-pills nav-justified">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"><a href="#">Private Coaching<small></small></a>
+                    </li>
+                    <li data-target="#myCarousel" data-slide-to="1"><a href="#">Remote Coaching<small></small></a>
+                    </li>
+                    <li data-target="#myCarousel" data-slide-to="2"><a href="#">TotalTaiso Seminar<small></small></a>
+                    </li>
+
+                </ul>
+
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner">
+                    <div class="item active">
                         <div class="row">
 
-                            <div id="profile_box" class="col-xs-12 col-sm-12 col-md-5">
-                            <img src="/wp-content/images/handstand_coach.jpg">
+                            <div class="col-md-6 col-xs-12">
+                                <img src="img/sho_tablet.png">
                             </div>
 
-                            <div class="col-xs-12 col-sm-12 col-md-7" >
-<h3>Private Coaching</h3>
-If you are looking to achieve specific goals and/or to emphasize and drive home the fundamentals, there is nothing better than private coaching.  TotalTaiso provides private coaching for those interested in an individualized program. Moreover, sessions can also be used to work on specific skills or techniques in an uninterrupted one-on-one or small group environment. TotalTaiso coaches design individualized workout programs tailored to your specific needs, whether you are trying to get stronger, build better balance abilities, become more flexible, or all of the above. Private coaching sessions are perfect for those who have specific sport-related goals (CrossFit, Yoga Sport, Breakdancing, etc), or those that would like to take their health and fitness to the next level. 
 
-If you are interested or would like more information about private coaching sessions, please click <a href="/contact-us">here</a>.
+                            <div class="col-md-6 col-xs-12">
+                                <h2>Private Coaching</h2>
 
-
-<h3>Remote Coaching</h3>
-
-TotalTaiso provides remote coaching via video review or real-time video chat sessions.  Participants will either submit a training video for review and corrections, or schedule a real-time training session via live video chat.  Similar to private coaching, remote coaching sessions are perfect for those that are interested in designing and working on an individualized program and/or working on specific skills and techniques in a one-on-one environment. 
+                                <ul class="fa-ul">
+                                    <li><i class="fa-li fa fa-check"></i><b>Individualized program.</b>
+                                        <br>Achieve specific goals and/or to emphasize and drive home the fundamentals</li>
 
 
-If you are interested or would like more information about remote coaching sessions, please click <a href="/contact-us">here</a>.
+                                    <li><i class="fa-li fa fa-check"></i><b>Sessions  to work on specific skills or techniques</b>
+                                        <br>One-on-one or small group environment. TotalTaiso coaches design individualized workout programs tailored to your specific needs, whether you are trying to get stronger, build better balance abilities</li>
+                                    <li><i class="fa-li fa fa-check"></i><b>Fitness to the next level, more flexible, or all of the above.</b>
+                                        <br>perfect for those who have specific sport-related goals (CrossFit, Yoga Sport, Breakdancing, etc)</li>
 
+                                </ul>
 
-<h3>TotalTaiso Seminar</h3>
-
-TotalTaiso provides one-day seminars for those interested in learning the fundamentals of gymnastics-based movements, balance exercises, and flexibility routines.  Coach Sho will break down specific skills and introduce progressions to drive home the fundamentals and techniques required to reach intermediate to advanced-level skills.  TotalTaiso Seminars are geared towards a variety of athletes, including gymnasts, CrossFitters, and yoga professionals.  Seminars are perfect for those committed to increasing bodyweight strength, balance, and flexibility through gymnastics-inspired fitness - from serious competitors to casual fitness enthusiasts.
-
-
-Seminars are meant to be hands-on, spending more time engaging and moving the body than sitting in a classroom setting.  Attendees will have the the opportunity to receive immediate corrections, feedback, and suggestions from Coach Sho throughout the day.  
-
-
-If you are interested or would like more information about TotalTaiso Seminars, please click <a href="/contact-us">here</a>.
+                                <a href="#" class="btn btn-default btn-lg ">Try Now</a>
                             </div>
                         </div>
 
-   <hr> 
+                    </div>
+                    <!-- End Item -->
+                    <div class="item">
+                        <div class="row">
+
+                            <div class="col-md-6 col-xs-12">
+                                <img src="img/sho_tablet.png">
+                            </div>
 
 
-</div><!--/the_wrapper-->
+                            <div class="col-md-6 col-xs-12">
+                            <h2>Remote Coaching</h2>
+
+                                <ul class="fa-ul">
+                                    <li><i class="fa-li fa fa-check"></i><b>Video review or real-time video chat sessions.</b>
+                                        <br>Participants will either submit a training video for review and corrections, or schedule a real-time training session via live video chat.</li>
+
+
+                                    <li><i class="fa-li fa fa-check"></i><b>One-on-one environment</b>
+                                        <br>perfect for those that are interested in designing and working on an individualized program and/or working on specific skills and techniques</li>
+                                </ul>
+
+
+                                
+                                <a href="#" class="btn btn-default btn-lg ">Try Now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Item -->
+                    <div class="item">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <img src="img/sho_tablet.png">
+                            </div>
+
+                            <div class="col-md-6">
+                                <h2>Remote Coaching</h2>
+
+                                <ul class="fa-ul">
+                                    <li><i class="fa-li fa fa-check"></i><b>One-day seminars.</b>
+                                        <br>For those interested in learning the fundamentals of gymnastics-based movements, balance exercises, and flexibility routines..</li>
+
+
+                                    <li><i class="fa-li fa fa-check"></i><b>Reach intermediate to advanced-level skills.</b>
+                                        <br>Coach Sho will break down specific skills and introduce progressions to drive home the fundamentals and techniques required to  TotalTaiso Seminars are geared towards a variety of athletes, including gymnasts, CrossFitters, and yoga professionals. </li>
+
+                                        <li><i class="fa-li fa fa-check"></i><b>Immediate corrections, feedback, and suggestions.</b>
+                                        <br>Seminars are meant to be hands-on, spending more time engaging and moving the body than sitting in a classroom setting.Seminars are perfect for those committed to increasing bodyweight strength, balance, and flexibility through gymnastics-inspired fitness</li> 
+                                </ul>
+
+
+                                
+                                <a href="#" class="btn btn-default btn-lg ">Try Now</a>
+
+                               
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Carousel Inner -->
+
+            </div>
+            <!-- End Carousel -->
+        </div>
+
+        </section>
 
 
     <section id="testimonials" class="testimonials">
