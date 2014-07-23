@@ -35,7 +35,7 @@ get_header(); ?>
                         <div class="row">
 
                             <div class="col-md-6 col-xs-12">
-                                <img src="img/sho_tablet.png">
+                                <img src="/wp-content/images/sho_tablet.png">
                             </div>
 
 
@@ -64,7 +64,7 @@ get_header(); ?>
                         <div class="row">
 
                             <div class="col-md-6 col-xs-12">
-                                <img src="img/sho_tablet.png">
+                                <img src="/wp-content/images/sho_tablet.png">
                             </div>
 
 
@@ -90,7 +90,7 @@ get_header(); ?>
                     <div class="item">
                         <div class="row">
                             <div class="col-md-6">
-                                <img src="img/sho_tablet.png">
+                                <img src="/wp-content/images/sho_tablet.png">
                             </div>
 
                             <div class="col-md-6">
