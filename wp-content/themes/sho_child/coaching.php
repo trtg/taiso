@@ -301,8 +301,8 @@ get_header(); ?>
                         <!--<![endif]-->
 
                         <div class="wrapperBox ">
-                            <img src="/wp-content/images/taqiy1.jpg" title="STaqiy" alt="" class="quoteImg">
-                            <h4>STaqiy Abdullah-Simmons 2007 NCAA National Champion 3x NCAA Team Champion Owner of Gymcrew LLC Co-Founder of Freestyle Acrobatics</h4>
+                            <img src="/wp-content/images/taqiy1.jpg" title="Taqiy" alt="" class="quoteImg">
+                            <h4>Taqiy Abdullah-Simmons 2007 NCAA National Champion 3x NCAA Team Champion Owner of Gymcrew LLC Co-Founder of Freestyle Acrobatics</h4>
 
                             <blockquote align="center" class="small testimonial">As a former competitor and national team member with Sho, I have had the opportunity to compete against and train alongside Sho. His attention to detail is without comparison. His cerebral approach to the sport has allowed him to understand the intricate mechanics of the human body. Sho's road to success was not an easy one, which has given him tremendous insight to the mental and physical strength it takes to achieve greatness at any level of sport. In my time as a gymnast I saw few gymnasts garner the respect of his peers more than Sho for his perseverance, wiliness to give aid to his fellow competitors, and overall knowledge of the sport. People like Sho are hard to come by, and I know that he applies the same knowledge and attention to detail with anybody he works with.</blockquote>
                             <div class="arrow-down"></div>
