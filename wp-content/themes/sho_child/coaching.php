@@ -24,7 +24,7 @@ get_header(); ?>
                     </li>
                     <li data-target="#myCarousel" data-slide-to="1"><a href="#">Remote Coaching<small></small></a>
                     </li>
-                    <li data-target="#myCarousel" data-slide-to="2"><a href="#">TotalTaiso Seminar<small></small></a>
+                    <li data-target="#myCarousel" data-slide-to="2"><a href="#">TotalTaiso Seminars<small></small></a>
                     </li>
 
                 </ul>
