@@ -150,8 +150,8 @@ get_header(); ?>
                                 <strong>David Durante <br>2008 Olympic Team Alternate<br> CrossFit Gymnastics Rep <br>USA National Champion</strong>
                             </h4>
 
+                            <div class="arrow-up"></div>
                             <blockquote align="center " class="small testimonial">Sho is a unique individual who combines talent with an incredible work ethic. His knowledge of the sport of gymnastics is extensive. He has achieved the highest levels of the sport as an athlete while overcoming tremendous obstacles. Sho has surrounded himself with elite athletes his entire life and knows what it takes to get an aspiring athlete to the next level. Whether it be a weekend warrior looking to become more fit or a high level athlete looking to reach strategic performance goals, Sho has all the tools and experience necessary to make it happen.</blockquote>
-                            <div class="arrow-down"></div>
                         </div>
                         <!--[if (lt IE 8)|!(IE)]><!-->
                     </div>
