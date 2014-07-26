@@ -25,7 +25,7 @@ app.models.Movement = Backbone.Model.extend({
 
 app.collections.Movements = Backbone.Collection.extend({
     model: app.models.Movement,
-    url: "/movements_json",
+    url: "/movements_json/",
     //return movements in alphabetical order
     comparator: function(movement){
         return movement.get('name')
