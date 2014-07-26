@@ -173,8 +173,8 @@ get_header(); ?>
                         <div class="wrapperBox ">
                             <img src="/wp-content/images/mike-salemi1.jpg" title="Mike Salemi" alt="" class="quoteImg">
                             <h4>Mike Salemi WABDL <br>World Champion in Deadlift and Benchpress <br>Candidate Master Sport in Kettlebell Sport <br>CHEK Exercise Coach</h4>
+                            <div class="arrow-up"></div>
                             <blockquote align="center" class="small testimonial">Sho's unique approach to training is rooted in many years of training and competing as an elite level gymnast. During that time, he has formulated a vast understanding and intense working knowledge of movement. Sho's exercise programming is based on safe and effective progressions/regressions tailored to each individual. He has the ability to identify, expose, and build upon a person's weaknesses, whether it be flexibility, mobility, body-weight strength, co-ordination, and/or power elements that make him one of the best trainers I've come across. Personally, working with Sho has noticeably increased my upper body stability and body-weight strength. I consider myself truly fortunate to have known Sho for over 15 years, for his passion, drive, and commitment to excellence in all endeavors inspires anyone who comes in contact with him. I highly recommend Sho to anyone looking for an elite level trainer/clinician ready to take their goals and performance to the next level.</blockquote>
-                            <div class="arrow-down"></div>
                         </div>
 
                         <!--[if (lt IE 8)|!(IE)]><!-->
@@ -199,8 +199,8 @@ get_header(); ?>
                             <img src="/wp-content/images/luuk1.jpg" title="Luuk Sasse" alt="Portal library" class="quoteImg">
                             <h4>Luuk Sasse CrossFit Competitor</h4>
 
+                            <div class="arrow-up"></div>
                             <blockquote align="center" class="small testimonial">I recently began CrossFit, and having been an athlete and avid weightlifter all my life, I found that the strength and endurance I previously had took me pretty far. Applying my strength and ability to the complex gymnastics movements that are common in CrossFit was a different story. Sho was my solution to this problem. Even after spending one day with him, I was able to complete a movement that had stumped me for the previous month. Sho has a great knowledge of body mechanics, as well as methods to build strength in areas that you are lacking. That said, I will continue to utilize him as a resource to improve myself as an all-around athlete.</blockquote>
-                            <div class="arrow-down"></div>
                         </div>
 
                         <!--[if (lt IE 8)|!(IE)]><!-->
@@ -224,8 +224,8 @@ get_header(); ?>
                             <img src="/wp-content/images/bekah1.jpg" title="Rebekah Hynson" alt="" class="quoteImg">
                             <h4>Rebekah Hynson <br>CrossFit Competitor <br>Founder - Body Blueprints <br>ACE/NAFTA Fitness Trainer</h4>
 
+                            <div class="arrow-up"></div>
                             <blockquote align="center" class="small testimonial">I am an avid athlete and competitor but I have always struggled with movements that are anything more than single motion. My body just doesn't seem to understand how to bring it all together. Sho has a wonderful way of putting together progressions that allow me to break down a movement into single components. He not only is able to complete all the skills himself but understands the mechanics behind them. In a few short sessions with Sho, I have been able to master skills that I have been working on for year with other coaches. Sho is the real deal.</blockquote>
-                            <div class="arrow-down"></div>
 
 
                         </div>
@@ -250,8 +250,8 @@ get_header(); ?>
                             <img src="/wp-content/images/umihiko1.jpg" title="Umihiko Miya" alt="Federal" class="quoteImg">
                             <h4>Umihiko Miya <br>Performer - Cirque Du Soleil's Totem <br>Japanese National Champion</h4>
 
+                            <div class="arrow-up"></div>
                             <blockquote align="center" class="small testimonial">I have known Sho for many years as an elite level athlete who competed at the highest level. Nobody can deny his passion and motivation for the sport of gymnastics - a sport that requires speed, strength, flexibility, and physical capabilities. His knowledge of each skill and technique are very theoretical and practical. Sho has a unique ability to extract and dissect various elements and apply them to fit each person's needs. Taiso, is a Japanese word that means "gymnastics". It is written using 2 symbols - separately, these symbols read: "body" and "coordination". Once you obtain total body coordination, you will become more confident about everything and realize that your potential is limitless. Sho has the knowledge and abilities to help you realize this.</blockquote>
-                            <div class="arrow-down"></div>
 
 
                         </div>
@@ -273,9 +273,9 @@ get_header(); ?>
                             <img src="/wp-content/images/sergei-dmitriev1.jpg" title="Sergei Dmitriev" alt="" class="quoteImg">
                             <h4>Sergei Dmitriev <br>Former NCAA Gymnast for UofM (Minnesota) <br>Professional Stuntman - 300 (film), NCIS (TV), United Airlines (National Commercial), etc</h4>
 
+                            <div class="arrow-up"></div>
                             <blockquote align="center" class="small testimonial">Choosing to train and compete as a gymnast for over 18 years was one of the best decisions I have ever made. Besides helping me reach my physical goals, gymnastics tested my boundaries, pushed my limits, and taught me the importance of perseverance. Gymnastics is a sport that demands focus, dedication, and consistency - elements that I have been able to translate to other aspects of my life. During my gymnastic career, I trained and competed with Sho, who in my opinion, was one of the hardest working and most dedicated athletes I've come across. I highly recommend Sho as a trainer because he understands what it takes to excel, both in body and mind. Sho has extensive knowledge of proper training methods and knows what it takes to maintain a healthy lifestyle to support a body in training. It's important to have a trainer who understands the physical and mental dedication it takes to reach your physical goals and Sho knows exactly how to customize workouts to accommodate specific needs. As an anythinglete that maintained elite-status throughout his entire competitive career, you can't get anyone better than Sho!
                             </blockquote>
-                            <div class="arrow-down"></div>
 
 
                         </div>
@@ -304,8 +304,8 @@ get_header(); ?>
                             <img src="/wp-content/images/taqiy1.jpg" title="Taqiy" alt="" class="quoteImg">
                             <h4>Taqiy Abdullah-Simmons<br>2007 NCAA National Champion 3x NCAA Team Champion <br>Owner of Gymcrew LLC <br>Co-Founder of Freestyle Acrobatics</h4>
 
+                            <div class="arrow-up"></div>
                             <blockquote align="center" class="small testimonial">As a former competitor and national team member with Sho, I have had the opportunity to compete against and train alongside Sho. His attention to detail is without comparison. His cerebral approach to the sport has allowed him to understand the intricate mechanics of the human body. Sho's road to success was not an easy one, which has given him tremendous insight to the mental and physical strength it takes to achieve greatness at any level of sport. In my time as a gymnast I saw few gymnasts garner the respect of his peers more than Sho for his perseverance, wiliness to give aid to his fellow competitors, and overall knowledge of the sport. People like Sho are hard to come by, and I know that he applies the same knowledge and attention to detail with anybody he works with.</blockquote>
-                            <div class="arrow-down"></div>
 
 
                         </div>
