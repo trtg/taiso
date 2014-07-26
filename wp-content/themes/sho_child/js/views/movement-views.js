@@ -33,7 +33,8 @@ app.views.Movements = Backbone.View.extend({
         //show progress indicator while we fetch
         //the movement JSON
         this.collection.on("fetch", function() {
-            $('#listing').html("<h1>Loading movement data, please wait</h1>");
+            $('#listing').html("<h1 style='color:#000;'>Loading movement data, please wait</h1>");
+            console.log("showing progress indicator");
         }, this);
 
         //this.collection.fetch({success:function(){console.log("fetched stuff"); }}).always(function(){console.log("called always");});
