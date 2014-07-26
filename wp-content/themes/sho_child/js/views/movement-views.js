@@ -30,6 +30,12 @@ app.views.Movements = Backbone.View.extend({
     el: '#wrapper',
     initialize: function(){
         this.collection = new app.collections.Movements();
+        //show progress indicator while we fetch
+        //the movement JSON
+        this.collection.on("fetch", function() {
+            this.html("<h1>Loading movement data, please wait</h1>");
+        }, this);
+
         //this.collection.fetch({success:function(){console.log("fetched stuff"); }}).always(function(){console.log("called always");});
 
         //store a reference to the collection to be used

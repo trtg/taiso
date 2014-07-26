@@ -30,6 +30,13 @@ app.collections.Movements = Backbone.Collection.extend({
     comparator: function(movement){
         return movement.get('name')
     },
+    //override fetch to trigger a fetch event
+    //when fetching starts- this is then used
+    //to know when to load a progress spinner
+    fetch: function(options) {
+        this.trigger('fetch', this, options);
+        return Backbone.Collection.prototype.fetch.call(this, options);
+    }
     //overriding parse lets you debug the results 
     //of a fetch()
     //parse: function(arg){
