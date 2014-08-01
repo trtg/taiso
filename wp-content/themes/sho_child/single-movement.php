@@ -75,7 +75,7 @@ get_header(); ?>
                     if( have_rows('easier_movements') ):
                         // loop through the rows of data
                         echo "<ul>";
-                        while ( have_rows('easier_movements') ) :  
+                        while ( have_rows('easier_movements') ) : $temp_row = the_row();  
                         // display a sub field value
                         //use url_to_postid() to get postid and then post title
                         $easier_postid = url_to_postid(the_sub_field('movement_url'));
