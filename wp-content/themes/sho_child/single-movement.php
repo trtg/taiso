@@ -101,12 +101,21 @@ get_header(); ?>
                     <div class="col-xs-12 col-md-4">
                     <h3>Harder: </h3>
                     <?php
-                    if( have_rows('harder_movements') ):
-                        while ( have_rows('harder_movements') ) : the_row();
-                        the_sub_field('movement_url');
+                        $harder_postid = url_to_postid(the_sub_field('movement_url'));
+                        $harder_post = get_post($harder_postid);
+                        $harder_post_title = $harder_post->post_title;
+                    ?>
+                            <li> <a href=<?php $murl = get_sub_field('movement_url'); echo "\"$murl\"";?>> 
+                                    <?php echo "$harder_post_title"; ?> 
+                                </a> 
+                            </li>                    
+                    <?php
+                        $temp_row = the_row();  
                         endwhile;
+                        echo "</ul>";
                     endif;
                     ?>
+
                     </div>
 
                 </div>
