@@ -78,7 +78,7 @@ get_header(); ?>
                     while ( have_rows('easier_movements') ) : 
                         // display a sub field value
                         //use url_to_postid() to get postid and then post title
-                        $easier_postid = url_to_postid(the_sub_field('movement_url'));
+                        $easier_postid = url_to_postid(get_sub_field('movement_url'));
                         $easier_post = get_post($easier_postid);
                         $easier_post_title = $easier_post->post_title;
                         ?>
@@ -106,7 +106,7 @@ get_header(); ?>
                             echo "<ul>";
                         while ( have_rows('harder_movements') ) : 
 
-                        $harder_postid = url_to_postid(the_sub_field('movement_url'));
+                        $harder_postid = url_to_postid(get_sub_field('movement_url'));
                         $harder_post = get_post($harder_postid);
                         $harder_post_title = $harder_post->post_title;
                     ?>
