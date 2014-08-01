@@ -75,7 +75,7 @@ get_header(); ?>
                     if( have_rows('easier_movements') ):
                         // loop through the rows of data
                         echo "<ul>";
-                        while ( have_rows('easier_movements') ) : the_row(); 
+                        while ( have_rows('easier_movements') ): ; 
                         // display a sub field value
                         //use url_to_postid() to get postid and then post title
                         $easier_postid = url_to_postid(the_sub_field('movement_url'));
@@ -83,7 +83,7 @@ get_header(); ?>
                         $easier_post_title = $easier_post->post_title;
                         ?>
                             <li> <a href=<?php $murl = get_sub_field('movement_url'); echo "\"$murl\"";?>> 
-                                    <?php echo "post id: $easier_post_title"; ?> 
+                                    <?php echo "$easier_post_title"; ?> 
                                 </a> 
                             </li>                    
                     <?php
