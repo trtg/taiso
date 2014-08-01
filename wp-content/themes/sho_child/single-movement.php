@@ -65,6 +65,37 @@ get_header(); ?>
                     ?>
                     </div><!--/.col-->
 		        </div><!--/.row -->
+
+                <h2>Skill Progression</h2>
+                <div class="row">
+                    <div class="col-xs-12 col-md-4">
+                    <h3>Easier: </h3>
+                    <?php
+                    // check if the repeater field has rows of data
+                    if( have_rows('easier_movements') ):
+                        // loop through the rows of data
+                        while ( have_rows('easier_movements') ) : the_row();
+                        // display a sub field value
+                        the_sub_field('movement_url');
+                        endwhile;
+                    ?>
+                    </div>
+                    <div class="col-xs-12 col-md-4">
+                    <h3>Current skill: </h3>
+                        <?php the_title(); ?>
+                    </div>
+                    
+                    <div class="col-xs-12 col-md-4">
+                    <h3>Harder: </h3>
+                    <?php
+                    if( have_rows('harder_movements') ):
+                        while ( have_rows('harder_movements') ) : the_row();
+                        the_sub_field('movement_url');
+                        endwhile;
+                    ?>
+                    </div>
+
+                </div>
         <?php
 					/*
 					 * Include the post format-specific template for the content. If you want to
