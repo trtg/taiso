@@ -74,10 +74,15 @@ get_header(); ?>
                     // check if the repeater field has rows of data
                     if( have_rows('easier_movements') ):
                         // loop through the rows of data
-                        while ( have_rows('easier_movements') ) : the_row();
+                        echo "<ul>";
+                        while ( have_rows('easier_movements') ) : the_row(); 
                         // display a sub field value
-                        the_sub_field('movement_url');
+                        ?>
+
+                            <li> <a href=<?php $murl = echo the_sub_field('movement_url'); echo "\"$murl\"";?>><?php echo $murl;?></a> </li>                    
+                    <?php
                         endwhile;
+                        echo "</ul>";
                     endif;
                     ?>
                     </div>
