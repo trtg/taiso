@@ -99,8 +99,13 @@ get_header(); ?>
                     </div>
                     
                     <div class="col-xs-12 col-md-4">
-                    <h3>Harder: </h3>
                     <?php
+                        if( have_rows('harder_movements') ):
+                            echo "<h3>Harder: </h3>";
+                        // loop through the rows of data
+                            echo "<ul>";
+                        while ( have_rows('harder_movements') ) : 
+
                         $harder_postid = url_to_postid(the_sub_field('movement_url'));
                         $harder_post = get_post($harder_postid);
                         $harder_post_title = $harder_post->post_title;
