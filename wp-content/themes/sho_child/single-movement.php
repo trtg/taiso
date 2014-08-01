@@ -79,7 +79,7 @@ get_header(); ?>
                         // display a sub field value
                         ?>
 
-                            <li> <a href=<?php $murl = echo the_sub_field('movement_url'); echo "\"$murl\"";?>><?php echo $murl;?></a> </li>                    
+                            <li> <a href=<?php $murl = the_sub_field('movement_url'); echo "\"$murl\"";?>><?php echo $murl;?></a> </li>                    
                     <?php
                         endwhile;
                         echo "</ul>";
