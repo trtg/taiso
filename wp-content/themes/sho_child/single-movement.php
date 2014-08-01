@@ -79,9 +79,11 @@ get_header(); ?>
                         // display a sub field value
                         //use url_to_postid() to get postid and then post title
                         $easier_postid = url_to_postid(the_sub_field('movement_url'));
+                        $easier_post = get_post($easier_postid);
+                        $easier_post_title = $easier_post->post_title;
                         ?>
-                            <li> <a href=<?php $murl = the_sub_field('movement_url'); echo "\"$murl\"";?>> 
-                                    <?php echo "post id: $easier_postid"; ?> 
+                            <li> <a href=<?php $murl = get_sub_field('movement_url'); echo "\"$murl\"";?>> 
+                                    <?php echo "post id: $easier_post_title"; ?> 
                                 </a> 
                             </li>                    
                     <?php
