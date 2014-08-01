@@ -78,6 +78,7 @@ get_header(); ?>
                         // display a sub field value
                         the_sub_field('movement_url');
                         endwhile;
+                    endif;
                     ?>
                     </div>
                     <div class="col-xs-12 col-md-4">
@@ -92,6 +93,7 @@ get_header(); ?>
                         while ( have_rows('harder_movements') ) : the_row();
                         the_sub_field('movement_url');
                         endwhile;
+                    endif;
                     ?>
                     </div>
 
