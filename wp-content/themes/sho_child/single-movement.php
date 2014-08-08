@@ -76,6 +76,8 @@ get_header(); ?>
                         // loop through the rows of data
                         echo "<ul>";
                     while ( have_rows('easier_movements') ) : 
+                        //the_row() has to come before the get_sub_field()
+                        $temp_row = the_row();  
                         // display a sub field value
                         //use url_to_postid() to get postid and then post title
                         $easier_postid = url_to_postid(get_sub_field('movement_url'));
@@ -87,7 +89,6 @@ get_header(); ?>
                                 </a> 
                             </li>                    
                     <?php
-                        $temp_row = the_row();  
                         endwhile;
                         echo "</ul>";
                     endif;
@@ -105,6 +106,7 @@ get_header(); ?>
                         // loop through the rows of data
                             echo "<ul>";
                         while ( have_rows('harder_movements') ) : 
+                        $temp_row = the_row();  
 
                         $harder_postid = url_to_postid(get_sub_field('movement_url'));
                         $harder_post = get_post($harder_postid);
@@ -115,7 +117,6 @@ get_header(); ?>
                                 </a> 
                             </li>                    
                     <?php
-                        $temp_row = the_row();  
                         endwhile;
                         echo "</ul>";
                     endif;
