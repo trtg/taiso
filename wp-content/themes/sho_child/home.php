@@ -73,14 +73,14 @@ $wod_index = 0;
 
 <div class="col-xs-2 col-lg-2">
 </div>
-<ul class="nav nav-tabs" role="tablist">
+<ul class="nav nav-pills" role="tablist">
 <li class="active tab-link" ><a href=<?php echo "\"#wod-$wod_index\"";?> role="tab" data-toggle="tab">Prescribed</a>
 <li class="tab-link"><a href=<?php echo "\"#scaled-$wod_index\"";?> role="tab" data-toggle="tab">Scaled</a>
 </ul>
 
 <div class="tab-content">
 <div class="tab-pane active" id=<?php echo "\"wod-$wod_index\"";?>>
-        <div class="col-xs-8 col-lg-8">
+        <div class="col-xs-12">
             <div class="panel panel-default">
               <div class="panel-heading"> <h3 class="panel-title"><?php echo the_title();?></h3> </div>
               <div class="panel-body">
@@ -91,7 +91,7 @@ $wod_index = 0;
         </div><!--end col-->
 </div><!--end tab-pane-->
 <div class="tab-pane" id=<?php echo "\"scaled-$wod_index\"";?>>
-        <div class="col-xs-8 col-lg-8">
+        <div class="col-xs-12">
             <div class="panel panel-default">
               <div class="panel-heading"> <h3 class="panel-title"><?php echo the_title();?></h3> </div>
               <div class="panel-body">
