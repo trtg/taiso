@@ -74,8 +74,8 @@ $wod_index = 0;
 <div class="col-xs-2 col-lg-2">
 </div>
 <ul class="nav nav-tabs" role="tablist">
-<li class="active"><a href=<?php echo "\"#wod-$wod_index\"";?>>Prescribed</a>
-<li><a href=<?php echo "\"#scaled-$wod_index\"";?>>Scaled</a>
+<li class="active tab-link" ><a href=<?php echo "\"#wod-$wod_index\"";?> role="tab" data-toggle="tab">Prescribed</a>
+<li class="tab-link"><a href=<?php echo "\"#scaled-$wod_index\"";?> role="tab" data-toggle="tab">Scaled</a>
 </ul>
 
 <div class="tab-content">
@@ -118,6 +118,10 @@ $(document).ready(function(){
     $('.carousel').carousel();
     $('.nav_link').removeClass('active');
     $('#home_link').addClass('active');
+    $('.tab-link').click(function (e) {
+          e.preventDefault()
+                $(this).tab('show')
+    })
 });
 </script>
     </body>
