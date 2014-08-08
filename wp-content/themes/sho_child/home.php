@@ -58,7 +58,9 @@
 <h1>Taiso WOD:</h1>
 </div>
     <div class="container">
-<?php $is_latest_wod = 1; ?>
+<?php $is_latest_wod = 1; 
+$wod_index = 0;
+?>
 <?php while($wods->have_posts()) : $wods->the_post();?>
       <!-- Example row of columns -->
           <div class="row <? if ($is_latest_wod) {echo 'latest_wod';} ?>">
@@ -71,21 +73,43 @@
 
 <div class="col-xs-2 col-lg-2">
 </div>
+<ul class="nav nav-tabs" role="tablist">
+<li class="active"><a href=<?php echo "\"#wod-$wod_index\"";?>>Prescribed</a>
+<li><a href=<?php echo "\"#scaled-$wod_index\"";?>>Scaled</a>
+</ul>
+
+<div class="tab-content">
+<div class="tab-pane active" id=<?php echo "\"wod-$wod_index\"";?>>
         <div class="col-xs-8 col-lg-8">
             <div class="panel panel-default">
-              <div class="panel-heading">
-              <h3 class="panel-title"><?php echo the_title();?></h3>
-              </div>
+              <div class="panel-heading"> <h3 class="panel-title"><?php echo the_title();?></h3> </div>
               <div class="panel-body">
                 <div class="wod_body"><?php the_excerpt();?></div>
                 <p><a class="btn btn-default" href="<?php the_permalink();?>" >View details &raquo;</a></p>
               </div>
             </div>
+        </div><!--end col-->
+</div><!--end tab-pane-->
+<div class="tab-pane" id=<?php echo "\"scaled-$wod_index\"";?>>
+        <div class="col-xs-8 col-lg-8">
+            <div class="panel panel-default">
+              <div class="panel-heading"> <h3 class="panel-title"><?php echo the_title();?></h3> </div>
+              <div class="panel-body">
+                <div class="wod_body"><?php echo get_field('scaled_wod');?></div>
+                <p><a class="btn btn-default" href="<?php the_permalink();?>" >View details &raquo;</a></p>
+              </div>
+            </div>
+        </div><!--end col-->
+</div><!--end tab-pane-->
 
-        </div>
+</div><!--end tab-content-->
+
     </div><!--end row-->
 <hr>
-<? $is_latest_wod =0; ?>
+<? $is_latest_wod =0; 
+$wod_index = $wod_index+1;
+?>
+
 <?php endwhile; ?>
       </div>
 <?php include 'footer.php';?>
