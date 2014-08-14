@@ -122,7 +122,6 @@ get_header(); ?>
                             <img  src="/wp-content/images/adidas.jpg" alt="" />  
                             <figure class="effect-sadie">
                                 <figcaption>
-                                    <!-- <h5>Sho <span>Nakomory</span></h5> -->
                                     <p>Adidas - All In Gymnastics<br>Commercial</p>
                                 </figcaption>           
                             </figure>
@@ -134,7 +133,6 @@ get_header(); ?>
                             <img  src="/wp-content/images/shoe2.jpg" alt="" />  
                             <figure class="effect-sadie">
                                 <figcaption>
-                                   <!--  <h5>Sho <span>Nakomory</span></h5> -->
                                     <p>Keen Footwear <br>Commercial</p>
                                 </figcaption>           
                             </figure>
@@ -145,11 +143,10 @@ get_header(); ?>
                     <li class="portfolio-box  photos">    
                         <!-- <a class="expander" href="ajax-video-project.html" title=""> -->
                            <!--  <a title="Pommel Horse" rel="prettyPhoto[gallery]" href="img/gallery/4.jpg">  -->
-                          <a class="expander" href="pommel-slider-gallery.html" title=""> 
+                          <a class="expander" href="pommel-horse-gallery" title=""> 
                             <img  src="/wp-content/images/4.jpg" alt="" />  
                             <figure class="effect-sadie">
                                 <figcaption>
-                                   <!--  <h5>Sho <span>Nakomory</span></h5> -->
                                     <p>MPSF Championships (Stanford, CA). <br>Pommel Horse.</p>
                                 </figcaption>           
                             </figure>
@@ -161,7 +158,6 @@ get_header(); ?>
                             <img  src="/wp-content/images/3.jpg" alt="" />
                             <figure class="effect-sadie">
                                 <figcaption>
-                                    <!-- <h5>Sho <span>Nakomory</span></h5> -->
                                     <p>  NCAA Championships (Minneapolis, MN). <br>Parallel Bar .</p>
                                 </figcaption>           
                             </figure>
@@ -169,22 +165,20 @@ get_header(); ?>
                     </li>   
                    
                     <li class="portfolio-box  photos">    
-                         <a class="expander" href="still-rings-gallery.html" title="still rings"> 
+                         <a class="expander" href="/still-rings-gallery" title="still rings"> 
                             <img  src="/wp-content/images/6.jpg" alt="" />
                             <figure class="effect-sadie">
                                 <figcaption>
-                                   <!--  <h5>Sho <span>Nakomory</span></h5> -->
                                     <p>MPSF Championships (Stanford, CA). <br>Still Rings .</p>
                                 </figcaption>           
                             </figure>
                          </a>           
                     </li>   
                     <li class="portfolio-box photos ">
-                         <a class="expander" href="high-bar-gallery.html" title="high-bar"> 
+                         <a class="expander" href="/high-bar-gallery" title="high-bar"> 
                             <img  src="/wp-content/images/7.jpg" alt="" />  
                             <figure class="effect-sadie">
                                 <figcaption>
-                                   <!--  <h5>Sho <span>Nakomory</span></h5> -->
                                     <p>NCAA Championships (Minneapolis, MN) . <br>High Bar .</p>
                                 </figcaption>           
                             </figure>
