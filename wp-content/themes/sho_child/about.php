@@ -248,6 +248,7 @@ get_header(); ?>
 <script src="/wp-content/themes/sho_child/js/bannerscollection_zoominout.js" type="text/javascript"></script>
 <script src="/wp-content/themes/sho_child/js/vendor/jquery.flexslider-min.js"></script> 
 <script src="/wp-content/themes/sho_child/js/vendor/isotope.js"></script>
+<script src="/wp-content/themes/sho_child/js/about_sho.js"></script>
 </body>
 </html>
 
