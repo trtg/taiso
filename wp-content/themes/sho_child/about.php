@@ -9,7 +9,7 @@
 get_header(); ?>
 <link href='http://fonts.googleapis.com/css?family=Lato:300,400' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Abel' rel='stylesheet' type='text/css'>
-<link rel="stylesheet" type="text/css" href="/wp-content/themes/sho_child/css/about_sho.css">
+<link rel="stylesheet" type="text/css" href="/wp-content/themes/sho_child/css/extra.css">
 <link href="/wp-content/themes/sho_child/css/bannerscollection_zoominout.css" rel="stylesheet">
 <body>
 <?php include 'navbar.php';?>
@@ -244,6 +244,7 @@ get_header(); ?>
         </footer> -->
 
 <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.11.1/jquery-ui.min.js"></script>
 <script src="/wp-content/themes/sho_child/js/bannerscollection_zoominout.js" type="text/javascript"></script>
 <script src="/wp-content/themes/sho_child/js/vendor/jquery.flexslider-min.js"></script> 
 <script src="/wp-content/themes/sho_child/js/vendor/isotope.js"></script>
