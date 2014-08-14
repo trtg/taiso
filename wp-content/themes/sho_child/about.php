@@ -35,10 +35,10 @@ get_header(); ?>
 
             <div class="sixteen columns icons-footer" >
                <a class="" href="#"> 
-                <img src="img/twitter-60x60.png">
+                <img src="/wp-content/images/twitter_logo_60x60.png">
                </a>
                <a class="" href="#"> 
-                <img src="img/instagram.png">
+                <img src="/wp-content/images/instagram_logo_60x60.png">
                </a>
 
                 <!-- <a class="fa-instagram" href="#"></a>
@@ -225,7 +225,7 @@ get_header(); ?>
 
 
         <!-- changed in variables.less @grid-float-breakpoint: 10px; //@screen-sm-min; @screen-phone; -->
-        <footer id="contact">
+        <!--<footer id="contact">
             <div class="navbar navbar-inverse navbar-fixed-bottom ">
                 <div class="container">
                     <div class=" navbar-collapse collapse" id="footer-body">
@@ -237,19 +237,15 @@ get_header(); ?>
                 <a class="fa-instagram" href="#"></a>
                 <a class="fa-facebook" href="#"></a>
                 <a class="fa-google" href="#"></a>
-                
-                
             </div>  
-                           
-
                     </div>
-
-
                 </div>
             </div>
-        </footer>
+        </footer> -->
 
 <script src="/wp-content/themes/sho_child/js/bannerscollection_zoominout.js" type="text/javascript"></script>
+<script src="/wp-content/themes/sho_child/js/vendor/jquery.flexslider-min.js"></script> 
+<script src="/wp-content/themes/sho_child/js/vendor/isotope.js"></script>
 </body>
 </html>
 
