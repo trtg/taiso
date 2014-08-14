@@ -7,84 +7,249 @@
  */
 
 get_header(); ?>
+<link href='http://fonts.googleapis.com/css?family=Lato:300,400' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Abel' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" type="text/css" href="/wp-content/themes/sho_child/css/about_sho.css">
-<link href="//vjs.zencdn.net/4.4/video-js.css" rel="stylesheet">
+<link href="/wp-content/themes/sho_child/css/bannerscollection_zoominout.css" rel="stylesheet">
 <body>
 <?php include 'navbar.php';?>
-
-<div id="the_wrapper" class="container">
-             <div class="row mobile_top_image_div">
-                 <div class="col-xs-12 col-sm-12">
-                     <img class="mobile_top_image" src="/wp-content/images/sho_pommel_horse.jpg">
-                 </div>
-                 </div>
-   
- <div class="row">
-                 <div class="col-xs-12 col-sm-12 col-md-7" >
-                 </div>
-                <div  class="col-xs-6 col-sm-5 col-md-3">
-                     <h1>Sho Nakamori</h1>
-                     <h2>Athlete & Coach</h2>
-                </div>
-                <div  class="col-xs-6 col-sm-7 col-md-2">
-                    <a href="https://twitter.com/snakamori"> <img src='/wp-content/images/twitter_logo_60x60.png'/></a>
-                    <a href="http://instagram.com/shonakamori"> <img src='/wp-content/images/instagram_logo_60x60.png'/></a>
-                </div>
-
-</div>
-             <div class="row">
-                 <div class="col-xs-12 col-sm-12 col-md-7" >
-                 </div>
-                 <div id="profile_box" class="col-xs-12 col-sm-12 col-md-5">
-                     
-                     <p>
-                     <div class="profile_photo">
-                         <img src="/wp-content/images/sho_v.png">
-                     </div>
-                     Sho was born into a family of gymnasts and grew up flipping around at the gym.  By age twelve, he made the US National Team and maintained his spot until his retirement in 2012.  During his career, he garnered multiple National Championships and represented the United States in various international competitions including the World Cup, World Championships, and Pan American Games.  He went on to captain the Stanford University gymnastics team to an NCAA Championship, while also capturing 9 individual All-American awards.  
-                     </p> 
-                     <p>
-                     Sho is an internationally-ranked gymnastics judge through the FIG and a NASM-certified fitness trainer. He has trained numerous athletes with varying backgrounds - from competitive CrossFitters, yoga instructors, and professional dancers to individuals trying to achieve their fitness goals.  Through his coaching experience, Sho developed the ideology for TotalTaiso: all fitness goals can be achieved by attaining the three main components required for gymnastics. These core elements - strength, balance, and flexibility - make up the fundamental principles of TotalTaiso.  Sho's hope is to spread his knowledge of gymnastics and body movement to help people reach their personal fitness goals.
-                     </p>
-                 </div>
-
-             </div><!--/row-->
-
-        
-
+<div id="flare" class="shoflare">
+                  <div class="pattern-about">  
+                    
+                    <div class="vert-text">
+                        <h1 class="shadowh1">Sho Nakamori</br>Athlete & Coach</h1>
+                    </div> 
+                 </div> 
+            </div>
+                <!-- About sho SECTION
+    ================================================== -->
+    
+    <div class="work" id="work">
+    
+        <div class="container">
         <div class="row">
-                 <div class="col-xs-12 col-sm-12 col-md-7" >
-                 </div>
-                 <div id="video_div" class="col-xs-12 col-sm-12 col-md-5">
-                <iframe width="100%" height="315" src="//www.youtube.com/embed/QrQDKhrEgLI?rel=0&showinfo=0" frameborder="0" allowfullscreen></iframe>
-                <iframe width="100%" height="315" src="//www.youtube.com/embed/SkXmZEkgLp4?rel=0&showinfo=0" frameborder="0" allowfullscreen></iframe>
-                <iframe width="100%" height="315" src="//www.youtube.com/embed/DOQ1E0xofgw?rel=0&showinfo=0" frameborder="0" allowfullscreen></iframe>
-
-                <video id="keen_commercial_video" class="video-js vjs-default-skin vjs-big-play-centered" 
-                controls preload="auto" width="100%" height="272" data-setup="{}"> 
-                <source src="/wp-content/uploads/videos/gymnast_482.mp4" type='video/mp4' />
-                 <source src="/wp-content/uploads/videos/gymnast_482.ogv" type='video/ogg' />
-                 <source src="/wp-content/uploads/videos/gymnast_482.webm" type='video/webm' />
-                </video>
-                    </div> <!--/video_div--> 
-        </div><!--/row-->
         
 
-        
+     <div class="imageWrapper">
+        <img src="/wp-content/images/sho_v.png" class="v-sho">     
 
-         </div><!--/the_wrapper-->
+            <div class="sixteen columns icons-footer" >
+               <a class="" href="#"> 
+                <img src="img/twitter-60x60.png">
+               </a>
+               <a class="" href="#"> 
+                <img src="img/instagram.png">
+               </a>
+
+                <!-- <a class="fa-instagram" href="#"></a>
+               <a href="#">&#xf099;</a> -->
+                
+            </div>  
+    </div>
+
+ <article class="text-left shoinfo ">
+                <p class="indent"> Sho was born into a family of gymnasts and grew up flipping around at the gym. By age twelve, he made the <b>US National Team</b> and maintained his spot until his retirement in 2012. During his career, he garnered multiple National Championships and represented the United States in various international competitions including the <b>World Cup, World Championships, and Pan American Games</b>.</p>
+         
+                <p class="indent secondCap">He went on to <b>captain the <span class="stanford">Stanford University</span> gymnastics team</b> to an NCAA Championship, while also capturing <b>9 individual All-American awards</b>. Sho is an internationally-ranked gymnastics judge through the <b>FIG</b> and a <b>NASM-certified fitness trainer</b>. </p>
+            </article>
+    
+  </div> 
+
+            
+        </div>  
+    
+                <div class="clear"></div>
+
+                <div class="portfolio"></div>
+
+
+                <div class="expander-wrap relative">
+                    <div id="expander-wrap">
+                        <p class="cls-btn"><a class="close">X</a></p>
+                        <div class="expander-inner"></div>
+                    </div>
+                </div>
+
+            
+                <div class="clear"></div>
+            
+                
+                <div class="container">
+                    <div class="sixteen columns">
+                        <div id="portfolio-filter">
+                            <ul id="filter">
+                                
+                              
+                                <li><div class="link-svgline"><a href="#" data-filter=".videos" title="">Videos<svg class="link-svgline"><use xlink:href="#svg_line"></use></svg></a></div></li>
+                                <li><div class="link-svgline"><a href="#" data-filter=".photos" title="">Photos<svg class="link-svgline"><use xlink:href="#svg_line"></use></svg></a></div></li>
+                                
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="clear"></div>
+            
+                <ul class="portfolio-wrap">
+                  
+                    <li class="portfolio-box videos ">
+                        <a class="expander" href="high-bar-video.html" title="Visa Championships">
+                            <img  src="/wp-content/images/high-bar.jpg" alt="" />  
+                            
+                            <figure class="effect-sadie">
+                                <figcaption>
+                                     <h5></h5> 
+                                    <p>2007 Visa Championships - Men<br>High Bar </p>
+                                </figcaption>           
+                            </figure>
+                        </a>            
+                    </li>   
+
+                    <li class="portfolio-box  videos">   
+                        <a class="expander" href="parallel-bars-video.html" title="Pan American Games">
+                            <img  src="/wp-content/images/pbars-sho-nakomori.jpg" alt="" />
+                            <figure class="effect-sadie">
+                                <figcaption>
+                                     <h5></h5> 
+                                      <p>(USA) PB TF Pan American Games Guadalajara 2011<br>Parallel Bars</p>
+                                </figcaption>           
+                            </figure>
+                        </a>    
+                    </li>
+                     
+                    <li class="portfolio-box  videos">   
+                        <a class="expander" href="adidas-video.html" title="Adidas - All In">
+                            <img  src="/wp-content/images/adidas.jpg" alt="" />  
+                            <figure class="effect-sadie">
+                                <figcaption>
+                                    <!-- <h5>Sho <span>Nakomory</span></h5> -->
+                                    <p>Adidas - All In Gymnastics<br>Commercial</p>
+                                </figcaption>           
+                            </figure>
+                        </a>            
+                    </li>
+
+                    <li class="portfolio-box videos ">
+                        <a class="expander" href="shoe-video.html" title="Inner youth">
+                            <img  src="/wp-content/images/shoe2.jpg" alt="" />  
+                            <figure class="effect-sadie">
+                                <figcaption>
+                                   <!--  <h5>Sho <span>Nakomory</span></h5> -->
+                                    <p>Keen Footwear <br>Commercial</p>
+                                </figcaption>           
+                            </figure>
+                        </a>            
+                    </li>   
+
+                    
+                    <li class="portfolio-box  photos">    
+                        <!-- <a class="expander" href="ajax-video-project.html" title=""> -->
+                           <!--  <a title="Pommel Horse" rel="prettyPhoto[gallery]" href="img/gallery/4.jpg">  -->
+                          <a class="expander" href="pommel-slider-gallery.html" title=""> 
+                            <img  src="/wp-content/images/4.jpg" alt="" />  
+                            <figure class="effect-sadie">
+                                <figcaption>
+                                   <!--  <h5>Sho <span>Nakomory</span></h5> -->
+                                    <p>MPSF Championships (Stanford, CA). <br>Pommel Horse.</p>
+                                </figcaption>           
+                            </figure>
+                               </a>  
+                    </li>       
+                   
+                    <li class="portfolio-box photos ">  
+                       <a class="expander" href="pbars-gallery.html" title=""> 
+                            <img  src="/wp-content/images/3.jpg" alt="" />
+                            <figure class="effect-sadie">
+                                <figcaption>
+                                    <!-- <h5>Sho <span>Nakomory</span></h5> -->
+                                    <p>  NCAA Championships (Minneapolis, MN). <br>Parallel Bar .</p>
+                                </figcaption>           
+                            </figure>
+                         </a>                 
+                    </li>   
+                   
+                    <li class="portfolio-box  photos">    
+                         <a class="expander" href="still-rings-gallery.html" title="still rings"> 
+                            <img  src="/wp-content/6.jpg" alt="" />
+                            <figure class="effect-sadie">
+                                <figcaption>
+                                   <!--  <h5>Sho <span>Nakomory</span></h5> -->
+                                    <p>MPSF Championships (Stanford, CA). <br>Still Rings .</p>
+                                </figcaption>           
+                            </figure>
+                         </a>           
+                    </li>   
+                    <li class="portfolio-box photos ">
+                         <a class="expander" href="high-bar-gallery.html" title="high-bar"> 
+                            <img  src="/wp-content/images/7.jpg" alt="" />  
+                            <figure class="effect-sadie">
+                                <figcaption>
+                                   <!--  <h5>Sho <span>Nakomory</span></h5> -->
+                                    <p>NCAA Championships (Minneapolis, MN) . <br>High Bar .</p>
+                                </figcaption>           
+                            </figure>
+                         </a>            
+                    </li>   
+                    
+                </ul>                   
+
+                <div class="clear"></div>   
+
+               <article class="text-left shoinfo">
+                   
+                    <p class="indent">He has trained numerous athletes with varying backgrounds - from competitive CrossFitters, yoga instructors, and professional dancers to individuals trying to achieve their fitness goals. Through his coaching experience, Sho developed the ideology for TotalTaiso: all fitness goals can be achieved by attaining the three main components required for gymnastics. These core elements - <b>strength, balance, and flexibility</b> - make up the fundamental principles of TotalTaiso. Sho's hope is to spread his knowledge of gymnastics and body movement to help people reach their personal fitness goals.</p>
+               </article> 
+                
+      
+    
+    </div>
+
+    
+
+      <!-- ABOUT US SECTION
+    ================================================== -->  
+    
+   
+
+
+    <section style="height:300px;">
+
+
+            <div class="clearfix"></div>
+           
+            
+            
+        </section>
 
 
 
-<?php include 'footer.php';?>
 
-<script>
-$(document).ready(function(){
-    $('.nav_link').removeClass('active');
-    $('#about_link').addClass('active');
-});
-</script>
-<script src="//vjs.zencdn.net/4.4/video.js"></script>
-    </body>
+        <!-- changed in variables.less @grid-float-breakpoint: 10px; //@screen-sm-min; @screen-phone; -->
+        <footer id="contact">
+            <div class="navbar navbar-inverse navbar-fixed-bottom ">
+                <div class="container">
+                    <div class=" navbar-collapse collapse" id="footer-body">
+                        <ul class="nav navbar-nav">
+                            
+            <div class="sixteen columns icons-footer">
+                <a href="#">&#xf099;</a>
+                <a href="#">&#xf0e1;</a>
+                <a class="fa-instagram" href="#"></a>
+                <a class="fa-facebook" href="#"></a>
+                <a class="fa-google" href="#"></a>
+                
+                
+            </div>  
+                           
+
+                    </div>
+
+
+                </div>
+            </div>
+        </footer>
+
+<script src="/wp-content/themes/sho_child/js/bannerscollection_zoominout.js" type="text/javascript"></script>
+</body>
 </html>
 
