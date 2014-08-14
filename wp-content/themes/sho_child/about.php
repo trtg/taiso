@@ -157,7 +157,7 @@ get_header(); ?>
                     </li>       
                    
                     <li class="portfolio-box photos ">  
-                       <a class="expander" href="pbars-gallery.html" title=""> 
+                       <a class="expander" href="/pbars-gallery" title=""> 
                             <img  src="/wp-content/images/3.jpg" alt="" />
                             <figure class="effect-sadie">
                                 <figcaption>
