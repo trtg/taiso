@@ -170,7 +170,7 @@ get_header(); ?>
                    
                     <li class="portfolio-box  photos">    
                          <a class="expander" href="still-rings-gallery.html" title="still rings"> 
-                            <img  src="/wp-content/6.jpg" alt="" />
+                            <img  src="/wp-content/images/6.jpg" alt="" />
                             <figure class="effect-sadie">
                                 <figcaption>
                                    <!--  <h5>Sho <span>Nakomory</span></h5> -->
@@ -243,6 +243,7 @@ get_header(); ?>
             </div>
         </footer> -->
 
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 <script src="/wp-content/themes/sho_child/js/bannerscollection_zoominout.js" type="text/javascript"></script>
 <script src="/wp-content/themes/sho_child/js/vendor/jquery.flexslider-min.js"></script> 
 <script src="/wp-content/themes/sho_child/js/vendor/isotope.js"></script>
