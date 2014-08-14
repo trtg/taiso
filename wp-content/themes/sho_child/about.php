@@ -143,7 +143,7 @@ get_header(); ?>
                     <li class="portfolio-box  photos">    
                         <!-- <a class="expander" href="ajax-video-project.html" title=""> -->
                            <!--  <a title="Pommel Horse" rel="prettyPhoto[gallery]" href="img/gallery/4.jpg">  -->
-                          <a class="expander" href="pommel-horse-gallery" title=""> 
+                          <a class="expander" href="/pommel-horse-gallery" title=""> 
                             <img  src="/wp-content/images/4.jpg" alt="" />  
                             <figure class="effect-sadie">
                                 <figcaption>
