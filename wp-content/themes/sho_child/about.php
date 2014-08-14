@@ -93,7 +93,7 @@ get_header(); ?>
                 <ul class="portfolio-wrap">
                   
                     <li class="portfolio-box videos ">
-                        <a class="expander" href="high-bar-video.html" title="Visa Championships">
+                        <a class="expander" href="/high-bar-video" title="Visa Championships">
                             <img  src="/wp-content/images/high-bar.jpg" alt="" />  
                             
                             <figure class="effect-sadie">
@@ -106,7 +106,7 @@ get_header(); ?>
                     </li>   
 
                     <li class="portfolio-box  videos">   
-                        <a class="expander" href="parallel-bars-video.html" title="Pan American Games">
+                        <a class="expander" href="/parallel-bars-video" title="Pan American Games">
                             <img  src="/wp-content/images/pbars-sho-nakomori.jpg" alt="" />
                             <figure class="effect-sadie">
                                 <figcaption>
@@ -118,7 +118,7 @@ get_header(); ?>
                     </li>
                      
                     <li class="portfolio-box  videos">   
-                        <a class="expander" href="adidas-video.html" title="Adidas - All In">
+                        <a class="expander" href="/adidas-video" title="Adidas - All In">
                             <img  src="/wp-content/images/adidas.jpg" alt="" />  
                             <figure class="effect-sadie">
                                 <figcaption>
@@ -129,7 +129,7 @@ get_header(); ?>
                     </li>
 
                     <li class="portfolio-box videos ">
-                        <a class="expander" href="shoe-video.html" title="Inner youth">
+                        <a class="expander" href="/shoe-video" title="Inner youth">
                             <img  src="/wp-content/images/shoe2.jpg" alt="" />  
                             <figure class="effect-sadie">
                                 <figcaption>
