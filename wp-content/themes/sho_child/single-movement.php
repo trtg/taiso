@@ -69,10 +69,10 @@ get_header(); ?>
                 <h2>Skill Progression</h2>
                 <div class="row">
                     <div class="col-xs-12 col-md-4">
-                    <h3>Easier: </h3>
                     <?php
                     // check if the repeater field has rows of data
                     if( have_rows('easier_movements') ):
+                        echo "<h3>Easier: </h3>";
                         // loop through the rows of data
                         echo "<ul>";
                     while ( have_rows('easier_movements') ) : 
