@@ -24,11 +24,9 @@ get_header(); ?>
     <!-- Bootstrap core CSS -->
     <link href='http://fonts.googleapis.com/css?family=Lato:300,400' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Abel' rel='stylesheet' type='text/css'>
-    <link href="css/bootstrap.css" rel="stylesheet">
-    <link href="css/bannerscollection_zoominout.css" rel="stylesheet">
+    <link href="/wp-content/themes/sho_child/css/bootstrap.css" rel="stylesheet">
+    <link href="/wp-content/themes/sho_child/css/bannerscollection_zoominout.css" rel="stylesheet">
     
-    <script src="js/jquery1.8.3.js" type="text/javascript"></script>  
-    <script src="js/jquery-ui.min.js"></script>
   
   
 
@@ -51,7 +49,7 @@ get_header(); ?>
 
 
     <link href="main.css" rel="stylesheet">
-    <link href="css/jquery.bxslider.css" rel="stylesheet" />
+    <link href="/wp-content/themes/sho_child/css/jquery.bxslider.css" rel="stylesheet" />
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
 </head>
 
@@ -164,6 +162,8 @@ TotalTaiso was built upon the <b>principles of gymnastics</b>, a sport that comb
 
         <!-- JavaScript -->
         
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+        <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.11.1/jquery-ui.min.js"></script>
         <script src="/wp-content/themes/sho_child/js/vendor/bootstrap.js"></script>
         <script src="/wp-content/themes/sho_child/js/vendor/jquery.flexslider-min.js"></script> 
         <script src="/wp-content/themes/sho_child/js/vendor/isotope.js"></script>
