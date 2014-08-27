@@ -72,7 +72,7 @@ TotalTaiso was built upon the <b>principles of gymnastics</b>, a sport that comb
  <ul class="portfolio-wrap2">
                   
              <li class="portfolio-box  photos">    
-                           <img  src="/wp-content/images/strength.jpg" alt="STRENGTH" />  
+                           <img  src="/wp-content/images/about_taiso/strength.jpg" alt="STRENGTH" />  
                             <figure class="effect-sadie">
                                 <figcaption>
                                   <!-- <h5>STRENGTH <span></span></h5>  -->
@@ -83,7 +83,7 @@ TotalTaiso was built upon the <b>principles of gymnastics</b>, a sport that comb
                     </li>       
                    
                     <li class="portfolio-box photos ">  
-                       <img  src="/wp-content/images/sho-nakomori-balance.jpg" alt="balance" />
+                       <img  src="/wp-content/images/about_taiso/sho-nakomori-balance.jpg" alt="balance" />
                             <figure class="effect-sadie">
                                 <figcaption>
                                     <!--  <h5>BALANCE <span></span></h5>  -->
@@ -94,7 +94,7 @@ TotalTaiso was built upon the <b>principles of gymnastics</b>, a sport that comb
                     </li>   
                    
                     <li class="portfolio-box  photos">    
-                       <img  src="/wp-content/images/flexibility.jpg" alt="FLEXIBILITY" />
+                       <img  src="/wp-content/images/about_taiso/flexibility.jpg" alt="FLEXIBILITY" />
                             <figure class="effect-sadie">
                                 <figcaption>
                                 <!-- <h5>FLEXIBILITY <span></span></h5> -->
