@@ -48,7 +48,7 @@ get_header(); ?>
     <!-- Add custom CSS here -->
 
 
-    <link href="main.css" rel="stylesheet">
+    <link href="/wp-content/themes/sho_child/css/about_taiso.css" rel="stylesheet">
     <link href="/wp-content/themes/sho_child/css/jquery.bxslider.css" rel="stylesheet" />
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
 </head>
