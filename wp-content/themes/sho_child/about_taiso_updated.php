@@ -119,45 +119,11 @@ TotalTaiso was built upon the <b>principles of gymnastics</b>, a sport that comb
 
 <!-- end  about taiso -->
 
-<!--
- <!-- Footer -->
-    <footer>
-        <div class="container no-padding">
-            
-            <a id="back-top"><div id="menu_top"><div id="menu_top_inside"></div></div></a>
-            
-        </div>
-    </footer>
-    <!--/Footer -->
 
- 
 
 
         <!-- changed in variables.less @grid-float-breakpoint: 10px; //@screen-sm-min; @screen-phone; -->
         
-        <footer id="contactfooter">
-            <div class="navbar navbar-inverse navbar-fixed-bottom ">
-                <div class="container">
-                    <div class=" navbar-collapse collapse" id="footer-body">
-                        <ul class="nav navbar-nav">
-                            
-            <div class="sixteen columns icons-footer">
-                <a href="#"><img src="img/social-icons/facebook.png" alt="" /></a>
-                <a href="#"><img src="img/social-icons/twitter.png" alt="" /></a>
-                <a href="#"><img src="img/social-icons/google.png" alt="" /></a>
-                <a href="#"><img src="img/social-icons/mail.png" alt="" /></a>
-                <a href="#"><img src="img/social-icons/youtube.png" alt="" /></a>
-                
-            </div>  
-                           
-
-                    </div>
-
-
-                </div>
-            </div>
-        </footer>
--->
 
 
 
