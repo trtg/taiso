@@ -54,6 +54,7 @@ get_header(); ?>
 </head>
 
 <body>
+<?php include 'navbar.php';?>
 
 
 
@@ -118,7 +119,7 @@ TotalTaiso was built upon the <b>principles of gymnastics</b>, a sport that comb
 
 <!-- end  about taiso -->
 
-
+<!--
  <!-- Footer -->
     <footer>
         <div class="container no-padding">
@@ -156,7 +157,7 @@ TotalTaiso was built upon the <b>principles of gymnastics</b>, a sport that comb
                 </div>
             </div>
         </footer>
-
+-->
 
 
 
