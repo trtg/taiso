@@ -91,6 +91,8 @@ get_header(); ?>
                     <?php
                         endwhile;
                         echo "</ul>";
+                    else:
+                        echo "<h3>N/A</h3>";
                     endif;
                     ?>
                     </div>
@@ -119,6 +121,8 @@ get_header(); ?>
                     <?php
                         endwhile;
                         echo "</ul>";
+                        else:
+                            echo "<h3>N/A</h3>";
                     endif;
                     ?>
 
