@@ -461,6 +461,9 @@ i.scroll {
 i.scroll:hover {
     color: #0a5175;
 }
+section.contact {
+    padding-top:20px;
+}
 #contactfooter .container {
     margin-top: 15px;
 }
