@@ -12,18 +12,6 @@ get_header(); ?>
 
 <body>
 <?php include 'navbar.php';?>
-                    <div id="the_wrapper" class="container">
-                        <div class="row">
-
-                            <div class="col-xs-12 col-sm-12 col-md-12" >
-
-                            <?php echo do_shortcode( '[contact-form-7 id="48" title="Contact form 1"]' ); ?>
-
-                            </div>
-
-                        </div>
-                    </div><!--/the_wrapper-->
-
     <section class="contact" id="contact">
     
         <div class="container">
@@ -34,14 +22,14 @@ get_header(); ?>
                 <div class="sub-text-line"></div>
             </div>
             <div class="row">
-                <div class="sub-text link-svgline">Let us work with you to achive <a href="#" data-gal="m_PageScroll2id" data-ps2id-offset="65">your goals<svg class="link-svgline"><use xlink:href="#svg_line"></use></svg></a> </div>
+                <div class="sub-text link-svgline">Let us work with you to achieve <a href="#" data-gal="m_PageScroll2id" data-ps2id-offset="65">your goals<svg class="link-svgline"><use xlink:href="#svg_line"></use></svg></a> </div>
             </div>
             <div class="clear"></div>
             <div class="row">
                 <h4>for questions, feel free to contact us</h4>
             </div>      
             <div class="clear"></div>
-            <form name="ajax-form" id="ajax-form" action="mail-it.php" method="post">
+            <form name="ajax-form" id="ajax-form" action="/wp-content/themes/sho_child/mail-it.php" method="post">
                <div class="row">
                 <div class="col-lg-6 col-md-6 col-sm-6  col-xs-12 data">
                     <label for="name"> 
