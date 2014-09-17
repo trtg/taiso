@@ -9,7 +9,7 @@
 /* Code by David McKeown - craftedbydavid.com */
 /* Editable entries are below */
 
-$send_to = "snakamori@gmail.com";
+$send_to = "sebastian@lumoback.com";
 $send_subject = "New Taiso email";
 
 
@@ -50,8 +50,9 @@ if (!$f_email) {
 	exit;
 }else{
 	if (filter_var($f_email, FILTER_VALIDATE_EMAIL)) {
-		mail($send_to, $send_subject, $message, $headers);
-		echo "true";
+		$result_of_email = mail($send_to, $send_subject, $message, $headers);
+		echo "result was:";
+        var_dump($result_of_email);
 	}else{
 		echo "invalid email";
 		exit;
