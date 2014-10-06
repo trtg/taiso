@@ -205,7 +205,7 @@
 
                     <li class="portfolio-box  videos">   
                         <a class="expander" href="/parallel-bars-video" title="Pan American Games">
-                            <img  src="/wp-content/images/gallery/pbars-sho-nakomori.jpg" alt="" />
+                            <img  src="/wp-content/images/gallery/pbars-sho-nakamori.jpg" alt="" />
                             <figure class="effect-sadie">
                                 <figcaption>
                                      <h5></h5> 
