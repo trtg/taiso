@@ -984,7 +984,7 @@ body.royal_loader {
 	}
 	
 	.pattern {
-		background:url(images/pattern.png) repeat;
+		background:url(/wp-content/images/pattern.png) repeat;
 		width:100%;
 		height:100%;
 	}
