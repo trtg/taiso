@@ -1,25 +1,41 @@
-<?php
-/**
- * displays footer and holds any javascript includes
- * that appear at the end of <body>
- */
-?>
-<hr>
+<!-- Footer -->
+    <footer>
+        <div class="container no-padding">
+            
+            <a id="back-top"><div id="menu_top"><div id="menu_top_inside"></div></div></a>
 
-      <footer>
-        <p class="copyright_text">&copy; Total Taiso 2014</p>
-      </footer>
-    </div> <!-- /container -->        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.1.min.js"><\/script>')</script>
+            <!--  <div class="fb-like" data-href="https://developers.facebook.com/docs/plugins/" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div> -->
 
-        <script src="/wp-content/themes/sho_child/js/vendor/bootstrap.min.js"></script>
+            <div id="socialicons-container">  
+                 
+                 <ul class="icons-footer">
+                       <li> <a href="#"><img src="images/social-icons/facebook.png" alt="" /></a></li>
+                       <li><a href="#"><img src="images/social-icons/insta.png" alt="" /></a></li>
+                       <li><a href="#"><img src="images/social-icons/twitter.png" alt="" /></a></li>
+                        <li><a href="#"><img src="images/social-icons/google.png" alt="" /></a></li> 
+                        <li><a href="#"><img src="images/social-icons/youtube.png" alt="" /></a></li> 
+                       <li><a href="contact.php"><img src="images/social-icons/mail.png" alt="" /></a></li>
+                     <!--   <li>
+                        
+                       </li> -->
+                 </ul> 
+              
+              </div> 
 
-        <script src="/wp-content/themes/sho_child/js/main.js"></script>
 
-        <script>
-            var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
-            (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
-            g.src='//www.google-analytics.com/ga.js';
-            s.parentNode.insertBefore(g,s)}(document,'script'));
-        </script>
+              <div class="disclaimerFaq">
+                  <ul>
+                    <li><a class="" href="faq.php"><span>Faq</span></a><span> / </span><a class="" href="disclaimer.php"><span>Disclaimer</span></a> </li>
+                    
+                  </ul>
+          
+
+              </div>
+
+             <span>&copy;2014 TotalTaiso Crafted in California</span>
+            
+        </div>
+    </footer>
+    <!--/Footer -->
+
 
