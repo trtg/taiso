@@ -72,7 +72,7 @@
     
     
     
-    <link rel="stylesheet" href="css/prettyPhoto.css" type="text/css" media="screen" />    
+    <link rel="stylesheet" href="/wp-content/themes/sho_child/css/prettyPhoto.css" type="text/css" media="screen" />    
     <link href="/wp-content/themes/sho_child/css/jquery.bxslider.css" rel="stylesheet" />
     <link href="/wp-content/themes/sho_child/css/font-awesome.min.css" rel="stylesheet" />
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700' rel='stylesheet' type='text/css' />
