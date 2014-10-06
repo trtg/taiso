@@ -191,7 +191,7 @@
                 <ul class="portfolio-wrap">
                   
                     <li class="portfolio-box videos ">
-                        <a class="expander" href="aboutsho/high-bar-video.html" title="Visa Championships">
+                        <a class="expander" href="/high-bar-video" title="Visa Championships">
                             <img  src="/wp-content/images/gallery/high-bar.jpg" alt="" />  
                             
                             <figure class="effect-sadie">
@@ -204,7 +204,7 @@
                     </li>   
 
                     <li class="portfolio-box  videos">   
-                        <a class="expander" href="aboutsho/parallel-bars-video.html" title="Pan American Games">
+                        <a class="expander" href="/parallel-bars-video" title="Pan American Games">
                             <img  src="/wp-content/images/gallery/pbars-sho-nakomori.jpg" alt="" />
                             <figure class="effect-sadie">
                                 <figcaption>
@@ -216,7 +216,7 @@
                     </li>
                      
                     <li class="portfolio-box  videos">   
-                        <a class="expander" href="aboutsho/adidas-video.html" title="Adidas - All In">
+                        <a class="expander" href="/adidas-video" title="Adidas - All In">
                             <img  src="/wp-content/images/gallery/adidas.jpg" alt="" />  
                             <figure class="effect-sadie">
                                 <figcaption>
@@ -228,7 +228,7 @@
                     </li>
 
                     <li class="portfolio-box videos ">
-                        <a class="expander" href="aboutsho/shoe-video.html" title="Inner youth">
+                        <a class="expander" href="/shoe-video" title="Inner youth">
                             <img  src="/wp-content/images/gallery/shoe2.jpg" alt="" />  
                             <figure class="effect-sadie">
                                 <figcaption>
@@ -243,7 +243,7 @@
                     <li class="portfolio-box  photos">    
                         <!-- <a class="expander" href="ajax-video-project.html" title=""> -->
                            <!--  <a title="Pommel Horse" rel="prettyPhoto[gallery]" href="images/gallery/4.jpg">  -->
-                          <a class="expander" href="aboutsho/pommel-slider-gallery.html" title=""> 
+                          <a class="expander" href="/pommel-horse-gallery" title=""> 
                             <img  src="/wp-content/images/gallery/4.jpg" alt="" />  
                             <figure class="effect-sadie">
                                 <figcaption>
@@ -255,7 +255,7 @@
                     </li>       
                    
                     <li class="portfolio-box photos ">  
-                       <a class="expander" href="aboutsho/pbars-gallery.html" title=""> 
+                       <a class="expander" href="/pbars-gallery" title=""> 
                             <img  src="/wp-content/images/gallery/3.jpg" alt="" />
                             <figure class="effect-sadie">
                                 <figcaption>
@@ -267,7 +267,7 @@
                     </li>   
                    
                     <li class="portfolio-box  photos">    
-                         <a class="expander" href="aboutsho/still-rings-gallery.html" title="still rings"> 
+                         <a class="expander" href="/still-rings-gallery" title="still rings"> 
                             <img  src="/wp-content/images/gallery/6.jpg" alt="" />
                             <figure class="effect-sadie">
                                 <figcaption>
@@ -278,7 +278,7 @@
                          </a>           
                     </li>   
                     <li class="portfolio-box photos ">
-                         <a class="expander" href="aboutsho/high-bar-gallery.html" title="high-bar"> 
+                         <a class="expander" href="/high-bar-gallery" title="high-bar"> 
                             <img  src="/wp-content/images/gallery/7.jpg" alt="" />  
                             <figure class="effect-sadie">
                                 <figcaption>
