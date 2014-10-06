@@ -75,7 +75,7 @@
     width: 100%;
     margin:0;
     padding: 0;
-    background: url(images/sho_pommel_horse-desktop.jpg) no-repeat center center fixed   ;
+    background: url(/wp-content/images/sho_pommel_horse-desktop.jpg) no-repeat center center fixed   ;
     /*background: url(images/sho_pommel_horse.jpg) no-repeat center center fixed;*/
     -webkit-background-size: cover;
     -moz-background-size: cover;
