@@ -48,7 +48,7 @@
              <li data-slide="8"></li>
     </ul>
     <div class="vertical-logo">
-        <a href="#"><img title="presence" alt="presence" src="images/vertical-logo.png"/></a>
+        <a href="#"><img title="presence" alt="presence" src="/wp-content/images/vertical-logo.png"/></a>
     </div>
 
 </div>
