@@ -127,10 +127,10 @@
 
             <div class="sixteen columns icons-footer" >
                <a class="" href="#"> 
-                <img src="images/twitter-60x60.png">
+                <img src="/wp-content/images/twitter_logo_60x60.png">
                </a>
                <a class="" href="#"> 
-                <img src="images/instagram.png">
+                <img src="/wp-content/images/instagram_logo_60x60.png">
                </a>
 
                 <!-- <a class="fa-instagram" href="#"></a>
