@@ -14,7 +14,7 @@
                        <li><a href="#"><img src="/wp-content/images/social-icons/twitter.png" alt="" /></a></li>
                         <li><a href="#"><img src="/wp-content/images/social-icons/google.png" alt="" /></a></li> 
                         <li><a href="#"><img src="/wp-content/images/social-icons/youtube.png" alt="" /></a></li> 
-                       <li><a href="contact.php"><img src="images/social-icons/mail.png" alt="" /></a></li>
+                       <li><a href="contact.php"><img src="/wp-content/images/social-icons/mail.png" alt="" /></a></li>
                      <!--   <li>
                         
                        </li> -->
