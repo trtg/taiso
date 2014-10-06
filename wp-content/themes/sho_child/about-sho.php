@@ -63,18 +63,18 @@
 
 
 
-    <link href="css/bootstrap.min.css" rel="stylesheet" />   
-    <link href="css/fancymenu.css"  rel="stylesheet"> 
-     <link href="style.css" rel="stylesheet" /> 
-     <link href="aboutsho.css" rel="stylesheet" />
+    <link href="/wp-content/themes/sho_child/css/bootstrap.min.css" rel="stylesheet" />   
+    <link href="/wp-content/themes/sho_child/css/fancymenu.css"  rel="stylesheet"> 
+     <link href="/wp-content/themes/sho_child/css/style.css" rel="stylesheet" /> 
+     <link href="/wp-content/themes/sho_child/css/aboutsho.css" rel="stylesheet" />
     
     
     
     
     
     <link rel="stylesheet" href="css/prettyPhoto.css" type="text/css" media="screen" />    
-    <link href="css/jquery.bxslider.css" rel="stylesheet" />
-    <link href="css/font-awesome.min.css" rel="stylesheet" />
+    <link href="/wp-content/themes/sho_child/css/jquery.bxslider.css" rel="stylesheet" />
+    <link href="/wp-content/themes/sho_child/css/font-awesome.min.css" rel="stylesheet" />
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700' rel='stylesheet' type='text/css' />
     <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
 
@@ -123,7 +123,7 @@
         
 
      <div class="imageWrapper">
-        <img src="images/v.jpg" class="v-sho">     
+        <img src="/wp-content/images/v.jpg" class="v-sho">     
 
             <div class="sixteen columns icons-footer" >
                <a class="" href="#"> 
@@ -192,7 +192,7 @@
                   
                     <li class="portfolio-box videos ">
                         <a class="expander" href="aboutsho/high-bar-video.html" title="Visa Championships">
-                            <img  src="images/gallery/high-bar.jpg" alt="" />  
+                            <img  src="/wp-content/images/gallery/high-bar.jpg" alt="" />  
                             
                             <figure class="effect-sadie">
                                 <figcaption>
@@ -205,7 +205,7 @@
 
                     <li class="portfolio-box  videos">   
                         <a class="expander" href="aboutsho/parallel-bars-video.html" title="Pan American Games">
-                            <img  src="images/gallery/pbars-sho-nakomori.jpg" alt="" />
+                            <img  src="/wp-content/images/gallery/pbars-sho-nakomori.jpg" alt="" />
                             <figure class="effect-sadie">
                                 <figcaption>
                                      <h5></h5> 
@@ -217,7 +217,7 @@
                      
                     <li class="portfolio-box  videos">   
                         <a class="expander" href="aboutsho/adidas-video.html" title="Adidas - All In">
-                            <img  src="images/gallery/adidas.jpg" alt="" />  
+                            <img  src="/wp-content/images/gallery/adidas.jpg" alt="" />  
                             <figure class="effect-sadie">
                                 <figcaption>
                                     <!-- <h5>Sho <span>Nakomory</span></h5> -->
@@ -229,7 +229,7 @@
 
                     <li class="portfolio-box videos ">
                         <a class="expander" href="aboutsho/shoe-video.html" title="Inner youth">
-                            <img  src="images/gallery/shoe2.jpg" alt="" />  
+                            <img  src="/wp-content/images/gallery/shoe2.jpg" alt="" />  
                             <figure class="effect-sadie">
                                 <figcaption>
                                    <!--  <h5>Sho <span>Nakomory</span></h5> -->
@@ -244,7 +244,7 @@
                         <!-- <a class="expander" href="ajax-video-project.html" title=""> -->
                            <!--  <a title="Pommel Horse" rel="prettyPhoto[gallery]" href="images/gallery/4.jpg">  -->
                           <a class="expander" href="aboutsho/pommel-slider-gallery.html" title=""> 
-                            <img  src="images/gallery/4.jpg" alt="" />  
+                            <img  src="/wp-content/images/gallery/4.jpg" alt="" />  
                             <figure class="effect-sadie">
                                 <figcaption>
                                    <!--  <h5>Sho <span>Nakomory</span></h5> -->
@@ -256,7 +256,7 @@
                    
                     <li class="portfolio-box photos ">  
                        <a class="expander" href="aboutsho/pbars-gallery.html" title=""> 
-                            <img  src="images/gallery/3.jpg" alt="" />
+                            <img  src="/wp-content/images/gallery/3.jpg" alt="" />
                             <figure class="effect-sadie">
                                 <figcaption>
                                     <!-- <h5>Sho <span>Nakomory</span></h5> -->
@@ -268,7 +268,7 @@
                    
                     <li class="portfolio-box  photos">    
                          <a class="expander" href="aboutsho/still-rings-gallery.html" title="still rings"> 
-                            <img  src="images/gallery/6.jpg" alt="" />
+                            <img  src="/wp-content/images/gallery/6.jpg" alt="" />
                             <figure class="effect-sadie">
                                 <figcaption>
                                    <!--  <h5>Sho <span>Nakomory</span></h5> -->
@@ -279,7 +279,7 @@
                     </li>   
                     <li class="portfolio-box photos ">
                          <a class="expander" href="aboutsho/high-bar-gallery.html" title="high-bar"> 
-                            <img  src="images/gallery/7.jpg" alt="" />  
+                            <img  src="/wp-content/images/gallery/7.jpg" alt="" />  
                             <figure class="effect-sadie">
                                 <figcaption>
                                    <!--  <h5>Sho <span>Nakomory</span></h5> -->
@@ -318,15 +318,15 @@
 
 
     <script src='http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.js'></script>
-    <script src="js/jquery.sticky.js"></script>     
-    <script src="js/jquery.easing-1.3.pack.js" type="text/javascript"></script>
-    <script src="js/bootstrap.min.js" type="text/javascript"></script>
-    <script src="js/jquery.parallax-1.1.3.js" type="text/javascript"></script>
-    <script src="js/appear.js" type="text/javascript" ></script>
-    <script src="js/modernizr.js" type="text/javascript"></script>
+    <script src="/wp-content/themes/sho_child/js/jquery.sticky.js"></script>     
+    <script src="/wp-content/themes/sho_child/js/jquery.easing-1.3.pack.js" type="text/javascript"></script>
+    <script src="/wp-content/themes/sho_child/js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="/wp-content/themes/sho_child/js/jquery.parallax-1.1.3.js" type="text/javascript"></script>
+    <script src="/wp-content/themes/sho_child/js/appear.js" type="text/javascript" ></script>
+    <script src="/wp-content/themes/sho_child/js/modernizr.js" type="text/javascript"></script>
 
     
-    <script type="text/javascript" src="js/royal_preloader.min.js"></script>
+    <script type="text/javascript" src="/wp-content/themes/sho_child/js/royal_preloader.min.js"></script>
     <script type="text/javascript">
         (function($) { "use strict";
                     Royal_Preloader.config({
@@ -340,19 +340,19 @@
         })(jQuery);
     </script>
     
-    <script src="js/jquery.prettyPhoto.js" type="text/javascript"></script>
-    <script src="js/isotope.js" type="text/javascript"></script>
-    <script src="js/jquery.bxslider.min.js"></script>
-    <script type="text/javascript" src="js/jquery.tweet.js"></script>
-    <script src="js/jquery.cycle.all.js" type="text/javascript" charset="utf-8"></script>
-    <script src="js/jquery.maximage.js" type="text/javascript" charset="utf-8"></script>
-    <script src="js/sscr.js"></script>
-    <script src="js/skrollr.js"></script>
-    <script src="js/jquery.jigowatt.js"></script>
-    <script src="js/classie.js" type="text/javascript"></script>
-    <script src="js/fancymenu-rollin.js" type="text/javascript"></script>
+    <script src="/wp-content/themes/sho_child/js/jquery.prettyPhoto.js" type="text/javascript"></script>
+    <script src="/wp-content/themes/sho_child/js/isotope.js" type="text/javascript"></script>
+    <script src="/wp-content/themes/sho_child/js/jquery.bxslider.min.js"></script>
+    <script src="/wp-content/themes/sho_child/js/jquery.tweet.js"></script>
+    <script src="/wp-content/themes/sho_child/js/jquery.cycle.all.js" type="text/javascript" charset="utf-8"></script>
+    <script src="/wp-content/themes/sho_child/js/jquery.maximage.js" type="text/javascript" charset="utf-8"></script>
+    <script src="/wp-content/themes/sho_child/js/sscr.js"></script>
+    <script src="/wp-content/themes/sho_child/js/skrollr.js"></script>
+    <script src="/wp-content/themes/sho_child/js/jquery.jigowatt.js"></script>
+    <script src="/wp-content/themes/sho_child/js/classie.js" type="text/javascript"></script>
+    <script src="/wp-content/themes/sho_child/js/fancymenu-rollin.js" type="text/javascript"></script>
     
-     <script src="js/absho.js" type="text/javascript"></script> 
+     <script src="/wp-content/themes/sho_child/js/absho.js" type="text/javascript"></script> 
 
         
      
