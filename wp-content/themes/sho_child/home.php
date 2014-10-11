@@ -20,18 +20,18 @@
     
     
     
-    <link href="css/bootstrap.min.css" rel="stylesheet" />   
-    <link href="css/fancymenu.css"  rel="stylesheet"> 
-    <link href="style.css" rel="stylesheet" />
+    <link href="/wp-content/themes/sho_child/css/bootstrap.min.css" rel="stylesheet" />   
+    <link href="/wp-content/themes/sho_child/css/fancymenu.css"  rel="stylesheet"> 
+    <link href="/wp-content/themes/sho_child/css/style.css" rel="stylesheet" />
 
     
   <!-- delete after -->
-    <link rel="stylesheet" href="css/prettyPhoto.css" type="text/css" media="screen" />    
-    <link href="css/jquery.bxslider.css" rel="stylesheet" />
+    <link rel="stylesheet" href="/wp-content/themes/sho_child/css/prettyPhoto.css" type="text/css" media="screen" />    
+    <link href="/wp-content/themes/sho_child/css/jquery.bxslider.css" rel="stylesheet" />
   <!-- delete after -->
 
 
-    <link href="css/font-awesome.min.css" rel="stylesheet" />
+    <link href="/wp-content/themes/sho_child/css/font-awesome.min.css" rel="stylesheet" />
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700' rel='stylesheet' type='text/css' />    
     <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
    
@@ -394,22 +394,20 @@
     
  
 	
-	<!-- <script  src='http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.js'></script> -->
-    
-    <script  src="js/jquery-1.8.3.min.js"></script> 
-    <script  src="js/jquery.sticky.js"></script>        
-    <script  src="js/jquery.easing-1.3.pack.js" type="text/javascript"></script>
-	<script  src="js/bootstrap.min.js" type="text/javascript"></script>
-	<script  src="js/modernizr.js" type="text/javascript"></script>
-    <script src="js/appear.js"></script>
-    <script  src="js/jquery.parallax-1.1.3.js" type="text/javascript"></script>
-	<script src="js/jquery.prettyPhoto.js" type="text/javascript"></script>
-    <script  src="js/isotope.js" type="text/javascript"></script> 
-    <script src="js/jquery.bxslider.min.js"></script>
+	<script  src='//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js'></script>
+    <script  src="/wp-content/themes/sho_child/js/jquery.sticky.js"></script>        
+    <script  src="/wp-content/themes/sho_child/js/jquery.easing-1.3.pack.js" type="text/javascript"></script>
+	<script  src="/wp-content/themes/sho_child/js/bootstrap.min.js" type="text/javascript"></script>
+	<script  src="/wp-content/themes/sho_child/js/modernizr.js" type="text/javascript"></script>
+    <script src="/wp-content/themes/sho_child/js/appear.js"></script>
+    <script  src="/wp-content/themes/sho_child/js/jquery.parallax-1.1.3.js" type="text/javascript"></script>
+	<script src="/wp-content/themes/sho_child/js/jquery.prettyPhoto.js" type="text/javascript"></script>
+    <script  src="/wp-content/themes/sho_child/js/isotope.js" type="text/javascript"></script> 
+    <script src="/wp-content/themes/sho_child/js/jquery.bxslider.min.js"></script>
 
 
     
-    <script type="text/javascript" src="js/royal_preloader.min.js"></script>
+    <script src="/wp-content/themes/sho_child/js/royal_preloader.min.js"></script>
     <script type="text/javascript">
         (function($) { "use strict";
                     Royal_Preloader.config({
@@ -426,16 +424,15 @@
 
     
     
-    <script src="js/jquery.cycle.all.js" type="text/javascript" charset="utf-8"></script>
-	<script src="js/jquery.maximage.js" type="text/javascript" charset="utf-8"></script>
-    <script src="js/sscr.js"></script>
-    <script src="js/skrollr.js"></script>
-    <script src="js/jquery.jigowatt.js"></script>
-    <script src="js/classie.js" type="text/javascript"></script>
-    <script src="js/fancymenu-rollin.js" type="text/javascript"></script>
+    <script src="/wp-content/themes/sho_child/js/jquery.cycle.all.js" type="text/javascript" charset="utf-8"></script>
+	<script src="/wp-content/themes/sho_child/js/jquery.maximage.js" type="text/javascript" charset="utf-8"></script>
+    <script src="/wp-content/themes/sho_child/js/sscr.js"></script>
+    <script src="/wp-content/themes/sho_child/js/skrollr.js"></script>
+    <script src="/wp-content/themes/sho_child/js/jquery.jigowatt.js"></script>
+    <script src="/wp-content/themes/sho_child/js/classie.js" type="text/javascript"></script>
+    <script src="/wp-content/themes/sho_child/js/fancymenu-rollin.js" type="text/javascript"></script>
 	
-    <script src="js/jquery.jigowatt.js"></script>
-    <script src="js/scripts.js" type="text/javascript"></script>
+    <script src="/wp-content/themes/sho_child/js/scripts.js" type="text/javascript"></script>
     
     
 	
