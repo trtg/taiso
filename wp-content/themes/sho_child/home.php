@@ -1,128 +1,454 @@
 <?php
-/*Template Name: sho_home
+/*Template Name: new_home
  */
 ?>
-<?php include 'header.php'; ?>
-<body>
-<?php include 'navbar.php';?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
 
-<div id="this-carousel-id" class="carousel slide"><!-- class of slide for animation -->
-  <div class="carousel-inner">
-    <div class="item active"><!-- class of active since it's the first item -->
-      <img src="/wp-content/images/banner.jpg" alt="" />
-      <div class="carousel-caption">
-        <img src="/wp-content/images/gymnastics_30.png">
-      </div>
-    </div>
-    <div class="item">
-      <img src="/wp-content/images/strength.jpg" alt="" />
-      <div class="carousel-caption">
-        <img src="/wp-content/images/strength_half.png">
-      </div>
-    </div>
-    <div class="item">
-      <img src="/wp-content/images/balance.jpg" alt="" />
-      <div class="carousel-caption">
-        <img src="/wp-content/images/balance_half.png">
-      </div>
-    </div>
-    <div class="item">
-      <img src="/wp-content/images/flexibility.jpg" alt="" />
-      <div class="carousel-caption">
-        <img src="/wp-content/images/flexibility_half.png">
-      </div>
-    </div>
-</div><!-- /.carousel-inner -->
-  <!--  Next and Previous controls below
-        href values must reference the id for this carousel -->
-    <!--the gym_side_image class does not move with the slides and is full height-->
-    <!--<img class="gym_side_image" src="/wp-content/images/gymnastics_30.png">-->
-    <a class="carousel-control left" href="#this-carousel-id" data-slide="prev">&lsaquo;</a>
-    <a class="carousel-control right" href="#this-carousel-id" data-slide="next">&rsaquo;</a>
-</div><!-- /.carousel -->
+    <title>Taiso</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=0" />
 
-    <!-- Main jumbotron for a primary marketing message or call to action -->
-    <!--<div class="jumbotron">
-      <div class="container">
-        <h1>Gymnastics for all</h1>
-        <p>Put some stuff here</p>
-        <p><a class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
-      </div>
-    </div>-->
+    <meta name="description" content="TotalTaiso" />
+    <meta name="author" content="Sho Nakomori">
+    <meta charset="UTF-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+	<!-- <link rel="icon" type="image/ico" href="images/tticon.ico" /> -->
+    
+    
+    
+    <link href="css/bootstrap.min.css" rel="stylesheet" />   
+    <link href="css/fancymenu.css"  rel="stylesheet"> 
+    <link href="style.css" rel="stylesheet" />
 
-<?php $wods = new WP_Query(array(
-    'post_type' => 'wod'
-));?>
+    
+  <!-- delete after -->
+    <link rel="stylesheet" href="css/prettyPhoto.css" type="text/css" media="screen" />    
+    <link href="css/jquery.bxslider.css" rel="stylesheet" />
+  <!-- delete after -->
 
-<div class="jumbotron wod_header">
-<h1>Taiso WOD:</h1>
-</div>
-    <div class="container">
-<?php $is_latest_wod = 1; 
-$wod_index = 0;
-?>
-<?php while($wods->have_posts()) : $wods->the_post();?>
-      <!-- Example row of columns -->
-          <div class="row <? if ($is_latest_wod) {echo 'latest_wod';} ?>">
-        <div class="col-xs-2 col-lg-2">
-            <div class="date">
-                <?php $wod_date = DateTime::createFromFormat('Ymd',get_field('wod_date'));?> 
-                <p style="font-size:12px; margin:0 0 0px;text-align:left"> <?php echo $wod_date->format('M');?></p><p> <?php echo $wod_date->format('d');?> <span><?php echo $wod_date->format('Y');?> </span></p>
+
+    <link href="css/font-awesome.min.css" rel="stylesheet" />
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700' rel='stylesheet' type='text/css' />    
+    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+   
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="75" class="royal_loader">
+
+
+<!--  begin of  fb google plus  share icons-->
+
+<!-- <div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.0";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<script src="https://apis.google.com/js/platform.js" async defer></script>	 -->
+
+<!--  end of  fb google plus  share icons-->
+    
+    <?php  include 'menu.php'; ?>
+ 
+    <!-- Preloader -->
+    <!-- <div class="mask"><div id="loader"></div></div> -->
+    <!--/Preloader -->
+   
+
+
+
+    
+    
+	<!-- Home Section -->
+	<div id="home">
+
+            <ul class="logo">
+                <li> <img class="" src="images/tt_logo.png"height="50px;" width="50px;"  alt="TotalTaiso"></li>
+                <li><img class="" src="images/tt_letters.png"height="120px;" width="200px;"  alt="TotalTaiso"></li>
+            </ul>
+
+           
+    	    
+        	
+
+
+            <a id="slider_left"><img src="images/arrow_left.png" alt="Slide Left" /></a>
+			<a id="slider_right"><img src="images/arrow_right.png" alt="Slide Right" /></a>
+        	<img id="cycle-loader" src="images/ajax-loader.gif" />
+			<div id="fullscreen-slider">
+            
+            	<div>
+                    <img src="images/fs1.jpg" alt="" />
+                    <div class="pattern">
+                        <div class="slide-content light">
+                            <div class="div-align-center gymnasticsLetter">              
+                                
+                                <h1><img src="images/gymnastics.png" height="200px;" width="150px;" ></h1>                        
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div>
+                    <img src="images/fs2.jpg" alt="" />
+                    <div class="pattern">
+                    <div class="slide-content light"> 
+                        <div class="div-align-center">                   
+							<h1><img src="images/strength.png" height="200px;" width="150px;" ></h1>                        
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                
+               
+
+
+
+                 <div>
+                    <img src="images/fs4.jpg" alt="" />
+                    <div class="pattern">
+                    <div class="slide-content light"> 
+                        <div class="div-align-center">                   
+                            <h1><img src="images/balance.png" height="200px;" width="150px;" ></h1>  
+                                                    
+                            
+                        </div>
+                    </div>
+                    </div>
+                </div>
+
+                 
+                 <div>
+                    <img src="images/fs3.jpg" alt="" />
+                    <div class="pattern">
+                    <div class="slide-content light"> 
+                        <div class="div-align-center">                   
+                            <h1><img src="images/flexibility.png" height="200px;" width="150px;" ></h1>                        
+                                                    
+                            
+                        </div>
+                    </div>
+                    </div>
+                </div>
+
+
+                
             </div>
+        
+	</div>	
+	<!-- End Home Section -->
+    
+    
+    
+    
+	
+    
+    
+       
+              
+            
+        
+    
+   
+      <!-- WOD -->
+    <section id="portfolio" class="content">
+            
+       
+
+           
+
+
+        <!-- Container -->
+        <div class="container portfolio-title">
+            
+            <!-- Section Title -->
+            <div class="section-title">
+                <h1>TAISO WOD</h1>
+                <span class="border"></span>
+                <p>TAISO Workout Of the Day.</p>
+            </div>              
+            <!--/Section Title -->
+            
+            
+        </div> 
+        <!-- Container -->  
+          
+          
+          
+                 
+            
+          
+    
+    
+         
+    
+
+    </section>  
+    <!--/Portfolio -->
+    
+               <!-- wod  -->
+            
+<section id="wod">
+             <div class="toggle-wrap">        
+                
+        
+        <?php  $workoutDay='11 <span>Monday</span>'; $exerciseSequence='Core , Legs ,Upper Body'; $id="wod1"; include 'toggletitle.php'; ?>
+          
+
+        <div class="toggle_container">  
+            <?php  $wrapper='portfolio-wrap'; $filters="filters"; 
+            $pbottom="portfolio-bottom"; $pageL="wod/burpees.html"; $all="all1"; 
+            $projectPageHolder="project-page-holder"; $pageData="project-page-data"; 
+            $top="portfolio-top";
+            include 'wod.php'; ?>
+          
         </div>
+        
 
-<div class="col-xs-2 col-lg-2">
-</div>
-<ul class="nav nav-pills" role="tablist">
-<li class="active tab-link" ><a href=<?php echo "\"#wod-$wod_index\"";?> role="tab" data-toggle="tab">Prescribed</a>
-<li class="tab-link"><a href=<?php echo "\"#scaled-$wod_index\"";?> role="tab" data-toggle="tab">Scaled</a>
-</ul>
+        
 
-<div class="tab-content">
-<div class="tab-pane active" id=<?php echo "\"wod-$wod_index\"";?>>
-        <div class="col-xs-12">
-            <div class="panel panel-default">
-              <div class="panel-heading"> <h3 class="panel-title"><?php echo the_title();?></h3> </div>
-              <div class="panel-body">
-                <div class="wod_body"><?php the_excerpt();?></div>
-                <p><a class="btn btn-default" href="<?php the_permalink();?>" >View details &raquo;</a></p>
-              </div>
+
+
+        </div>
+           
+
+
+           <div class="toggle-wrap">        
+                 
+        <?php  $workoutDay='12 <span>Tuesday</span>'; $exerciseSequence='Legs ,Upper Body';$id="wod2"; include 'toggletitle.php'; ?>
+
+                <div class="toggle_container">
+                     <?php  $wrapper='portfolio-wrap2'; $filters="filters2";
+                      $pbottom="portfolio-bottom2"; $pageL="wod/burpeesSec.html"; $all="all2"; 
+                      $projectPageHolder="project-page-holder2";$pageData="project-page-data2"; 
+                      $top="portfolio-top2";
+                      include 'wod.php'; ?>
+                </div>        
             </div>
-        </div><!--end col-->
-</div><!--end tab-pane-->
-<div class="tab-pane" id=<?php echo "\"scaled-$wod_index\"";?>>
-        <div class="col-xs-12">
-            <div class="panel panel-default">
-              <div class="panel-heading"> <h3 class="panel-title"><?php echo the_title();?></h3> </div>
-              <div class="panel-body">
-                <div class="wod_body"><?php echo get_field('scaled_wod');?></div>
-                <p><a class="btn btn-default" href="<?php the_permalink();?>" >View details &raquo;</a></p>
-              </div>
+            
+            
+
+
+            <div class="toggle-wrap">
+                 
+           <?php  $workoutDay='13 <span>Wensday</span>'; $exerciseSequence='Core ,Upper Body'; $id="wod3";include 'toggletitle.php'; ?>
+
+                <div class="toggle_container">
+                    <?php  $wrapper='portfolio-wrap3'; $filters="filters3";
+                      $pbottom="portfolio-bottom3"; $pageL="wod/burpeesthree.html"; $all="all3"; 
+                      $projectPageHolder="project-page-holder3";$pageData="project-page-data3"; 
+                      $top="portfolio-top3";
+                      include 'wod.php'; ?>
+                </div>
             </div>
-        </div><!--end col-->
-</div><!--end tab-pane-->
+      
+     
 
-</div><!--end tab-content-->
 
-    </div><!--end row-->
-<hr>
-<? $is_latest_wod =0; 
-$wod_index = $wod_index+1;
-?>
 
-<?php endwhile; ?>
-      </div>
-<?php include 'footer.php';?>
-      <script>
-$(document).ready(function(){
-    $('.carousel').carousel();
-    $('.nav_link').removeClass('active');
-    $('#home_link').addClass('active');
-    $('.tab-link').click(function (e) {
-          e.preventDefault()
-                $(this).tab('show')
-    })
-});
-</script>
-    </body>
+      <div class="toggle-wrap">
+                     
+                  <?php  $workoutDay='14 <span>Tuesday</span>'; $exerciseSequence='Core,Legs'; $id="wod4"; include 'toggletitle.php'; ?>
+
+                <div class="toggle_container">
+                      <?php  $wrapper='portfolio-wrap4'; $filters="filters4";
+                      $pbottom="portfolio-bottom4"; $pageL="wod/burpeesfour.html"; $all="all4"; 
+                      $projectPageHolder="project-page-holder4";$pageData="project-page-data4"; 
+                      $top="portfolio-top4";
+                      include 'wod.php'; ?>
+                </div>
+            </div>
+     
+
+
+     <div class="toggle-wrap">
+                    
+            <?php  $workoutDay='15 <span>Friday</span>'; $exerciseSequence='Upper Body, Legs'; $id="wod5"; include 'toggletitle.php'; ?>
+
+                <div class="toggle_container">
+                     <?php  $wrapper='portfolio-wrap5'; $filters="filters5";
+                      $pbottom="portfolio-bottom5"; $pageL="wod/burpeesfive.html"; $all="all5"; 
+                      $projectPageHolder="project-page-holder5";$pageData="project-page-data5"; 
+                      $top="portfolio-top5";
+                      include 'wod.php'; ?>
+                </div>
+            </div>
+
+</section>
+          <!-- end wod -->     
+            
+
+
+
+<!-- clearfix -->
+         <section style="height:100px" class="clearfix"> 
+            
+          </section>  
+    
+ 
+    
+    
+    
+	
+    
+    
+        
+    <!-- Quote Parallax -->
+    <div id="quote-parallax" class="parallax " style="background-image: url('images/separator2.jpg');" data-stellar-background-ratio="0.6" data-stellar-vertical-offset="20">
+        
+        <div class="parallax-overlay parallax-background-color">
+            <div class="container quote">   
+                <h1><span class="quote-img"><img src="images/quote1.png" alt="" /></span>Strong thoughts inside a strong body<span class="quote-img"><img src="images/quote2.png" alt="" /></span></h1>
+                <p>- Total Taiso -</p>
+            </div>    
+        </div>
+                    
+    </div>
+    <!--/Quote Parallax -->
+    
+   <!--  <section style="height:200px"> 
+            
+          </section>
+     -->
+    
+    <!-- Newsletter -->
+    <section id="newsletter">
+    
+    
+    	<!-- Container -->
+		<div class="container small-width">
+        
+        	<div class="newsletter-left">
+    
+    			<input type="text" value="Enter your e-mail" onblur="if(this.value == '') { this.value = 'Enter your e-mail'; }" onfocus="if(this.value == 'Enter your e-mail') { this.value = ''; }" size="30">
+    		
+            </div>
+            
+            
+            <!-- <div id="button-con"><button class="send_message" id="send"><span data-hover="Subscribe Now">Subscribe Now</span></button></div> -->
+            
+            <div class="newsletter-right">
+            
+    			<a class="newave-button medium outline white">Subscribe now</a>
+            
+            </div>
+    
+    	</div>
+        <!--/Container -->
+    
+    </section>
+    <!-- /Newsletter -->
+    
+    
+    
+    
+    
+    <?php  include 'footer.php'; ?>
+    
+    
+    
+    
+    
+    
+    
+	
+	<!-- Twitter Parallax -->
+<!-- 	<div id="twitter-parallax" class="parallax" style="background-image: url('images/separator1.jpg');" data-stellar-background-ratio="0.6" data-stellar-vertical-offset="20">
+	
+    <div class="parallax-overlay">    	
+        <div class="container">
+        
+            <div class="twitter-feed">            
+                <a class="twitter-feed-icon" href="https://twitter.com/envato" target="_blank"><img src="images/twitter_white_big.png" alt="" /></a> -->                    
+                
+                <!-- Twitter Slider -->                
+              <!--   <div id="twitter-feed">                
+                </div> -->
+                <!--/Twitter Slider -->                
+                
+   <!--              <p>@envato</p>            
+            </div>
+            
+        </div>
+    </div>    
+        
+	</div> -->
+    <!--/Twitter Parallax -->
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+ 
+	
+	<!-- <script  src='http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.js'></script> -->
+    
+    <script  src="js/jquery-1.8.3.min.js"></script> 
+    <script  src="js/jquery.sticky.js"></script>        
+    <script  src="js/jquery.easing-1.3.pack.js" type="text/javascript"></script>
+	<script  src="js/bootstrap.min.js" type="text/javascript"></script>
+	<script  src="js/modernizr.js" type="text/javascript"></script>
+    <script src="js/appear.js"></script>
+    <script  src="js/jquery.parallax-1.1.3.js" type="text/javascript"></script>
+	<script src="js/jquery.prettyPhoto.js" type="text/javascript"></script>
+    <script  src="js/isotope.js" type="text/javascript"></script> 
+    <script src="js/jquery.bxslider.min.js"></script>
+
+
+    
+    <script type="text/javascript" src="js/royal_preloader.min.js"></script>
+    <script type="text/javascript">
+        (function($) { "use strict";
+                    Royal_Preloader.config({
+                        mode:           'text', // 'number', "text" or "logo"
+                        text:           'STRENGTH - BALANCE - FLEXIBILITY',
+                        timeout:        true,
+                        showInfo:       true,
+                        opacity:        1,
+                        background:     ['#212121']
+                    });
+        })(jQuery);
+    </script>
+	
+
+    
+    
+    <script src="js/jquery.cycle.all.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/jquery.maximage.js" type="text/javascript" charset="utf-8"></script>
+    <script src="js/sscr.js"></script>
+    <script src="js/skrollr.js"></script>
+    <script src="js/jquery.jigowatt.js"></script>
+    <script src="js/classie.js" type="text/javascript"></script>
+    <script src="js/fancymenu-rollin.js" type="text/javascript"></script>
+	
+    <script src="js/jquery.jigowatt.js"></script>
+    <script src="js/scripts.js" type="text/javascript"></script>
+    
+    
+	
+	<script type="text/javascript">
+		var _gaq = _gaq || [];
+		_gaq.push(['_setAccount', 'YOUR GOOGLE ANALYTICS CODE']);
+		_gaq.push(['_trackPageview']);
+
+		(function() {
+			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		})();
+	</script>
+	</body>
 </html>
