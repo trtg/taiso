@@ -179,12 +179,12 @@
         <?php  
 
         $exercise_array = get_field('exercise');
-        var_dump($exercise_array);
+        //var_dump($exercise_array);
         
             $wod_date = DateTime::createFromFormat('Ymd',get_field('wod_date'))->format('d');
             $wod_day_of_week = DateTime::createFromFormat('Ymd',get_field('wod_date'))->format('l');
             $workoutDay="$wod_date <span>$wod_day_of_week</span>"; 
-            $exerciseSequence='Core , Legs ,Upper Body'; 
+            $exerciseSequence=the_title('','',false); 
             $id="wod1"; 
             include 'toggletitle.php'; ?>
 
