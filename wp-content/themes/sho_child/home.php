@@ -180,14 +180,15 @@
 
         $exercise_array = get_field('exercise');
         var_dump($exercise_array);
-        #foreach($exercise_array = get_field('exercise')){
-        #}
+        
             $wod_date = DateTime::createFromFormat('Ymd',get_field('wod_date'))->format('d');
             $wod_day_of_week = DateTime::createFromFormat('Ymd',get_field('wod_date'))->format('l');
             $workoutDay="$wod_date <span>$wod_day_of_week</span>"; 
             $exerciseSequence='Core , Legs ,Upper Body'; 
             $id="wod1"; 
             include 'toggletitle.php'; ?>
+
+<?php foreach($exercise_array = get_field('exercise')){ ?>
         <div class="toggle_container">  
             <?php  $wrapper='portfolio-wrap'; $filters="filters"; 
             $pbottom="portfolio-bottom"; $pageL="wod/burpees.html"; $all="all1"; 
@@ -195,6 +196,7 @@
             $top="portfolio-top";
             include 'wod.php'; ?>
         </div>
+<?php }?>
 </div>
            
 <?php endwhile; ?>
