@@ -21,6 +21,8 @@
 
 <?php foreach($exercise_array as $exercise){ 
 $exercise_volume = $exercise['sets'] . "x" . $exercise['reps'];
+$exercise_post = get_post(url_to_postid($exercise['movement_url']));
+$exercise_title = $exercise_post->post_title;
 ?>
              <!-- Portfolio Item Video Expander  -->                   
             <div class="portfolio-item one-four  design  photography   web">
@@ -39,7 +41,7 @@ $exercise_volume = $exercise['sets'] . "x" . $exercise['reps'];
                  <a class="open-project" href=<?php echo $pageL ?> title="Burpees"></a> 
                 </div>
                 <div class="project-info">
-                <h4 class="project-name"><?php echo $exercise_volume; ?> pullups</h4>
+                <h4 class="project-name"><?php echo "$exercise_volume $exercise_title"; ?> </h4>
                     <div class="zoom-icon"></div>
                     <!-- <p class="project-categories">Low body</p>  -->   
                 </div>
