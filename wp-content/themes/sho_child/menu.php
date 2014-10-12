@@ -4,14 +4,14 @@
                 <ul>
                     <li><a class="fancy-nav-close scroll" href="/"><span>TotalTaiso</span></a></li>
                     <li><a class="fancy-nav-close scroll" href="#about"><span>Movements</span></a></li>    
-                    <li><a class="fancy-nav-close scroll" href="coaching.php"><span>Coaching</span></a></li>
-                    <li><a class="fancy-nav-close scroll" href="blog.php"><span>Blog</span></a></li>
+                    <li><a class="fancy-nav-close scroll" href="/coaching"><span>Coaching</span></a></li>
+                    <li><a class="fancy-nav-close scroll" href="/blog"><span>Blog</span></a></li>
                     <!-- <li><a class="fancy-nav-close scroll" href="faq.php"><span>Faq</span></a></li>
                     <li><a class="fancy-nav-close scroll" href="disclaimer.php"><span>Disclaimer</span></a></li> -->
 
                     <li><a class="fancy-nav-close scroll" href=""><span> </span></a></li>
-                    <li><a class="fancy-nav-close scroll" href="about-sho.php"><span style="text-transform:none; font-size:13px">About Sho</span></a></li>
-                    <li><a class="fancy-nav-close scroll" href="about-taiso.php"><span style="text-transform:none; font-size:13px; line-height:18px;">About Taiso</span></a></li>
+                    <li><a class="fancy-nav-close scroll" href="/about-sho"><span style="text-transform:none; font-size:13px">About Sho</span></a></li>
+                    <li><a class="fancy-nav-close scroll" href="/about_total_taiso"><span style="text-transform:none; font-size:13px; line-height:18px;">About Taiso</span></a></li>
                     <!-- <li><a class="fancy-nav-close scroll" href="#contact"><span>Contact</span></a></li> -->
                     
                   
