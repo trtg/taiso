@@ -15,7 +15,7 @@
                                     <span><?php echo $exerciseSequence ?></span>
                                 </li>
                                 <li>
-                                  <img  height="32" width="32" src="images/wod/wod_point.png">
+                                  <img  height="32" width="32" src="/wp-content/images/wod_point.png">
                                 </li>
                        </ul>  
                          

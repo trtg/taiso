@@ -85,7 +85,7 @@
 			<div id="fullscreen-slider">
             
             	<div>
-                    <img src="images/fs1.jpg" alt="" />
+                    <img src="/wp-content/images/fs1.jpg" alt="" />
                     <div class="pattern">
                         <div class="slide-content light">
                             <div class="div-align-center gymnasticsLetter">              
@@ -277,7 +277,7 @@
         
         <div class="parallax-overlay parallax-background-color">
             <div class="container quote">   
-                <h1><span class="quote-img"><img src="images/quote1.png" alt="" /></span>Strong thoughts inside a strong body<span class="quote-img"><img src="images/quote2.png" alt="" /></span></h1>
+                <h1><span class="quote-img"><img src="/wp-content/images/quote1.png" alt="" /></span>Strong thoughts inside a strong body<span class="quote-img"><img src="/wp-content/images/quote2.png" alt="" /></span></h1>
                 <p>- Total Taiso -</p>
             </div>    
         </div>
