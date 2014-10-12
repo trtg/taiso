@@ -178,8 +178,8 @@
 <section id="wod">
 <div class="toggle-wrap">        
         <?php  
-            $wod_date = DateTime::createFromFormat('d',get_field('wod_date'));
-            $wod_day_of_week = DateTime::createFromFormat('l',get_field('wod_date'));
+            $wod_date = DateTime::createFromFormat('Ymd',get_field('wod_date'))->format('d');
+            $wod_day_of_week = DateTime::createFromFormat('Ymd',get_field('wod_date'))->format('l');
             $workoutDay="$wod_date <span>$wod_day_of_week</span>"; 
             $exerciseSequence='Core , Legs ,Upper Body'; 
             $id="wod1"; 
