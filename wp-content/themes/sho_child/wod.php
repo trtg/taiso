@@ -35,7 +35,7 @@
                  <a class="open-project" href=<?php echo $pageL ?> title="Burpees"></a> 
                 </div>
                 <div class="project-info">
-                    <h4 class="project-name">5×15 pullups</h4>
+                <h4 class="project-name"><?php echo $exercise_volume; ?> pullups</h4>
                     <div class="zoom-icon"></div>
                     <!-- <p class="project-categories">Low body</p>  -->   
                 </div>
