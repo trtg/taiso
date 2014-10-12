@@ -70,8 +70,8 @@
 	<div id="home">
 
             <ul class="logo">
-                <li> <img class="" src="/wp-content/images/tt_logo.png"height="50px;" width="50px;"  alt="TotalTaiso"></li>
-                <li><img class="" src="/wp-content/images/tt_letters.png"height="120px;" width="200px;"  alt="TotalTaiso"></li>
+                <li> <img class="" src="/wp-content/images/tt_logo.png" height="50px;" width="50px;"  alt="TotalTaiso"></li>
+                <li><img class="" src="/wp-content/images/tt_letters.png" height="auto" width="200px;"  alt="TotalTaiso"></li>
             </ul>
 
            
@@ -166,98 +166,36 @@
     <!--/Portfolio -->
     
                <!-- wod  -->
-            
-<section id="wod">
-             <div class="toggle-wrap">        
-                
-        
-        <?php  $workoutDay='11 <span>Monday</span>'; $exerciseSequence='Core , Legs ,Upper Body'; $id="wod1"; include 'toggletitle.php'; ?>
-          
 
+<?php $wods = new WP_Query(array(
+    'post_type' => 'wod',
+    'posts_per_page'=>5
+));?>
+
+
+<?php while($wods->have_posts()) : $wods->the_post();?>
+
+<section id="wod">
+<div class="toggle-wrap">        
+        <?php  
+            $wod_date = DateTime::createFromFormat('d',get_field('wod_date'));
+            $wod_day_of_week = DateTime::createFromFormat('l',get_field('wod_date'));
+            $workoutDay="$wod_date <span>$wod_day_of_week</span>"; 
+            $exerciseSequence='Core , Legs ,Upper Body'; 
+            $id="wod1"; 
+            include 'toggletitle.php'; ?>
         <div class="toggle_container">  
             <?php  $wrapper='portfolio-wrap'; $filters="filters"; 
             $pbottom="portfolio-bottom"; $pageL="wod/burpees.html"; $all="all1"; 
             $projectPageHolder="project-page-holder"; $pageData="project-page-data"; 
             $top="portfolio-top";
             include 'wod.php'; ?>
-          
         </div>
-        
-
-        
-
-
-
-        </div>
+</div>
            
-
-
-           <div class="toggle-wrap">        
-                 
-        <?php  $workoutDay='12 <span>Tuesday</span>'; $exerciseSequence='Legs ,Upper Body';$id="wod2"; include 'toggletitle.php'; ?>
-
-                <div class="toggle_container">
-                     <?php  $wrapper='portfolio-wrap2'; $filters="filters2";
-                      $pbottom="portfolio-bottom2"; $pageL="wod/burpeesSec.html"; $all="all2"; 
-                      $projectPageHolder="project-page-holder2";$pageData="project-page-data2"; 
-                      $top="portfolio-top2";
-                      include 'wod.php'; ?>
-                </div>        
-            </div>
-            
-            
-
-
-            <div class="toggle-wrap">
-                 
-           <?php  $workoutDay='13 <span>Wensday</span>'; $exerciseSequence='Core ,Upper Body'; $id="wod3";include 'toggletitle.php'; ?>
-
-                <div class="toggle_container">
-                    <?php  $wrapper='portfolio-wrap3'; $filters="filters3";
-                      $pbottom="portfolio-bottom3"; $pageL="wod/burpeesthree.html"; $all="all3"; 
-                      $projectPageHolder="project-page-holder3";$pageData="project-page-data3"; 
-                      $top="portfolio-top3";
-                      include 'wod.php'; ?>
-                </div>
-            </div>
-      
-     
-
-
-
-      <div class="toggle-wrap">
-                     
-                  <?php  $workoutDay='14 <span>Tuesday</span>'; $exerciseSequence='Core,Legs'; $id="wod4"; include 'toggletitle.php'; ?>
-
-                <div class="toggle_container">
-                      <?php  $wrapper='portfolio-wrap4'; $filters="filters4";
-                      $pbottom="portfolio-bottom4"; $pageL="wod/burpeesfour.html"; $all="all4"; 
-                      $projectPageHolder="project-page-holder4";$pageData="project-page-data4"; 
-                      $top="portfolio-top4";
-                      include 'wod.php'; ?>
-                </div>
-            </div>
-     
-
-
-     <div class="toggle-wrap">
-                    
-            <?php  $workoutDay='15 <span>Friday</span>'; $exerciseSequence='Upper Body, Legs'; $id="wod5"; include 'toggletitle.php'; ?>
-
-                <div class="toggle_container">
-                     <?php  $wrapper='portfolio-wrap5'; $filters="filters5";
-                      $pbottom="portfolio-bottom5"; $pageL="wod/burpeesfive.html"; $all="all5"; 
-                      $projectPageHolder="project-page-holder5";$pageData="project-page-data5"; 
-                      $top="portfolio-top5";
-                      include 'wod.php'; ?>
-                </div>
-            </div>
-
+<?php endwhile; ?>
 </section>
           <!-- end wod -->     
-            
-
-
 
 <!-- clearfix -->
          <section style="height:100px" class="clearfix"> 
@@ -265,12 +203,6 @@
           </section>  
     
  
-    
-    
-    
-	
-    
-    
         
     <!-- Quote Parallax -->
     <div id="quote-parallax" class="parallax " style="background-image: url('/wp-content/images/separator2.jpg');" data-stellar-background-ratio="0.6" data-stellar-vertical-offset="20">
