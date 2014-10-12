@@ -38,7 +38,9 @@ $exercise_title = $exercise_post->post_title;
             
             <div class="project-overlay">
                 <div class="open-project-link">
-                 <a class="open-project" href=<?php echo $pageL ?> title="Burpees"></a> 
+                 <a class="open-project" 
+                 href=<?php echo "/video_overlay?movement_id=" . url_to_postid($exercise['movement_url']); ?> 
+                title=<?php echo $exercise_title; ?>></a> 
                 </div>
                 <div class="project-info">
                 <h4 class="project-name"><?php echo "$exercise_volume $exercise_title"; ?> </h4>
