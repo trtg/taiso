@@ -70,10 +70,7 @@ $exercise_title = $exercise_post->post_title;
 
     <article class="workouttext">
     
-     <p>Before every workout, please ensure that your body is properly warmed-up.
-        Additionally, follow-up every workout with a warm-down period that includes some light stretching to allow your used muscle to recover.
-        For ideas of stretches, please refer to the <a href="#"><strong>Movements</strong></a> page.
-    </p> 
+<?php the_content(); ?>
     </article>
 
      
