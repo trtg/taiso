@@ -70,8 +70,8 @@
 	<div id="home">
 
             <ul class="logo">
-                <li> <img class="" src="images/tt_logo.png"height="50px;" width="50px;"  alt="TotalTaiso"></li>
-                <li><img class="" src="images/tt_letters.png"height="120px;" width="200px;"  alt="TotalTaiso"></li>
+                <li> <img class="" src="/wp-content/images/tt_logo.png"height="50px;" width="50px;"  alt="TotalTaiso"></li>
+                <li><img class="" src="/wp-content/images/tt_letters.png"height="120px;" width="200px;"  alt="TotalTaiso"></li>
             </ul>
 
            
@@ -79,9 +79,9 @@
         	
 
 
-            <a id="slider_left"><img src="images/arrow_left.png" alt="Slide Left" /></a>
-			<a id="slider_right"><img src="images/arrow_right.png" alt="Slide Right" /></a>
-        	<img id="cycle-loader" src="images/ajax-loader.gif" />
+            <a id="slider_left"><img src="/wp-content/images/arrow_left.png" alt="Slide Left" /></a>
+			<a id="slider_right"><img src="/wp-content/images/arrow_right.png" alt="Slide Right" /></a>
+        	<img id="cycle-loader" src="/wp-content/images/ajax-loader.gif" />
 			<div id="fullscreen-slider">
             
             	<div>
@@ -90,7 +90,7 @@
                         <div class="slide-content light">
                             <div class="div-align-center gymnasticsLetter">              
                                 
-                                <h1><img src="images/gymnastics.png" height="200px;" width="150px;" ></h1>                        
+                                <h1><img src="/wp-content/images/gymnastics.png" height="200px;" width="150px;" ></h1>                        
                                 
                             </div>
                         </div>
@@ -98,11 +98,11 @@
                 </div>
                 
                 <div>
-                    <img src="images/fs2.jpg" alt="" />
+                    <img src="/wp-content/images/fs2.jpg" alt="" />
                     <div class="pattern">
                     <div class="slide-content light"> 
                         <div class="div-align-center">                   
-							<h1><img src="images/strength.png" height="200px;" width="150px;" ></h1>                        
+							<h1><img src="/wp-content/images/strength.png" height="200px;" width="150px;" ></h1>                        
                         </div>
                     </div>
                     </div>
@@ -113,11 +113,11 @@
 
 
                  <div>
-                    <img src="images/fs4.jpg" alt="" />
+                    <img src="/wp-content/images/fs4.jpg" alt="" />
                     <div class="pattern">
                     <div class="slide-content light"> 
                         <div class="div-align-center">                   
-                            <h1><img src="images/balance.png" height="200px;" width="150px;" ></h1>  
+                            <h1><img src="/wp-content/images/balance.png" height="200px;" width="150px;" ></h1>  
                                                     
                             
                         </div>
@@ -127,11 +127,11 @@
 
                  
                  <div>
-                    <img src="images/fs3.jpg" alt="" />
+                    <img src="/wp-content/images/fs3.jpg" alt="" />
                     <div class="pattern">
                     <div class="slide-content light"> 
                         <div class="div-align-center">                   
-                            <h1><img src="images/flexibility.png" height="200px;" width="150px;" ></h1>                        
+                            <h1><img src="/wp-content/images/flexibility.png" height="200px;" width="150px;" ></h1>                        
                                                     
                             
                         </div>
@@ -147,25 +147,9 @@
 	<!-- End Home Section -->
     
     
-    
-    
-	
-    
-    
-       
-              
-            
-        
-    
    
       <!-- WOD -->
     <section id="portfolio" class="content">
-            
-       
-
-           
-
-
         <!-- Container -->
         <div class="container portfolio-title">
             
@@ -176,21 +160,8 @@
                 <p>TAISO Workout Of the Day.</p>
             </div>              
             <!--/Section Title -->
-            
-            
         </div> 
         <!-- Container -->  
-          
-          
-          
-                 
-            
-          
-    
-    
-         
-    
-
     </section>  
     <!--/Portfolio -->
     
@@ -302,7 +273,7 @@
     
         
     <!-- Quote Parallax -->
-    <div id="quote-parallax" class="parallax " style="background-image: url('images/separator2.jpg');" data-stellar-background-ratio="0.6" data-stellar-vertical-offset="20">
+    <div id="quote-parallax" class="parallax " style="background-image: url('/wp-content/images/separator2.jpg');" data-stellar-background-ratio="0.6" data-stellar-vertical-offset="20">
         
         <div class="parallax-overlay parallax-background-color">
             <div class="container quote">   
@@ -382,15 +353,6 @@
         
 	</div> -->
     <!--/Twitter Parallax -->
-    
-    
-    
-    
-    
-    
-    
-    
-    
     
  
 	
