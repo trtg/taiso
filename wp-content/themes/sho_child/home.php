@@ -188,16 +188,14 @@
             $id="wod1"; 
             include 'toggletitle.php'; ?>
 
-<?php foreach($exercise_array as $exercise){ ?>
         <div class="toggle_container">  
             <?php  $wrapper='portfolio-wrap'; $filters="filters"; 
             $pbottom="portfolio-bottom"; $pageL="wod/burpees.html"; $all="all1"; 
             $projectPageHolder="project-page-holder"; $pageData="project-page-data"; 
-            $exercise_volume = $exercise['sets'] . "x" . $exercise['reps'];
+            
             $top="portfolio-top";
             include 'wod.php'; ?>
         </div>
-<?php }?>
 </div>
            
 <?php endwhile; ?>

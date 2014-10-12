@@ -18,6 +18,10 @@
         <!-- Portfolio Wrap -->  
         <div id= <?php echo $wrapper ?>  class="portfoliowrap" >
         
+
+<?php foreach($exercise_array as $exercise){ 
+$exercise_volume = $exercise['sets'] . "x" . $exercise['reps'];
+?>
              <!-- Portfolio Item Video Expander  -->                   
             <div class="portfolio-item one-four  design  photography   web">
             
@@ -43,6 +47,7 @@
               
             </div>
             <!--/Portfolio Item Video Expander  -->     
+<?php }?>
                  
        </div> <!--/Portfolio Wrap -->
             
