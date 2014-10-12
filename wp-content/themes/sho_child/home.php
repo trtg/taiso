@@ -172,12 +172,16 @@
     'posts_per_page'=>5
 ));?>
 
-
+<section id="wod">
 <?php while($wods->have_posts()) : $wods->the_post();?>
 
-<section id="wod">
 <div class="toggle-wrap">        
         <?php  
+
+        $exercise_array = get_field('exercise');
+        var_dump($exercise_array);
+        #foreach($exercise_array = get_field('exercise')){
+        #}
             $wod_date = DateTime::createFromFormat('Ymd',get_field('wod_date'))->format('d');
             $wod_day_of_week = DateTime::createFromFormat('Ymd',get_field('wod_date'))->format('l');
             $workoutDay="$wod_date <span>$wod_day_of_week</span>"; 
