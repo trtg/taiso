@@ -1,19 +1,13 @@
    <div class=<?php echo $top ?> > </div>          
-        
-              
         <!-- Portfolio Plus Filters -->
         <div class="portfolio">
        <!-- Portfolio Filters -->   
      <div id=<?php echo $filters ?> class="sixteen columns filters">
-    
           <ul class="clearfix">
             <!-- <div class="col-md-6 col-lg-6 "> --> <li><a id=<?php echo $all ?> href="#" data-filter="*" class="active"><h5>Prescribed</h5></a></li>   <!-- </div> -->
             <!-- <div class="col-md-6 col-lg-6"> --> <li><a href="#" data-filter=".branding"><h5>Scaled</h5></a></li> <!-- </div> -->
           </ul>
-        </div>
-        <!--/Portfolio Filters -->
-    
-       
+        </div> <!--/Portfolio Filters -->
              
         <!-- Portfolio Wrap -->  
         <div id= <?php echo $wrapper ?>  class="portfoliowrap" >
@@ -33,7 +27,6 @@ $exercise_title = $exercise_post->post_title;
                             </div>
                             <!-- /video -->
                         </div>
-                <!-- <img src="images/portfolio/img1.jpg" alt=" 1"/> -->
             </div>
             
             <div class="project-overlay">
@@ -61,31 +54,16 @@ $exercise_title = $exercise_post->post_title;
         <!-- portfolio-bottom    pportfolio-->
         <div class=<?php echo $pbottom ?> >    </div>
         
-        
         <!-- Project Page Holder   project-page-holder-->
         <div id=<?php echo $projectPageHolder ?> >
-            
             <div class="clear"></div>
             <div id=<?php echo $pageData ?> >  </div>
-        
         </div>
 
     <article class="workouttext">
-    
-<?php the_content(); ?>
+        <?php the_content(); ?>
     </article>
 
-     
-
-
  <div class="share"> 
-      <div class="cell">
-       
-            <!--  <div class="g-plusone" data-size="medium"></div>
-             <div  class="fb-like sthird " data-href="https://developers.facebook.com/docs/plugins/" data-layout="button_count" data-action="like" data-show-faces="false" data-share="false"></div>
-            
-             
-                    
-        -->
-
-    </div>
+      <div class="cell"> </div>
+</div>

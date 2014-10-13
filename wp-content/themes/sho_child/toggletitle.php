@@ -1,7 +1,5 @@
-
                    <div  id=<?php echo $id ?> class="toggle-title">
                      <a href="#"> 
-                       
                        <ul>
                         <li>
                                     <div class="date">
@@ -10,7 +8,6 @@
 
                                      </div> 
                         </li>
-                        
                                 <li>
                                     <span><?php echo $exerciseSequence ?></span>
                                 </li>
@@ -18,9 +15,5 @@
                                   <img  height="32" width="32" src="/wp-content/images/wod_point.png">
                                 </li>
                        </ul>  
-                         
-                    
-                       
                      </a>
-                     
                     </div>

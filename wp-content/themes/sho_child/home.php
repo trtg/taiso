@@ -173,19 +173,18 @@
 ));?>
 
 <section id="wod">
-<?php while($wods->have_posts()) : $wods->the_post();?>
+<?php 
+$wod_index = 0;
+while($wods->have_posts()) : $wods->the_post();?>
 
 <div class="toggle-wrap">        
         <?php  
-
         $exercise_array = get_field('exercise');
-        //var_dump($exercise_array);
-        
             $wod_date = DateTime::createFromFormat('Ymd',get_field('wod_date'))->format('d');
             $wod_day_of_week = DateTime::createFromFormat('Ymd',get_field('wod_date'))->format('l');
             $workoutDay="$wod_date <span>$wod_day_of_week</span>"; 
             $exerciseSequence=the_title('','',false); 
-            $id="wod1"; 
+            $id="wod" . $wod_index; 
             include 'toggletitle.php'; ?>
 
         <div class="toggle_container">  
@@ -198,7 +197,9 @@
         </div>
 </div>
            
-<?php endwhile; ?>
+<?php 
+$wod_index = $wod_index+1;
+endwhile; ?>
 </section>
           <!-- end wod -->     
 
