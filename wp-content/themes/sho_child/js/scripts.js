@@ -526,28 +526,28 @@ $(window).load(function() {
 	
 	(function(){
 	  
- 		 var projPageHolder ='#project-page-holder';
-		 var portfolioWrap='#portfolio-wrap';
-		 var projectPageData='#project-page-data';
+ 		 var projPageHolder ='#project-page-holder0';
+		 var portfolioWrap='#portfolio-wrap0';
+		 var projectPageData='#project-page-data0';
 		 var portfolioBottom=".portfolio-bottom";
 		 var projectClose='#project_close';
 		 var portfolioTop=".portfolio-top";
 		 initializeIzotope(projPageHolder,portfolioWrap,projectPageData,portfolioBottom,projectClose,portfolioTop);
 
+		  projPageHolder ='#project-page-holder1';
+		  portfolioWrap='#portfolio-wrap1';
+		  projectPageData='#project-page-data1';
+		  portfolioBottom=".portfolio-bottom";
+		  projectClose='#project_close1';
+		  portfolioTop=".portfolio-top";
+		 initializeIzotope(projPageHolder,portfolioWrap,projectPageData,portfolioBottom,projectClose,portfolioTop);
+
 		  projPageHolder ='#project-page-holder2';
 		  portfolioWrap='#portfolio-wrap2';
 		  projectPageData='#project-page-data2';
-		  portfolioBottom=".portfolio-bottom2";
+		  portfolioBottom=".portfolio-bottom";
 		  projectClose='#project_close2';
-		  portfolioTop=".portfolio-top2";
-		 initializeIzotope(projPageHolder,portfolioWrap,projectPageData,portfolioBottom,projectClose,portfolioTop);
-
-		  projPageHolder ='#project-page-holder3';
-		  portfolioWrap='#portfolio-wrap3';
-		  projectPageData='#project-page-data3';
-		  portfolioBottom=".portfolio-bottom3";
-		  projectClose='#project_close3';
-		  portfolioTop=".portfolio-top3";
+		  portfolioTop=".portfolio-top";
 		 initializeIzotope(projPageHolder,portfolioWrap,projectPageData,portfolioBottom,projectClose,portfolioTop);
 
 		  projPageHolder ='#project-page-holder4';
