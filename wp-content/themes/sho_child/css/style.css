@@ -1549,8 +1549,11 @@ body.royal_loader {
 	}
 
 	
-	
-	#portfolio-wrap .one-four {
+    #portfolio-wrap0 .one-four,
+    #portfolio-wrap1 .one-four,
+	#portfolio-wrap2 .one-four,
+	#portfolio-wrap3 .one-four,
+	#portfolio-wrap4 .one-four {
 		margin: 0!important;
 		line-height:0;
 		width: 25%;

@@ -404,112 +404,97 @@ $(function (){
 
 function initializeIzotope(projPageHolder,portfolioWrap,projectPageData,portfolioBottom,projectClose,portfolioTop){
 
+    var container = $(projPageHolder);
+    var $items = $(portfolioWrap+' .open-project-link');
+    index = $items.length;
+    $(portfolioWrap+' .open-project-link').click(function(){
 
-		    var container = $(projPageHolder);
-		   var $items = $(portfolioWrap+' .open-project-link');
-		   index = $items.length;
-		  $(portfolioWrap+' .open-project-link').click(function(){
-	
-		  if ($(this).hasClass('active')){
-		  } else 
-		  { lastIndex = index;
-		  index = $(this).index();
-		  $items.removeClass('active');
-		  $(this).addClass('active');
-	
-		  var myUrl = $(this).find('.open-project').attr("href") + " .item-data"; 
-	
-		  
-		   
-		  /*$('html, body').animate({ scrollTop: $(".portfolio-bottom").offset().top +150}, 900);*/
-		 
-		  $(projectPageData).animate({opacity:0}, 400,function(){
-				
-				
-				
-				$(projectPageData).load(myUrl,function(e){  
-					var $helper = $('.helper');
-					var height = $helper.height();
-					
-					
-						$(projectPageData).css("min-height", height);
-							
-						$('.project-slider').css({'height' : ''});	
-						$('#maximage').css({'height' : ''});	
-						
-						
-						
-							$('#maximage').maximage({
-								cycleOptions: {
-									fx: 'fade',
-									speed: 1000, // Has to match the speed for CSS transitions in jQuery.maximage.css (lines 30 - 33)
-									timeout: 6000,
-									prev: '#arrow_left',
-									next: '#arrow_right',
-									pause: 1,
-								},
-							});
-						
+        if ($(this).hasClass('active')){
+        } else { 
+            lastIndex = index;
+            index = $(this).index();
+            $items.removeClass('active');
+            $(this).addClass('active');
 
-						
-						
-						
-						
-				});
-				
-				$(projectPageData).delay(400).animate({opacity:1}, 400);
-	
-		  });
-		  
-		  
-		  $('html, body').animate({ scrollTop: $(portfolioBottom).offset().top -0}, 900);
-		  
-		  
-		  
-		  //Project Page Open
-		  
-		  
-			
-			  $(projPageHolder).slideUp(600, function(){
-					
-				  $(projectPageData).css('visibility', 'visible');}).delay(1100).slideDown(1000,function(){				  
-				  
-						$(projectPageData).fadeIn('slow',function(){}); //initBxModal();
-						$('.element_fade_in').each(function () {
-							$(this).appear(function() {
-							  $(this).delay(100).animate({opacity:1,right:"0px"},1000);
-							});	
-						});
-					  
-				  });
-				
-			  
-		  }
-	
-		  return false;       
-		  
-		  });
+            var myUrl = $(this).find('.open-project').attr("href") + " .item-data"; 
+
+            /*$('html, body').animate({ scrollTop: $(".portfolio-bottom").offset().top +150}, 900);*/
+
+            $(projectPageData).animate({opacity:0}, 400,function(){
 
 
-		
-	
-		  //Project Page Close
-		
-		  $(document).on('click', projectClose, function(event) {
-		  
-				
-		  $(projectPageData).animate({opacity:0}, 400,function(){		
-				
-				$(projPageHolder).delay(400).slideUp(400);
-				
-		  });
-				
-				$('html, body').delay(1000).animate({ scrollTop: $(portfolioTop).offset().top - 70}, 800);
-				$items.removeClass('active') ;
-		  
-				return false;
-				
-		  });
+
+                $(projectPageData).load(myUrl,function(e){  
+                    var $helper = $('.helper');
+                    var height = $helper.height();
+
+
+                    $(projectPageData).css("min-height", height);
+
+                    $('.project-slider').css({'height' : ''});	
+                    $('#maximage').css({'height' : ''});	
+
+
+
+                    $('#maximage').maximage({
+                        cycleOptions: {
+                            fx: 'fade',
+                        speed: 1000, // Has to match the speed for CSS transitions in jQuery.maximage.css (lines 30 - 33)
+                        timeout: 6000,
+                        prev: '#arrow_left',
+                        next: '#arrow_right',
+                        pause: 1,
+                        },
+                    });
+
+                });
+
+                $(projectPageData).delay(400).animate({opacity:1}, 400);
+
+            });
+
+            $('html, body').animate({ scrollTop: $(portfolioBottom).offset().top -0}, 900);
+
+            //Project Page Open
+
+            $(projPageHolder).slideUp(600, function(){
+
+                $(projectPageData).css('visibility', 'visible');}).delay(1100).slideDown(1000,function(){				  
+
+                    $(projectPageData).fadeIn('slow',function(){}); //initBxModal();
+                    $('.element_fade_in').each(function () {
+                        $(this).appear(function() {
+                            $(this).delay(100).animate({opacity:1,right:"0px"},1000);
+                        });	
+                    });
+
+                });
+        }
+
+        return false;       
+
+    });
+
+
+
+
+    //Project Page Close
+
+    $(document).on('click', projectClose, function(event) {
+
+
+        $(projectPageData).animate({opacity:0}, 400,function(){		
+
+            $(projPageHolder).delay(400).slideUp(400);
+
+        });
+
+        $('html, body').delay(1000).animate({ scrollTop: $(portfolioTop).offset().top - 70}, 800);
+        $items.removeClass('active') ;
+
+        return false;
+
+    });
 
 
 }
