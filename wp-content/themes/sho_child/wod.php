@@ -66,4 +66,3 @@ $exercise_title = $exercise_post->post_title;
 
  <div class="share"> 
       <div class="cell"> </div>
-</div>
