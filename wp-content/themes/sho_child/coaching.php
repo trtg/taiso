@@ -6,7 +6,7 @@
  * @package taiso
  */
 
-get_header(); ?>
+?>
 <link rel="stylesheet" type="text/css" href="/wp-content/themes/sho_child/css/coaching.css">
 
 <body>
