@@ -16,7 +16,7 @@
 
               <div class="disclaimerFaq">
                   <ul>
-                    <li><a class="" href="faq.php"><span>Faq</span></a><span> / </span><a class="" href="disclaimer.php"><span>Disclaimer</span></a> </li>
+                    <li><a class="" href="/faq"><span>Faq</span></a><span> / </span><a class="" href="/disclaimer"><span>Disclaimer</span></a> </li>
                   </ul>
               </div><!--/disclaimerFaq-->
 
