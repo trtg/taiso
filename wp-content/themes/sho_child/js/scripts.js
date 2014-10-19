@@ -299,11 +299,15 @@ function fireizitiope(portfolioWrap,filters){
    
   jQuery(document).ready(function($ ){     
 // Portfolio Isotope
-   var portfolioWrap='#portfolio-wrap';
-   var filters='#filters a';
+   var portfolioWrap='#portfolio-wrap0';
+   var filters='#filters0 a';
 	fireizitiope(portfolioWrap,filters);
    
-    portfolioWrap='#portfolio-wrap2';
+    portfolioWrap='#portfolio-wrap1';
+    filters='#filters1 a';
+	fireizitiope(portfolioWrap,filters);
+
+	portfolioWrap='#portfolio-wrap2';
     filters='#filters2 a';
 	fireizitiope(portfolioWrap,filters);
 
@@ -313,10 +317,6 @@ function fireizitiope(portfolioWrap,filters){
 
 	portfolioWrap='#portfolio-wrap4';
     filters='#filters4 a';
-	fireizitiope(portfolioWrap,filters);
-
-	portfolioWrap='#portfolio-wrap5';
-    filters='#filters5 a';
 	fireizitiope(portfolioWrap,filters);
 
 });
