@@ -65,5 +65,6 @@ $exercise_title = $exercise_post->post_title;
     </article>
 
  <div class="share"> 
-      <div class="cell"> </div>
+      <div class="cell"> 
+</div>
 </div>
