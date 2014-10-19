@@ -2952,9 +2952,7 @@ color: #fff;
 
 /*menu social icons*/
 footer{
-height: 180px;
-
-
+    height: 260px;
 }
 
 footer #socialicons-container ul a img {
