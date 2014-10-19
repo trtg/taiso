@@ -6,11 +6,18 @@
  * @package taiso
  */
 
-get_header(); ?>
+?>
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
     <title>Total Taiso</title>
     <meta charset="UTF-8" />
+    
+
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=0" />
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="viewport" content="width=device-width, user-scalable=no">
     <meta name="viewport" content="initial-scale=1, maximum-scale=1">
@@ -24,14 +31,15 @@ get_header(); ?>
     <!-- Bootstrap core CSS -->
     <link href='http://fonts.googleapis.com/css?family=Lato:300,400' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Abel' rel='stylesheet' type='text/css'>
-    <link href="/wp-content/themes/sho_child/css/bootstrap.css" rel="stylesheet">
-    <link href="/wp-content/themes/sho_child/css/bannerscollection_zoominout.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700' rel='stylesheet' type='text/css' />    
+    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
     
-  
-  
 
-    <!-- support till IE8 and a bit 7 -->
-
+    <link href="/wp-content/themes/sho_child/css/bootstrap.min.css" rel="stylesheet" />   
+    <link href="/wp-content/themes/sho_child/css/fancymenu.css"  rel="stylesheet"> 
+     <link href="/wp-content/themes/sho_child/css/style.css" rel="stylesheet" /> 
+     <link href="/wp-content/themes/sho_child/css/aboutsho.css" rel="stylesheet">  
+   
 
     <!--[if lt IE 9]>
         <link href="font-awesome/css/font-awesome-ie7.min.css" rel="stylesheet">
@@ -43,20 +51,12 @@ get_header(); ?>
     <link href="css/bootstrap-ie7.css" rel="stylesheet">
     <![endif]-->
 
-    
-
-    <!-- Add custom CSS here -->
-
-
-    <link href="/wp-content/themes/sho_child/css/about_taiso.css" rel="stylesheet">
-    <link href="/wp-content/themes/sho_child/css/jquery.bxslider.css" rel="stylesheet" />
-    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
 </head>
 
-<body>
-<?php include 'navbar.php';?>
+<body data-spy="scroll" data-target=".navbar" data-offset="75" class="royal_loader">
 
 
+    <?php  include 'menu.php'; ?>
 
 <section id="aboutTaiso">
 
@@ -66,7 +66,9 @@ get_header(); ?>
  <p class="indent">
 TotalTaiso was built upon the <b>principles of gymnastics</b>, a sport that combines the elements of <b>strength, balance, and flexibility</b> to lead a healthier lifestyle. While the direct translation for the Japanese word, ‘Taiso,’ is gymnastics, it’s more than the <b>type of gymnastics</b> you see on TV. More broadly, <b>‘Taiso’</b> refers to the <b>act of manipulating the body</b>, and using the body as an apparatus for achieving fitness.</p>
 </article>
-<div class="clear"></div>   
+
+
+  <div class="clear"></div>   
  
  <ul class="portfolio-wrap2">
                   
@@ -119,29 +121,43 @@ TotalTaiso was built upon the <b>principles of gymnastics</b>, a sport that comb
 
 <!-- end  about taiso -->
 
-
-
-
-        <!-- changed in variables.less @grid-float-breakpoint: 10px; //@screen-sm-min; @screen-phone; -->
-        
-
-
+    
+    <!-- Footer -->
+    <?php  include 'footer.php'; ?>
+    <!--/Footer -->
 
         <!-- JavaScript -->
-        
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-        <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.11.1/jquery-ui.min.js"></script>
-        <script src="/wp-content/themes/sho_child/js/vendor/bootstrap.js"></script>
-        <script src="/wp-content/themes/sho_child/js/vendor/jquery.flexslider-min.js"></script> 
-        <script src="/wp-content/themes/sho_child/js/vendor/isotope.js"></script>
-        <script src="/wp-content/themes/sho_child/js/vendor/jquery.bxslider.min.js"></script>
-        <script src="/wp-content/themes/sho_child/js/about_taiso.js"></script>
-        
-         
+        <script src='http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.js'></script>
+        <script src="js/jquery.easing-1.3.pack.js" type="text/javascript"></script>
+        <script src="js/bootstrap.min.js" type="text/javascript"></script>
+        <script src="js/isotope.js"></script>
+
+         <script src="js/modernizr.js" type="text/javascript"></script>
+
+    
+    <script type="text/javascript" src="js/royal_preloader.min.js"></script>
+
+    <script type="text/javascript">
+        (function($) { "use strict";
+                    Royal_Preloader.config({
+                        mode:           'text', // 'number', "text" or "logo"
+                        text:           'ABOUT TAISO',
+                        timeout:        0,
+                        showInfo:       true,
+                        opacity:        1,
+                        background:     ['#212121']
+                    });
+        })(jQuery);
+    </script>
+        <script src="/wp-content/themes/sho_child/js/sscr.js"></script>
+        <script src="/wp-content/themes/sho_child/js/skrollr.js"></script>
+        <script src="/wp-content/themes/sho_child/js/jquery.jigowatt.js"></script>
+        <script src="/wp-content/themes/sho_child/js/classie.js" type="text/javascript"></script>
+        <script src="/wp-content/themes/sho_child/js/fancymenu-rollin.js" type="text/javascript"></script>
+        <script src="/wp-content/themes/sho_child/js/abouttaiso.js"></script>
 
 
-
-<!--  google analitics  -->
+<!--  google analytics  -->
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -155,6 +171,5 @@ TotalTaiso was built upon the <b>principles of gymnastics</b>, a sport that comb
 
 
 </body>
+
 </html>
-
-
