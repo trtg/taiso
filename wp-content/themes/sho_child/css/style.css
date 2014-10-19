@@ -3949,7 +3949,9 @@ height: 30px;
 
 /* end  Responsive Media Querries */
 
-
+img{
+    max-width:100%;
+}
 
 
 
