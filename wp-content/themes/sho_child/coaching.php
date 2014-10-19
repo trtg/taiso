@@ -30,11 +30,11 @@
     <!-- Bootstrap core CSS -->
     
 
-    <link href="css/bootstrap.min.css" rel="stylesheet" /> 
-    <link href="css/bootstrap-responsive.min.css" rel="stylesheet" />  
-    <link href="css/fancymenu.css"  rel="stylesheet"> 
-     <link href="style.css" rel="stylesheet" /> 
-    <link href="coaching.css" rel="stylesheet" />
+    <link href="/wp-content/themes/sho_child/css/bootstrap.min.css" rel="stylesheet" /> 
+    <link href="/wp-content/themes/sho_child/css/bootstrap-responsive.min.css" rel="stylesheet" />  
+    <link href="/wp-content/themes/sho_child/css/fancymenu.css"  rel="stylesheet"> 
+     <link href="/wp-content/themes/sho_child/css/style.css" rel="stylesheet" /> 
+    <link href="/wp-content/themes/sho_child/css/coaching.css" rel="stylesheet" />
     
     
     
@@ -317,7 +317,7 @@
                    
 
                         <div class="wrapperBox ">
-                            <img src="images/testimonials/mike-salemi1.png" title="Mike Salemi" alt="" class="quoteImg">
+                            <img src="/wp-content/images/mike-salemi1.jpg" title="Mike Salemi" alt="" class="quoteImg">
                             <h4>Mike Salemi</h4>
                             <h5> WABDL World Champion in Deadlift and Benchpress , Candidate Master Sport in Kettlebell Sport  , CHEK Exercise Coach</h5>
                             <div class="arrow-up"></div>
