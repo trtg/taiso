@@ -6,7 +6,7 @@
     <title>Total Taiso</title>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="viewport" content="width=device-width, user-scalable=no">
     <meta name="viewport" content="initial-scale=1, maximum-scale=1">
@@ -33,8 +33,8 @@
     
     <link href="/wp-content/themes/sho_child/css/bootstrap.min.css" rel="stylesheet" />   
     <link href="/wp-content/themes/sho_child/css/fancymenu.css"  rel="stylesheet"> 
-    <link href="/wp-content/themes/sho_child/style.css" rel="stylesheet" />
-    <link href="/wp-content/themes/sho_child/faq.css" rel="stylesheet" />
+    <link href="/wp-content/themes/sho_child/css/style.css" rel="stylesheet" />
+    <link href="/wp-content/themes/sho_child/css/faq.css" rel="stylesheet" />
 
  <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700' rel='stylesheet' type='text/css' />    
     <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
