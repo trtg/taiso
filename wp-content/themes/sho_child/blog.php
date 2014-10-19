@@ -37,6 +37,8 @@
 
 <?php $blog_posts = new WP_Query(array(
     'post_type' => 'post'
+    'paged'=>1,
+    'posts_per_page'=>2
 ));?>
 
     
@@ -79,8 +81,8 @@ $more = 0;
     <div id="blog-footer" class="clearfix">
         <div class="container no-padding">
         	<ul class="inner-navigation masonry">
-                <li><?php next_posts_link('Newer posts'); ?></li>
-                <li><?php previous_posts_link('Older posts'); ?></li>
+                <li><?php previous_posts_link('Newer posts'); ?></li>
+                <li><?php next_posts_link('Older posts'); ?></li>
             </ul>
     	</div> <!--/container -->
     </div> <!--/Blog Navigation -->
