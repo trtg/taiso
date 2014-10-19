@@ -5,7 +5,7 @@
 <div class="item-data project-page clearfix element_fade_in">
     <!-- Project Close Button -->
     <ul id="project-page-button" class="clearfix">            	
-        <li><a id="project_close" class="icon-awesome" href="#" title="Close "><i class="fa fa-times-circle-o"></i></a></li>
+    <li><a id=<?php echo $projectClose; ?> class="icon-awesome" href="#" title="Close "><i class="fa fa-times-circle-o"></i></a></li>
     </ul> <!--/Project Close Button -->
     <div class="container small-width no-padding ">
         <div class="project-section-title">

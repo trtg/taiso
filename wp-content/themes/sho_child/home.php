@@ -191,6 +191,7 @@ while($wods->have_posts()) : $wods->the_post();?>
             <?php  $wrapper='portfolio-wrap' . "$wod_index"; $filters="filters" . "$wod_index"; 
             $pbottom="portfolio-bottom" . "$wod_index"; $pageL="wod/burpees.html"; $all="all" . "$wod_index"; 
             $projectPageHolder="project-page-holder" . "$wod_index"; $pageData="project-page-data" . "$wod_index"; 
+            $projectClose = "project_close" . "$wod_index";
             
             $top="portfolio-top" . "$wod_index";
             include 'wod.php'; ?>
