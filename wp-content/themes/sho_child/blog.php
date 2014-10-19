@@ -34,7 +34,11 @@
     <div id="blog-header">
     	<h1>TOTALTAISO Blog</h1>
     </div> <!--/Blog Header -->
-    
+
+<?php $blog_posts = new WP_Query(array(
+    'post_type' => 'post'
+));?>
+
     
     <!-- Blog Content -->
     <div id="blog" class="masonry clearfix">
@@ -42,6 +46,14 @@
         <!-- Container -->
         <div class="container">
             <div class="blog-posts-content">
+
+<?php while($blog_posts->have_posts()) : $blog_posts->the_post();?>
+<?php
+//to make <!--more--> tag work on custom template
+global $more;
+$more = 0;
+?>
+
                 <div class="blog-post masonry">
                     <div class="post-content">
                         <h3 class="blog-title"> <?php echo the_title();?></h3>
@@ -55,6 +67,9 @@
                         <a href="blog-post.php" class="newave-button small grey external">Read More</a>
                     </div> <!--/post-content -->
                 </div> <!--/blog-post masonry-->
+
+<?php endwhile; ?>
+
             </div> <!--/blog-posts-content -->
         </div> <!--/container -->
     </div> <!--/blog-->
