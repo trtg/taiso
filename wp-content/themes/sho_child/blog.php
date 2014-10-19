@@ -79,8 +79,8 @@ $more = 0;
     <div id="blog-footer" class="clearfix">
         <div class="container no-padding">
         	<ul class="inner-navigation masonry">
-            	<li><a href="#"><span><img src="/wp-content/images/prev_article.png" alt=""></span>Prev Page</a></li>
-                <li><a href="#"><span><img src="/wp-content/images/next_article.png" alt=""></span>Next Page</a></li>
+                <li><?php next_posts_link('Newer posts'); ?></li>
+                <li><?php previous_posts_link('Older posts'); ?></li>
             </ul>
     	</div> <!--/container -->
     </div> <!--/Blog Navigation -->
