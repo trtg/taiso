@@ -16,7 +16,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     
-	<!-- <link rel="icon" type="image/ico" href="images/tticon.ico" /> -->
+	<link rel="icon" type="image/ico" href="/wp-content/images/favicon.ico" />
     
     
     
