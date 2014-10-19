@@ -32,7 +32,7 @@ $exercise_title = $exercise_post->post_title;
             <div class="project-overlay">
                 <div class="open-project-link">
                  <a class="open-project" 
-                 href=<?php echo "/video_overlay?movement_id=" . url_to_postid($exercise['movement_url']); ?> 
+                 href=<?php echo "/video_overlay/?movement_id=" . url_to_postid($exercise['movement_url']) . "&close_id=". $projectClose; ?> 
                 title=<?php echo $exercise_title; ?>></a> 
                 </div>
                 <div class="project-info">
