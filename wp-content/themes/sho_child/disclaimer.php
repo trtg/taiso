@@ -1,3 +1,11 @@
+<?php
+/**
+ * Template Name: disclaimer 
+ * The template for the safety disclaimer 
+ *
+ * @package taiso
+ */
+?>
 <!DOCTYPE html>
 <html lang="en">
 
