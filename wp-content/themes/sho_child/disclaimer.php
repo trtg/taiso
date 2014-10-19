@@ -29,8 +29,8 @@
    
     <link href="/wp-content/themes/sho_child/css/bootstrap.min.css" rel="stylesheet" />   
     <link href="/wp-content/themes/sho_child/css/fancymenu.css"  rel="stylesheet"> 
-    <link href="/wp-content/themes/sho_child/style.css" rel="stylesheet" /> 
-    <link href="/wp-content/themes/sho_child/disclaimer.css" rel="stylesheet" />
+    <link href="/wp-content/themes/sho_child/css/style.css" rel="stylesheet" /> 
+    <link href="/wp-content/themes/sho_child/css/disclaimer.css" rel="stylesheet" />
 
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700' rel='stylesheet' type='text/css' />
     <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
@@ -175,6 +175,8 @@ While the information contained within this site is periodically updated, no gua
                     });
         })(jQuery);
     </script>
+
+    <script src="/wp-content/themes/sho_child/js/skrollr.js"></script>
     <script src="/wp-content/themes/sho_child/js/disclaimer.js" type="text/javascript"></script> 
         
         
