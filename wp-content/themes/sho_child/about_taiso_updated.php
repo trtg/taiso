@@ -128,14 +128,14 @@ TotalTaiso was built upon the <b>principles of gymnastics</b>, a sport that comb
 
         <!-- JavaScript -->
         <script src='http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.js'></script>
-        <script src="js/jquery.easing-1.3.pack.js" type="text/javascript"></script>
-        <script src="js/bootstrap.min.js" type="text/javascript"></script>
-        <script src="js/isotope.js"></script>
+        <script src="/wp-content/themes/sho_child/js/jquery.easing-1.3.pack.js" type="text/javascript"></script>
+        <script src="/wp-content/themes/sho_child/js/bootstrap.min.js" type="text/javascript"></script>
+        <script src="/wp-content/themes/sho_child/js/isotope.js"></script>
 
-         <script src="js/modernizr.js" type="text/javascript"></script>
+         <script src="/wp-content/themes/sho_child/js/modernizr.js" type="text/javascript"></script>
 
     
-    <script type="text/javascript" src="js/royal_preloader.min.js"></script>
+    <script type="text/javascript" src="/wp-content/themes/sho_child/js/royal_preloader.min.js"></script>
 
     <script type="text/javascript">
         (function($) { "use strict";
@@ -154,7 +154,7 @@ TotalTaiso was built upon the <b>principles of gymnastics</b>, a sport that comb
         <script src="/wp-content/themes/sho_child/js/jquery.jigowatt.js"></script>
         <script src="/wp-content/themes/sho_child/js/classie.js" type="text/javascript"></script>
         <script src="/wp-content/themes/sho_child/js/fancymenu-rollin.js" type="text/javascript"></script>
-        <script src="/wp-content/themes/sho_child/js/abouttaiso.js"></script>
+        <script src="/wp-content/themes/sho_child/js/about_taiso.js"></script>
 
 
 <!--  google analytics  -->
