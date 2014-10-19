@@ -1,0 +1,341 @@
+
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+
+
+
+.pattern-faq2 {
+    background:url(images/pattern.png) repeat;
+    width:100%;
+    height: 100%;
+    display: table;
+    position: relative;
+    background-color: #222;
+    opacity: 0.8;
+}
+
+.pattern-faq2 h1{
+    text-align: center;
+}
+
+.faq {
+    font-family:'Lato', sans-serif;
+    font-weight: 200;
+    font-size: 16px;
+    line-height: 30px;
+    padding-top: 15px;
+    margin-left: 35px;
+    margin-right: 35px;
+    letter-spacing: 2px;
+    color: #cccccc;
+}
+.info {
+    font-family:'Lato', sans-serif;
+    font-weight: 200;
+    font-size: 16px;
+    line-height: 30px;
+    padding-top: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    letter-spacing: 2px;
+    color: #cccccc;
+    /*margin-bottom: 70px;*/
+}
+.info p {
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+.info::first-letter {
+    font-weight: bold;
+    color: white;
+    font-size: 2.5em;
+}
+.capital-letter::first-letter {
+    font-weight: bold;
+    color: white;
+    font-size: 2.5em;
+}
+.question {
+    font-size: 1.3em;
+    font-weight: bold;
+    color: #fff;
+}
+.shoinfo .secondCap::first-letter {
+    font-weight: bold;
+    color: white;
+    font-size: 2.5em;
+}
+.info b {
+    color: white;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+.work {
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+    overflow:hidden;
+    /*background:#212121;*/
+    background:#222;
+    /*padding-top:50px;*/
+}
+.indent {
+    text-indent: 3em;
+}
+.indent2 {
+    margin-left: 2em;
+}
+.indent3 {
+    margin-left: 6em;
+    color: #fff;
+    font-weight: 500;
+}
+
+
+
+#faq {
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #222;
+    padding-bottom: 50px;
+}
+#faq h1 {
+    padding-top: 50px;
+    color: #fff;
+}
+#faq2 {
+    margin: 0;
+    padding: 0;
+    background-color: #222;
+    display: table;
+    height: 100%;
+    width: 100%;
+    background: url(images/faq/faq2.jpg) no-repeat center center fixed  ;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+#faq2 h1 {
+    padding-top: 50px;
+    color: #fff;
+    padding-bottom: 50px;
+}
+#faq2 article .container {
+    margin-bottom: 50px;
+}
+.capitalQuestion {
+    font-weight: bold;
+    color: #a67ae9;
+    font-size: 2.0em;
+}
+#faq2 .accordion-heading a {
+    text-decoration: none;
+}
+.accordion-group:hover {
+    color:#fff;
+}
+.question:hover {
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Footer */            
+    
+    
+    footer {
+        z-index:4;
+        position:relative;
+        padding:40px 0;
+        text-align:center;
+        background-color: #222;
+    }
+    
+    footer ul.socials-icons {
+        margin:10px 0 20px 0;
+    }
+    
+    footer ul.socials-icons li {
+        margin:0 10px;
+    }
+    
+    #menu_top {
+        margin-top: 150px;
+        height:50px;
+        width:50px;
+        /*border-radius:3px;*/
+        left:50%;
+
+        margin-left:-20px;
+        margin-top:-65px;
+        position:absolute;
+        cursor:pointer;
+        background-color: transparent;
+        /*background-color: #fff;*/
+    }
+    
+    #menu_top_inside {
+        background-image:url(images/up.png);
+        opacity: 0.4;
+        position: absolute;
+        width: 50px;
+        height: 50px;
+    }
+    
+    #menu_top:hover #menu_top_inside {
+    opacity: 1;
+       
+    }
+
+    @-webkit-keyframes bottom_top_over { 0% { background-position: 0px 0px; }  100% { background-position: 0px -11px; } }
+    @-moz-keyframes bottom_top_over { 0% { background-position: 0px 0px; }  100% { background-position: 0px -11px; } }
+    @keyframes bottom_top_over { 0% { background-position: 0px 0px; }  100% { background-position: 0px -11px; } }
+    
+    
+    
+    /* Accordion */
+
+    .accordion {
+        float:left;
+        width:inherit;
+    }
+    
+    .accordion dt {
+        cursor: pointer;
+        border-radius: 3px 3px 3px 3px;
+        margin-bottom: 10px;
+        padding-top: 10px;
+        margin-top: 50px;
+        /*border-top:#e9e9e9 1px solid;*/
+        transition:all 0.4s ease 0s;
+        -moz-transition:all 0.4s ease 0s;
+        -webkit-transition:all 0.4s ease 0s;
+        -o-transition:all 0.4s ease 0s;
+    }
+    
+    .accordion dt:first-child {
+        border-top:none;
+        padding-top: 0px;
+          font-size: 24px;
+        line-height:24px;
+    }
+    
+    .accordion .accordion-active {
+        /*color:#222222;*/
+        color: #fff;    }
+        
+    .accordion dt span {
+        font-size: 24px;
+        line-height:24px;
+    }
+    
+    .accordion dt span.accordion-status {
+        height:20px;
+        width:20px;
+        padding:2px;
+        /*background:url(img/plus.png) #999999 2px 2px no-repeat;*/
+        background:url(img/plus.png) #999999 no-repeat;
+        background-size:20px 20px;
+        float:left;
+        margin-right:10px;
+        border-radius: 2px;
+        
+    }
+    
+    .accordion dt.accordion-active span.accordion-status {
+        background:url(img/minus.png)  no-repeat;
+        background-color:#222222;
+        background-size:20px 20px;
+        color: #fff;
+    }
+    
+    .accordion-content {
+        padding-bottom: 15px;
+        padding-top: 5px;
+        font-family: 'Lato', sans-serif;
+        font-weight: 200;
+        font-size: 16px;
+        line-height: 30px;
+        padding-top: 15px;
+        margin-left: 15px;
+        margin-right: 15px;
+        letter-spacing: 2px;
+        color: #cccccc;
+        /*font-size: 14px;  
+        line-height: 24px;
+        color: #fff; */     
+    }
+    
+    .accordion-group {
+
+ border: none; 
+}
+    
+/* Accordion end */
+
+
+@media only screen and (max-width: 1300px) {    
+
+    
+    
+}
+
+
+@media only screen and (max-width: 1024px) {
+
+
+
+   
+
+}
+
+
+@media only screen and (max-width: 767px) {
+
+.vert-text h1 {
+        font-size: 2.2em;
+    }
+}
+
+
+
+
+@media only screen and (max-width: 450px) {
+    
+
+ .vert-text h1 {
+        font-size: 2.0em;
+    }
+
+
+
+
+
+}
+#royal_preloader.text .loader {
+    
+    top: 50%;
+    left: 50%;
+    
+}
+

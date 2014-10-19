@@ -31,27 +31,20 @@
     <![endif]-->
     <!-- Add custom CSS here -->
     
-    <link href="css/bootstrap.min.css" rel="stylesheet" />   
-    <link href="css/fancymenu.css"  rel="stylesheet"> 
-    <link href="style.css" rel="stylesheet" />
-    <link href="faq.css" rel="stylesheet" />
+    <link href="/wp-content/themes/sho_child/css/bootstrap.min.css" rel="stylesheet" />   
+    <link href="/wp-content/themes/sho_child/css/fancymenu.css"  rel="stylesheet"> 
+    <link href="/wp-content/themes/sho_child/style.css" rel="stylesheet" />
+    <link href="/wp-content/themes/sho_child/faq.css" rel="stylesheet" />
 
  <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700' rel='stylesheet' type='text/css' />    
     <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
    
-
-
-
-
 </head>
 
 <body class="royal_loader">
 
 
  <?php  include 'menu.php'; ?>
-
-           
-
 
 <!-- faq2 -->
 <section id="faq2">
@@ -66,7 +59,7 @@
 <div class="accordion" id="accordionid">
   <div class="accordion-group">
     <div class="accordion-heading">
-      <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionid" href="index.html#one">
+      <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionid" href="#one">
         <p class="question  ">What is gymnastics, and why TotalTaiso <span class="capitalQuestion">?</span></p>
       </a>
     </div>
@@ -91,7 +84,7 @@ Built upon these foundational elements, TotalTaiso introduces numerous gymnastic
 </br></br>
   <div class="accordion-group">
     <div class="accordion-heading">
-      <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionid" href="index.html#two">
+      <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionid" href="#two">
         <p class="question ">How do I use the TotalTaiso WODs<span class="capitalQuestion">?</span></p>
       </a>
     </div>
@@ -106,7 +99,7 @@ Built upon these foundational elements, TotalTaiso introduces numerous gymnastic
   </br></br>
   <div class="accordion-group">
     <div class="accordion-heading">
-      <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionid" href="index.html#three">
+      <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionid" href="#three">
         <p class="question">I am new to gymnastics and any form of exercising. What do you advise<span class="capitalQuestion">?</span></p>
       </a>
     </div>
@@ -121,7 +114,7 @@ Built upon these foundational elements, TotalTaiso introduces numerous gymnastic
   </br></br>
   <div class="accordion-group">
     <div class="accordion-heading">
-      <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionid" href="index.html#four">
+      <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionid" href="#four">
         <p class="question">I do not have the proper equipment to perform an exercise. What should I do<span class="capitalQuestion">?</span></p>
       </a>
     </div>
@@ -139,7 +132,7 @@ If you do not have access to the proper apparatus to perform an exercise, please
   </br></br>
   <div class="accordion-group">
     <div class="accordion-heading">
-      <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionid" href="index.html#five">
+      <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionid" href="#five">
          <p class="question ">I am interested in learning more. How can I get personal training and advice<span class="capitalQuestion">?</span></p>
       </a>
     </div>
@@ -168,26 +161,18 @@ If you do not have access to the proper apparatus to perform an exercise, please
    <?php  include 'footer.php'; ?>
     <!--/Footer -->
 
- 
-
-
-       
-
-
-
-
         <!-- JavaScript -->
         
   <script src='http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.js'></script>
-  <script src="js/jquery.sticky.js"></script>     
-  <script src="js/jquery.easing-1.3.pack.js" type="text/javascript"></script>
-  <script src="js/bootstrap.min.js" type="text/javascript"></script>
-  <script src="js/jquery.parallax-1.1.3.js" type="text/javascript"></script>
-  <script src="js/appear.js" type="text/javascript" ></script>
-  <script src="js/modernizr.js" type="text/javascript"></script>
+  <script src="/wp-content/themes/sho_child/js/jquery.sticky.js"></script>     
+  <script src="/wp-content/themes/sho_child/js/jquery.easing-1.3.pack.js" type="text/javascript"></script>
+  <script src="/wp-content/themes/sho_child/js/bootstrap.min.js" type="text/javascript"></script>
+  <script src="/wp-content/themes/sho_child/js/jquery.parallax-1.1.3.js" type="text/javascript"></script>
+  <script src="/wp-content/themes/sho_child/js/appear.js" type="text/javascript" ></script>
+  <script src="/wp-content/themes/sho_child/js/modernizr.js" type="text/javascript"></script>
 
     
-    <script type="text/javascript" src="js/royal_preloader.min.js"></script>
+    <script type="text/javascript" src="/wp-content/themes/sho_child/js/royal_preloader.min.js"></script>
     <script type="text/javascript">
         (function($) { "use strict";
                     Royal_Preloader.config({
@@ -202,12 +187,12 @@ If you do not have access to the proper apparatus to perform an exercise, please
     </script>
   
     
-    <script src="js/sscr.js"></script>
-    <script src="js/skrollr.js"></script>
-    <script src="js/jquery.jigowatt.js"></script>
-    <script src="js/classie.js" type="text/javascript"></script>
-    <script src="js/fancymenu-rollin.js" type="text/javascript"></script>
-    <script src="js/faq.js" type="text/javascript"></script>
+    <script src="/wp-content/themes/sho_child/js/sscr.js"></script>
+    <script src="/wp-content/themes/sho_child/js/skrollr.js"></script>
+    <script src="/wp-content/themes/sho_child/js/jquery.jigowatt.js"></script>
+    <script src="/wp-content/themes/sho_child/js/classie.js" type="text/javascript"></script>
+    <script src="/wp-content/themes/sho_child/js/fancymenu-rollin.js" type="text/javascript"></script>
+    <script src="/wp-content/themes/sho_child/js/faq.js" type="text/javascript"></script>
         
         
          
