@@ -514,25 +514,33 @@ $(window).load(function() {
  		 var projPageHolder ='#project-page-holder0';
 		 var portfolioWrap='#portfolio-wrap0';
 		 var projectPageData='#project-page-data0';
-		 var portfolioBottom=".portfolio-bottom";
-		 var projectClose='#project_close';
-		 var portfolioTop=".portfolio-top";
+		 var portfolioBottom=".portfolio-bottom0";
+		 var projectClose='#project_close0';
+		 var portfolioTop=".portfolio-top0";
 		 initializeIzotope(projPageHolder,portfolioWrap,projectPageData,portfolioBottom,projectClose,portfolioTop);
 
 		  projPageHolder ='#project-page-holder1';
 		  portfolioWrap='#portfolio-wrap1';
 		  projectPageData='#project-page-data1';
-		  portfolioBottom=".portfolio-bottom";
+		  portfolioBottom=".portfolio-bottom1";
 		  projectClose='#project_close1';
-		  portfolioTop=".portfolio-top";
+		  portfolioTop=".portfolio-top1";
 		 initializeIzotope(projPageHolder,portfolioWrap,projectPageData,portfolioBottom,projectClose,portfolioTop);
 
 		  projPageHolder ='#project-page-holder2';
 		  portfolioWrap='#portfolio-wrap2';
 		  projectPageData='#project-page-data2';
-		  portfolioBottom=".portfolio-bottom";
+		  portfolioBottom=".portfolio-bottom2";
 		  projectClose='#project_close2';
-		  portfolioTop=".portfolio-top";
+		  portfolioTop=".portfolio-top2";
+		 initializeIzotope(projPageHolder,portfolioWrap,projectPageData,portfolioBottom,projectClose,portfolioTop);
+
+		  projPageHolder ='#project-page-holder3';
+		  portfolioWrap='#portfolio-wrap3';
+		  projectPageData='#project-page-data3';
+		  portfolioBottom=".portfolio-bottom3";
+		  projectClose='#project_close3';
+		  portfolioTop=".portfolio-top3";
 		 initializeIzotope(projPageHolder,portfolioWrap,projectPageData,portfolioBottom,projectClose,portfolioTop);
 
 		  projPageHolder ='#project-page-holder4';
@@ -541,14 +549,6 @@ $(window).load(function() {
 		  portfolioBottom=".portfolio-bottom4";
 		  projectClose='#project_close4';
 		  portfolioTop=".portfolio-top4";
-		 initializeIzotope(projPageHolder,portfolioWrap,projectPageData,portfolioBottom,projectClose,portfolioTop);
-
-		  projPageHolder ='#project-page-holder5';
-		  portfolioWrap='#portfolio-wrap5';
-		  projectPageData='#project-page-data5';
-		  portfolioBottom=".portfolio-bottom5";
-		  projectClose='#project_close5';
-		  portfolioTop=".portfolio-top5";
 		 initializeIzotope(projPageHolder,portfolioWrap,projectPageData,portfolioBottom,projectClose,portfolioTop);
 
 	
