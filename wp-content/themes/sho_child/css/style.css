@@ -3953,8 +3953,10 @@ height: 30px;
 img{
     max-width:100%;
 }
-
-
+/*instagram workaround */
+iframe .root {
+    min-width:100%;
+}
 
 
 
