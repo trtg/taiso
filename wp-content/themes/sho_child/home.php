@@ -182,7 +182,7 @@ while($wods->have_posts()) : $wods->the_post();?>
         <?php  
         $prescribed_exercise_array = get_field('prescribed_exercise');
         $scaled_exercise_array = get_field('scaled_exercise');
-            $wod_date = DateTime::createFromFormat('Ymd',get_field('wod_date'))->format('d');
+            $wod_date = DateTime::createFromFormat('Ymd',get_field('wod_date'))->format('m/d');
             $wod_day_of_week = DateTime::createFromFormat('Ymd',get_field('wod_date'))->format('l');
             $workoutDay="$wod_date <span>$wod_day_of_week</span>"; 
             $exerciseSequence=the_title('','',false); 
