@@ -35,10 +35,15 @@
     	<h1>TOTALTAISO Blog</h1>
     </div> <!--/Blog Header -->
 
-<?php $blog_posts = new WP_Query(array(
+<?php 
+//$paged appears to be a magic global 
+//which if you dont pass in, you always
+//get the same page of results when you
+//use next or previous links
+$blog_posts = new WP_Query(array(
     'post_type' => 'post',
-    'paged'=>1,
-    'posts_per_page'=>2
+    'paged'=>$paged,
+    'posts_per_page'=>3
 ));?>
 
     
@@ -60,7 +65,7 @@ $more = 0;
                     <div class="post-content">
                         <h3 class="blog-title"> <?php echo the_title();?></h3>
 
-                        <p class="blog-meta">Posted by <a href="#">TotalTaiso</a> | <?php the_date(); ?>  | <a href="#">5 Comments</a></p>
+                        <p class="blog-meta">Posted by <a href="#"><?php echo the_author();?></a> | <?php the_date(); ?> </p>
 
                         <div class="blog-border"></div>
                         <div class="blog-content">
