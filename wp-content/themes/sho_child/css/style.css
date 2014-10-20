@@ -3954,8 +3954,9 @@ img{
     max-width:100%;
 }
 /*instagram workaround */
-iframe .root {
-    min-width:100%;
+
+div.blog-post.masonry.isotope-item{
+    min-width:300px;
 }
 
 
