@@ -65,7 +65,7 @@ $more = 0;
                     <div class="post-content">
                         <h3 class="blog-title"> <?php echo the_title();?></h3>
 
-                        <p class="blog-meta">Posted by <a href="#"><?php echo the_author();?></a> | <?php the_date(); ?> </p>
+                        <p class="blog-meta">Posted by <a href="#"><?php the_author();?></a> | <?php the_date(); ?> </p>
 
                         <div class="blog-border"></div>
                         <div class="blog-content">
