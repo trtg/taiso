@@ -72,7 +72,7 @@
 
         <h1 class="text-center">Coaching</h1>
 
-        <div class="container">
+        <div class="coaching-container">
             <div id="myCarousel" class="carousel slide" data-ride="carousel">
 
                 <ul class="nav nav-pills nav-justified">

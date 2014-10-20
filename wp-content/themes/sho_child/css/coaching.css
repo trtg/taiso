@@ -261,7 +261,7 @@ margin: 0 0 0 25px;
 
 #socialicons-container{
     background-color:#222;
-    padding-bottom: 50px; 
+    /*padding-bottom: 50px; */
 }
 
     
@@ -341,5 +341,3 @@ font-size: 2.0em;
     left: 50%;
     
 }
-
-
