@@ -186,7 +186,8 @@ margin: 0 0 0 25px;
 }
 
 .nav-tabs>li, .nav-pills>li{
-    width: 33%;
+    /*this doesn't work*/
+    /*width: 33%;*/
     text-align: center;
     padding-top: 10px;
     padding-bottom: 10px;
