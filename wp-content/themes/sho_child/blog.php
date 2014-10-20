@@ -36,7 +36,7 @@
     </div> <!--/Blog Header -->
 
 <?php $blog_posts = new WP_Query(array(
-    'post_type' => 'post'
+    'post_type' => 'post',
     'paged'=>1,
     'posts_per_page'=>2
 ));?>
