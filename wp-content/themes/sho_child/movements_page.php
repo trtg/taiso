@@ -33,7 +33,6 @@
     <link href="/wp-content/themes/sho_child/css/bootstrap-responsive.min.css" rel="stylesheet" />  
     <link href="/wp-content/themes/sho_child/css/fancymenu.css"  rel="stylesheet"> 
      <link href="/wp-content/themes/sho_child/css/style.css" rel="stylesheet" /> 
-    <link href="/wp-content/themes/sho_child/css/coaching.css" rel="stylesheet" />
     
     
     
@@ -92,6 +91,7 @@
          <script src="/wp-content/themes/sho_child/js/routers/router.js" type="text/javascript"></script>
          <script src="/wp-content/themes/sho_child/js/models/movement-model.js" type="text/javascript"></script>
          <script src="/wp-content/themes/sho_child/js/views/movement-views.js" type="text/javascript"></script>
+         <script src="/wp-content/themes/sho_child/js/fancymenu-rollin.js" type="text/javascript"></script>
          <script src="/wp-content/themes/sho_child/js/app.js" type="text/javascript"></script>
 
 
