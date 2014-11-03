@@ -106,6 +106,14 @@ $(document).ready(function(){
     $('.nav_link').removeClass('active');
     $('#movements_link').addClass('active');
 });
+$(function() {
+    $('#back-top').click(function() {
+        $('html, body').stop().animate({
+            scrollTop: 0
+        }, 250, 'easeInOutExpo');
+    });
+});
+
 </script>
 
      </body>
