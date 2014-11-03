@@ -91,6 +91,7 @@
          <script src="/wp-content/themes/sho_child/js/routers/router.js" type="text/javascript"></script>
          <script src="/wp-content/themes/sho_child/js/models/movement-model.js" type="text/javascript"></script>
          <script src="/wp-content/themes/sho_child/js/views/movement-views.js" type="text/javascript"></script>
+         <script src="/wp-content/themes/sho_child/js/modernizr.js" type="text/javascript"></script>
          <script src="/wp-content/themes/sho_child/js/fancymenu-rollin.js" type="text/javascript"></script>
          <script src="/wp-content/themes/sho_child/js/app.js" type="text/javascript"></script>
 
