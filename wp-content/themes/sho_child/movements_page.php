@@ -8,12 +8,11 @@
  *
  * @package taiso
  */
-
-get_header(); ?>
+?>
 <link rel="stylesheet" type="text/css" href="/wp-content/themes/sho_child/css/movement_directory.css">
 
 <body>
-<?php include 'navbar.php';?>
+ <?php  include 'menu.php'; ?>
 <div id="wrapper" class="container">
    <div class="row">
         <div class="col-xs-12">
