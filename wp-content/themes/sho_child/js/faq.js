@@ -30,15 +30,21 @@ $(document).ready(function(){
         var onMobile = false;
     if( /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent) ) { onMobile = true; }
 
+   
     if( ( onMobile === true )  ) {
     
-       /*$('#flare').removeClass('shoflare');
-       $('#flare').addClass('shoflareOnMobile');
-       */
+       
+       $('#faqDesctop').removeClass('faq2');
+       $('#faqDesctop').find('h1').remove();
+       
+       
        
        
 
     }   
+    else{
+        $('#static').remove();
+    }
     
     
 }); 
@@ -48,5 +54,5 @@ $(document).ready(function(){
 
 $(window).load(function() {
 
- setPattern();
+ //setPattern();
 });
