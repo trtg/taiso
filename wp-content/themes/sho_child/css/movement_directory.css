@@ -1,5 +1,5 @@
-body {
-	background:#121212;
+html, body {
+	background:#222222;
 	margin:0px;
 	padding:0px;
 	font-family:"Open Sans", sans-serif;
@@ -23,6 +23,7 @@ h1 {
 	border:none;
 	border-radius:5px;
 	font-size:1.2em;
+    background-color:white;
 }
 a.filter {
 	display:inline-block;
