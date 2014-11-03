@@ -54,8 +54,17 @@
 
  <?php  include 'menu.php'; ?>
 
+ <div id="static" class="faqOnOnMobile">
+                  <!-- <div class="pattern-faq22">   -->
+                     <div class="vert-text">
+                        <h1 class="">TOTALTAISO FAQ</h1>
+                      </div>
+                  <!-- </div>  -->
+
+    </div>
+
 <!-- faq2 -->
-<section id="faq2">
+<section id="faqDesctop" class="faq2">
     <div class="pattern-faq2">   
     <h1>TOTALTAISO FAQ</h1>
        
