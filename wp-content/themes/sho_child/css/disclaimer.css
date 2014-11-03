@@ -27,6 +27,8 @@ html{
 
 .pattern-desclaimer h1{
     text-align: center;
+    color: #fff;
+    
 }
 
 
@@ -99,30 +101,68 @@ html{
 }
 
 
-#disclaimer {
-    margin: 0;
-    padding: 0;
-    background-color: #222;
+
+
+.disclaimerOnMobile {
+    color: #ffffff;
     display: table;
     height: 100%;
     width: 100%;
     margin:0;
     padding: 0;
-    background: url(/wp-content/images/set.jpg) no-repeat center center fixed ;
+    background-color: #181818;
+    background: url(/wp-content/images/set-optimized.jpg) no-repeat center center ;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
 }
-#disclaimer article {
+
+
+
+
+.disclaimer{
+ margin: 0;
+    padding: 0;
+    color: ffff;
+    /*background-color: #222;*/
+     background-color: #181818;
+    display: table;
+    height: 100%;
+    width: 100%;
+    margin:0;
+    padding: 0;
+    /*fixed*/
+     background: url(/wp-content/images/set-optimized.jpg) no-repeat center center fixed ;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.disclaimer article {
     margin-bottom: 50px;
 }
-#disclaimer article p {
+.disclaimer article p {
     text-shadow: 0 0 1px rgba(255, 255, 255, 0.3);
 }
-#disclaimer h1 {
+.disclaimer h1 {
     padding-top: 50px;
     color: #fff;
+    text-align: center;
+}
+
+#desctopDisclaimer{
+background-color: #181818;
+
+}
+
+#static h1{
+margin-top: 180px;
+/*
+ padding-top: 150px;
+ color: ffff;
+ text-align: center;*/
 }
 
 
@@ -198,7 +238,8 @@ h1, h2, h3, h4, h5, h6 {
     
 
 .vert-text h1 {
-        font-size: 2.2em;
+        font-size: 3.5em;
+        margin-top: 100px;
     }
 }
 
@@ -211,7 +252,8 @@ h1, h2, h3, h4, h5, h6 {
     }
     
     .vert-text h1 {
-        font-size: 2.0em;
+        font-size: 3.0em;
+
     }
 
 

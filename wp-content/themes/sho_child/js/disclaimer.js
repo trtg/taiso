@@ -21,7 +21,7 @@ $(window).bind('load', function () {
 
 	function parallaxInit() {
 		
-		$('#disclaimer').parallax("100%", 0.1);
+		$('.disclaimer').parallax("70%", 0.1);
 		
 		
 		
@@ -31,6 +31,30 @@ $(window).bind('load', function () {
 
 
 $(document).ready(function(){
+
+        var onMobile = false;
+    if( /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent) ) { onMobile = true; }
+
+    if( ( onMobile === true )  ) {
+    
+       
+       $('#desctopDisclaimer').removeClass('disclaimer');
+       $('#desctopDisclaimer').find('h1').remove();
+       //$('#123').addClass('disclaimerOnMobile');
+       
+       //disclaimer
+       
+
+    }   
+    else{
+    	$('#static').remove();
+    }
+    
+    
+}); 
+
+
+/*$(document).ready(function(){
 	
 	var onMobile = false;
 	if( /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent) ) { onMobile = true; }
@@ -45,4 +69,4 @@ $(document).ready(function(){
 		
 	}	
 	
-});  
+});  */

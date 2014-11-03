@@ -6,6 +6,7 @@
  * @package taiso
  */
 ?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -18,7 +19,7 @@
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="viewport" content="width=device-width, user-scalable=no">
     <meta name="viewport" content="initial-scale=1, maximum-scale=1">
-    <meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui">
+    <meta name="viewport" content="width=device-width; initial-scale=1; minimal-ui">
 
     <meta name="author" content="Sho Nakomori">
     <meta name="description" content="Total Taiso desc" />
@@ -52,9 +53,20 @@
 
     <!-- Add custom CSS here -->
 
+
+    
+
+
+
+
+
+
 </head>
 
 <body data-spy="scroll"  class="royal_loader">
+
+
+
 
 <!-- menu -->
 
@@ -101,10 +113,28 @@ While the information contained within this site is periodically updated, no gua
 </article> -->
  </div>
 
+<!-- <div class="disclaimer">
+    
+</div> -->
 
-<section id="disclaimer">
-<div class="pattern-desclaimer">    
+
+ <div id="static" class="disclaimerOnMobile">
+                  <div class="pattern-desclaimer">  
+                     <div class="vert-text">
+                        <h1 class="">Disclaimer</h1>
+                      </div>
+                  </div> 
+
+    </div>
+
+<section id="desctopDisclaimer" class="disclaimer" >
+ <div class="pattern-desclaimer">    
           <h1>Disclaimer</h1>
+
+
+
+
+
  <article class="text-left info" >    
 
  <p class="indent">
@@ -137,7 +167,7 @@ While the information contained within this site is periodically updated, no gua
 </p> 
 
 </article>
-</div>
+ </div> 
 </section>
 
 
@@ -175,8 +205,6 @@ While the information contained within this site is periodically updated, no gua
                     });
         })(jQuery);
     </script>
-
-    <script src="/wp-content/themes/sho_child/js/skrollr.js"></script>
     <script src="/wp-content/themes/sho_child/js/disclaimer.js" type="text/javascript"></script> 
         
         
