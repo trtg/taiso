@@ -3,7 +3,7 @@
             <nav>
                 <ul>
                     <li><a class="fancy-nav-close scroll" href="/"><span>TotalTaiso</span></a></li>
-                    <li><a class="fancy-nav-close scroll" href="#about"><span>Movements</span></a></li>    
+                    <li><a class="fancy-nav-close scroll" href="/movements"><span>Movements</span></a></li>    
                     <li><a class="fancy-nav-close scroll" href="/coaching"><span>Coaching</span></a></li>
                     <li><a class="fancy-nav-close scroll" href="/blog"><span>Blog</span></a></li>
                     <!-- <li><a class="fancy-nav-close scroll" href="faq.php"><span>Faq</span></a></li>
