@@ -110,7 +110,7 @@ $(function() {
     $('#back-top').click(function() {
         $('html, body').stop().animate({
             scrollTop: 0
-        }, 250, 'easeInOutExpo');
+        }, 50, function(){});
     });
 });
 
