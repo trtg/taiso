@@ -14,11 +14,11 @@
     <title>Total Taiso</title>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="viewport" content="width=device-width, user-scalable=no">
     <meta name="viewport" content="initial-scale=1, maximum-scale=1">
-    <meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui">
+    <meta name="viewport" content="width=device-width; initial-scale=1; minimal-ui">
 
     <meta name="author" content="Sho Nakomori">
     <meta name="description" content="Total Taiso desc" />
@@ -47,12 +47,20 @@
  <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700' rel='stylesheet' type='text/css' />    
     <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
    
+
+
+
+
 </head>
 
 <body class="royal_loader">
 
 
  <?php  include 'menu.php'; ?>
+
+           
+
+
 
  <div id="static" class="faqOnOnMobile">
                   <!-- <div class="pattern-faq22">   -->
@@ -62,6 +70,8 @@
                   <!-- </div>  -->
 
     </div>
+
+
 
 <!-- faq2 -->
 <section id="faqDesctop" class="faq2">
@@ -76,7 +86,7 @@
 <div class="accordion" id="accordionid">
   <div class="accordion-group">
     <div class="accordion-heading">
-      <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionid" href="#one">
+      <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionid" href="index.html#one">
         <p class="question  ">What is gymnastics, and why TotalTaiso <span class="capitalQuestion">?</span></p>
       </a>
     </div>
@@ -98,10 +108,10 @@ Built upon these foundational elements, TotalTaiso introduces numerous gymnastic
     </div>
   </div>
   
-</br></br>
+  
   <div class="accordion-group">
     <div class="accordion-heading">
-      <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionid" href="#two">
+      <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionid" href="index.html#two">
         <p class="question ">How do I use the TotalTaiso WODs<span class="capitalQuestion">?</span></p>
       </a>
     </div>
@@ -113,10 +123,10 @@ Built upon these foundational elements, TotalTaiso introduces numerous gymnastic
       </div>
     </div>
   </div>
-  </br></br>
+  
   <div class="accordion-group">
     <div class="accordion-heading">
-      <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionid" href="#three">
+      <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionid" href="index.html#three">
         <p class="question">I am new to gymnastics and any form of exercising. What do you advise<span class="capitalQuestion">?</span></p>
       </a>
     </div>
@@ -128,10 +138,14 @@ Built upon these foundational elements, TotalTaiso introduces numerous gymnastic
       </div>
     </div>
   </div>
-  </br></br>
+  
+
+
+
+  
   <div class="accordion-group">
     <div class="accordion-heading">
-      <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionid" href="#four">
+      <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionid" href="index.html#four">
         <p class="question">I do not have the proper equipment to perform an exercise. What should I do<span class="capitalQuestion">?</span></p>
       </a>
     </div>
@@ -146,10 +160,13 @@ If you do not have access to the proper apparatus to perform an exercise, please
       </div>
     </div>
   </div>
-  </br></br>
+  
+
+
+
   <div class="accordion-group">
     <div class="accordion-heading">
-      <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionid" href="#five">
+      <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionid" href="index.html#five">
          <p class="question ">I am interested in learning more. How can I get personal training and advice<span class="capitalQuestion">?</span></p>
       </a>
     </div>
@@ -177,6 +194,14 @@ If you do not have access to the proper apparatus to perform an exercise, please
      <!-- Footer -->
    <?php  include 'footer.php'; ?>
     <!--/Footer -->
+
+ 
+
+
+       
+
+
+
 
         <!-- JavaScript -->
         
