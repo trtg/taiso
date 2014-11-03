@@ -41,6 +41,7 @@
     <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
 
 <link rel="stylesheet" type="text/css" href="/wp-content/themes/sho_child/css/movement_directory.css">
+</head>
 
 <body>
  <?php  include 'menu.php'; ?>
