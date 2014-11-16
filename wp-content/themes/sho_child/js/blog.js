@@ -147,11 +147,9 @@ $(document).ready(function(){
 });  
   
   
-$(window).load(function(){
-	
-	
-//Masonry Blog
-	var $container = $('.blog-posts-content');
+function fireIzotope(){
+
+var $container = $('.blog-posts-content');
 	$container.isotope({
 		 masonry: {	
 	  },
@@ -161,8 +159,55 @@ $(window).load(function(){
 			queue: false,
 		},	
 	});
+
+}
+
+
+
+$(window).load(function(){
+	
+	fireIzotope();
+//Masonry Blog
+	
   
 
 
 });
+
+window.onresize = function(event) {
+    fireIzotope();
+};
+
+
+
+
+
+
+
+
+   
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

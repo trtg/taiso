@@ -978,7 +978,7 @@ body.royal_loader {
 	
 
 	.home-pattern {
-		background:url(images/home_pattern.png) repeat;
+		background:url(/wp-content/images/home_pattern.png) repeat;
 		width:100%;
 		height:100%;
 	}
@@ -1355,7 +1355,6 @@ body.royal_loader {
 		padding:0px;
 		text-transform: uppercase;
 		width: 100%;
-        background-color:grey;
 	}
 	
 
@@ -1580,7 +1579,7 @@ body.royal_loader {
 	}
 
 	.portfolio-item:hover .project-overlay {
-		opacity:1;
+		opacity:0.9;
 		/*display: none;*/
 		transition:all 0.4s ease 0s;
 		-moz-transition:all 0.4s ease 0s;
@@ -1596,7 +1595,7 @@ body.royal_loader {
 		top:0;
 		left:0;
 		display: block;
-		opacity:0.9;
+		opacity:0.8;
 		margin-left: 4px;
 		margin-top:4px;
 
@@ -1626,8 +1625,8 @@ body.royal_loader {
 	.project-name {
 		color:#fff;
 		text-transform:uppercase;
-		margin-top:10px;
-		opacity:0.5;
+		margin-top:-5px;
+		opacity:0.9;
 		transition:all 0.2s ease 0s;
 		-moz-transition:all 0.2s ease 0s;
     	-webkit-transition:all 0.2s ease 0s;
@@ -1674,7 +1673,7 @@ body.royal_loader {
 		height:40px;
 		/*margin-top:5px;*/
 		bottom: 25px;
-		opacity:0.5;
+		/*opacity:0.5;*/
 		background:url(/wp-content/images/next.png);
 		background-size:40px 40px;
 		transition:all 0.3s ease 0.1s;
@@ -2302,7 +2301,10 @@ font-family: 'Montserrat', sans-serif;
 
 
 /* Blog */
-	
+
+ .titleWrapper{
+     word-wrap: break-word;
+ }
 	#blog-header {
 		text-align:center;
 		padding:80px 0 100px 0;
@@ -2953,7 +2955,9 @@ color: #fff;
 
 /*menu social icons*/
 footer{
-    height: 260px;
+    height: 180px;
+
+
 }
 
 footer #socialicons-container ul a img {
@@ -3607,7 +3611,7 @@ footer{
 		padding-left: 2px;
 		letter-spacing: 1px;
 		line-height: 13px;
-		margin-top: 18px;
+		margin-top: 0px;
 	}
 
 
@@ -3618,14 +3622,21 @@ footer{
 .vert-text h1 {
         font-size: 2.2em;
     }
-
+.instagram_wrapper iframe{
+height: 430px !important;
+}
 }
 
 
 
 @media only screen and (max-width: 479px) {
 	
+.project-name #word {display: none !important}
+	.project-name:after { content: '...' }
 	
+	.instagram_wrapper iframe{
+ height: 330px !important;
+}
 	
 	.div-align-center img{
 		height: 100px;
@@ -3730,7 +3741,9 @@ footer{
 	
 	.blog-post.masonry {
 		margin: 10px;
-		width: 218px;
+		/*width: 218px;*/
+        width:260px;
+		margin-left: -10px;
 	}
 	
 	.blog-post.masonry .post-content {
@@ -3840,12 +3853,12 @@ footer{
 	}
 
 	.project-name{
-		font-size: 12px;
+		font-size: 11px;
 		padding-right: 2px;
 		padding-left: 2px;
 		letter-spacing: 1px;
 		line-height: 13px;
-		margin-top: 18px;
+		margin-top: 10px;
 	}
 
 	.portfolio-item:hover .zoom-icon {
@@ -3950,15 +3963,13 @@ height: 30px;
 
 /* end  Responsive Media Querries */
 
-img{
+/*img{
     max-width:100%;
-}
+}*/
 /*instagram workaround */
-
-div.blog-post.masonry.isotope-item{
+/*div.blog-post.masonry.isotope-item{
     min-width:300px;
-}
-
+}/*
 
 
 
