@@ -62,8 +62,11 @@ $more = 0;
 ?>
 
                 <div class="blog-post masonry">
-                    <div class="post-content">
+                        <div class="titleWrapper">
                         <h3 class="blog-title"> <?php echo the_title();?></h3>
+                        </div>
+                    <div class="post-content">
+                        
 
                         <p class="blog-meta">Posted by <a href="#"><?php the_author();?></a> | <?php the_date(); ?> </p>
 
