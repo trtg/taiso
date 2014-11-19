@@ -182,12 +182,15 @@
 			?>
             
 	</div><!--/.container -->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+        <!--menu depends on classie and modernizr-->
+         <script src="/wp-content/themes/sho_child/js/classie.js" type="text/javascript"></script>
+         <script src="/wp-content/themes/sho_child/js/modernizr.js" type="text/javascript"></script>
+         <script src="/wp-content/themes/sho_child/js/fancymenu-rollin.js" type="text/javascript"></script>
+         <script src="/wp-content/themes/sho_child/js/app.js" type="text/javascript"></script>
 
-<?php
-//get_sidebar( 'content' );
-//get_sidebar();
-get_footer();
-?>
+<?php include 'footer.php';?>
+
 <script>
                 $(document).ready(function(){
                     $('.nav_link').removeClass('active');
