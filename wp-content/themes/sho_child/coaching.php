@@ -105,17 +105,20 @@
                                 <!-- <h2>Private Coaching</h2> -->
 
                                 <ul class="fa-ul">
-                                    <li><i class="fa-li fa fa-check"></i><b>Individualized program</b>
-                                        <br>Whether you are trying to get stronger, build better balance abilities, or become more flexible,
-                                         TotalTaiso coaches will work with you to design individualized 
-                                         workout programs tailored to your specific needs. </li>
+                                    <li><i class="fa-li fa fa-check"></i><b>Individualized programs</b>
+                                        <br>
+                        Whether you are trying to get stronger, build better balance abilities, or become more flexible, TotalTaiso coaches will work with you to design individualized workout programs tailored to your specific needs. 
+</li>
 
 
                                     <li><i class="fa-li fa fa-check"></i><b>Sessions catered to develop specific skills and/or techniques</b>
-                                        <br>Achieve specific goals and/or to emphasize and drive home the fundamentals.</li>
+                                        <br>
+Achieve specific goals and/or to emphasize and drive home the fundamentals.
+</li>
                                     <li><i class="fa-li fa fa-check"></i><b>Take your fitness to the next level, regardless of level or discipline</b>
-                                        <br>Perfect for anyone, ranging from those who want to become more fit to those that have specific sport-related goals 
-                                        (CrossFit, Yoga, Calisthenics, Breakdancing, etc). </li>
+                                        <br>
+Perfect for anyone, ranging from those who want to become more fit to those that have specific sport-related goals (CrossFit, Yoga, Calisthenics, Breakdancing, etc). 
+</li>
 
                                 </ul>
 
@@ -141,13 +144,15 @@
 
                                 <ul class="fa-ul">
                                     <li><i class="fa-li fa fa-check"></i><b>Video review or real-time video chat sessions</b>
-                                        <br>Participants can schedule real-time training sessions with TotalTaiso coaches 
-                                        or submit training videos to receive quick corrections on specific skills or techniques.</li>
+                                        <br>
+Participants can schedule real-time training sessions with TotalTaiso coaches or submit training videos to receive quick corrections on specific skills or techniques.
+</li>
 
 
                                     <li><i class="fa-li fa fa-check"></i><b>Perfect for those that are on-the-go and desire flexibility</b>
-                                        <br>No matter where you are in the world, connect virtually with a TotalTaiso coach to create individualized training programs or drive
-                                         home the fundamentals required to reach the next level.</li>
+                                        <br>
+No matter where you are in the world, connect virtually with a TotalTaiso coach to create individualized training programs or drive home the fundamentals required to reach the next level.  
+</li>
                                 </ul>
 
 
@@ -168,17 +173,20 @@
 
                                 <ul class="fa-ul">
                                     <li><i class="fa-li fa fa-check"></i><b>One-day seminars</b>
-                                        <br>TotalTaiso seminars are designed to deliver information, training techniques, and methodologies to those interested in learning the fundamentals
-                                         of gymnastics-based movements, balance exercises, and flexibility routines.</li>
+                                        <br>
+TotalTaiso seminars are designed to deliver information, training techniques, and methodologies to those interested in learning the fundamentals of gymnastics-based movements, balance exercises, and flexibility routines.
+</li>
 
 
                                     <li><i class="fa-li fa fa-check"></i><b>Develop the fundamentals to reach intermediate to advanced-level skills</b>
-                                        <br>Coach Sho will break down specific skills and introduce progressions to drive home the fundamentals and techniques required for more advanced-level skills.  TotalTaiso Seminars can be geared towards anybody 
-                                           regardless of skill level of discipline (Gymnastics, CrossFitters, Yoga, Fitness Enthusiasts).</li>
+                                        <br>
+Coach Sho will break down specific skills and introduce progressions to drive home the fundamentals and techniques required for more advanced-level skills.  TotalTaiso Seminars can be geared towards anybody regardless of skill level of discipline (Gymnastics, CrossFitters, Yoga, Fitness Enthusiasts).
+</li>
 
                                         <li><i class="fa-li fa fa-check"></i><b>Immediate corrections, feedback, and suggestions</b>
-                                        <br>Seminars are meant to be hands-on, spending more time engaging and moving the body than sitting in a classroom setting. Seminars are perfect for those committed to increasing
-                                         bodyweight strength, balance, and flexibility through gymnastics-inspired fitness.</li> 
+                                        <br>
+Seminars are meant to be hands-on, spending more time engaging and moving the body than sitting in a classroom setting. Seminars are perfect for those committed to increasing bodyweight strength, balance, and flexibility through gymnastics-inspired fitness.
+</li> 
                                 </ul>
 
 
