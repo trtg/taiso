@@ -21,7 +21,14 @@ $(document).ready(function() {
     });*/
 
     var clickEvent = false;
-    $('#myCarousel').on('click', '.nav a', function() {
+$('#myCarousel').on('click','.nav a',function(){
+    var current = $('.nav li.active');
+    var id = parseInt(current.data('slide-to'));
+    $('#myCarousel').carousel(id);
+});
+//    $('#myCarousel').on('click', '.nav a', function() {
+
+ /*   $('#myCarousel').on('click', '.nav a', function() {
         clickEvent = true;
         $('.nav li').removeClass('active');
         $(this).parent().addClass('active');
@@ -40,7 +47,7 @@ $(document).ready(function() {
         }
         clickEvent = false;
     });
-
+*/
 
 
 }); 

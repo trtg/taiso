@@ -164,7 +164,7 @@ No matter where you are in the world, connect virtually with a TotalTaiso coach 
                     <!-- End Item -->
                   <div class="item">
                         <div class="row">
-                            <div class="col-md-6 col-xs-6 col-lg-6 text-center">
+                            <div class="col-md-6 col-xs-6 col-lg-6 text-center left">
                                 <img src="/wp-content/images/sho_tablet.png">
                             </div>
 
