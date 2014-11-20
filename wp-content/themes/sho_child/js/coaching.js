@@ -23,6 +23,8 @@ $(document).ready(function() {
         var current = $('.nav li.active');
         var id = parseInt(current.data('slide-to'));
         $('#myCarousel').carousel(id);
+        $('.nav').removeClass('active');
+        current.addClass('active');
     });
 
     /*   $('#myCarousel').on('click', '.nav a', function() {
