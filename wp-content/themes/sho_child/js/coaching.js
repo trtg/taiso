@@ -20,11 +20,16 @@ $(document).ready(function() {
     $('#myCarousel').carousel({interval:false});
 
     $('#myCarousel').on('click','.nav a',function(){
+        //deselect whatever was previously selected
+        //then set currently clicked item as active
+        $('.nav li').removeClass('active');
+        $(this).parent().addClass('active');
+
         var current = $('.nav li.active');
         var id = parseInt(current.data('slide-to'));
+
+        console.log('clicked on tab ' + id)
         $('#myCarousel').carousel(id);
-        $('.nav').removeClass('active');
-        current.addClass('active');
     });
 
     /*   $('#myCarousel').on('click', '.nav a', function() {
