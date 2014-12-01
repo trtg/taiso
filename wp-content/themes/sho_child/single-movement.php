@@ -188,7 +188,6 @@
          <script src="/wp-content/themes/sho_child/js/classie.js" type="text/javascript"></script>
          <script src="/wp-content/themes/sho_child/js/modernizr.js" type="text/javascript"></script>
          <script src="/wp-content/themes/sho_child/js/fancymenu-rollin.js" type="text/javascript"></script>
-         <script src="/wp-content/themes/sho_child/js/app.js" type="text/javascript"></script>
 
 <?php include 'footer.php';?>
 
