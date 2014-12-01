@@ -11,3 +11,6 @@ h1,h2,h3{
     background:#f5f5f5;
     border-radius:5px;
 }
+a:hover{
+    color:#899999;
+}
