@@ -1,4 +1,4 @@
-body{
+html,body{
     background:#222222;
 }
 li{
@@ -6,4 +6,8 @@ li{
 }
 h1,h2,h3{
     color:#999999;
+}
+.apparatus_icon{
+    background:#f5f5f5;
+    border-radius:5px;
 }
