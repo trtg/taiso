@@ -30,7 +30,8 @@
     <link href="/wp-content/themes/sho_child/css/bootstrap.min.css" rel="stylesheet" /> 
     <link href="/wp-content/themes/sho_child/css/bootstrap-responsive.min.css" rel="stylesheet" />  
     <link href="/wp-content/themes/sho_child/css/fancymenu.css"  rel="stylesheet"> 
-     <link href="/wp-content/themes/sho_child/css/style.css" rel="stylesheet" /> 
+    <link href="/wp-content/themes/sho_child/css/style.css" rel="stylesheet" /> 
+    <link href="/wp-content/themes/sho_child/css/single-movement.css" rel="stylesheet" /> 
     
     
     
@@ -72,7 +73,7 @@
                             $apparatus_icon = "/wp-content/themes/sho_child/img/floor_icon.png";
                             break;
                         }
-                        echo "<a href=\"$apparatus_link\"> <img src=\"$apparatus_icon\"></a>";
+                        echo "<a href=\"$apparatus_link\"> <img class=\"apparatus_icon\" src=\"$apparatus_icon\"></a>";
                     }
                 ?>
                     </div>
