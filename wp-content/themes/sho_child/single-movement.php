@@ -126,7 +126,7 @@
                         endwhile;
                         echo "</ul>";
                     else:
-                        echo "<h3>N/A</h3>";
+                        echo "<h3>Easier: N/A</h3>";
                     endif;
                     ?>
                     </div>
@@ -156,7 +156,7 @@
                         endwhile;
                         echo "</ul>";
                         else:
-                            echo "<h3>N/A</h3>";
+                            echo "<h3>Harder: N/A</h3>";
                     endif;
                     ?>
 
