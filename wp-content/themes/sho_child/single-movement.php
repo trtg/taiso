@@ -24,11 +24,12 @@
     <meta name="author" content="TotalTaiso  Campaign">
     <meta name="keywords" content="strength, balance, flexibility ....">
     
-    <!-- Bootstrap core CSS -->
-    
+<!--    <link href="/wp-content/themes/sho_child/css/bootstrap.min.css" rel="stylesheet" /> 
+    <link href="/wp-content/themes/sho_child/css/bootstrap-responsive.min.css" rel="stylesheet" />  -->
 
-    <link href="/wp-content/themes/sho_child/css/bootstrap.min.css" rel="stylesheet" /> 
-    <link href="/wp-content/themes/sho_child/css/bootstrap-responsive.min.css" rel="stylesheet" />  
+    <!--sergey depends on old bootstrap elsewhere, but new bootstrap is much simpler  -->
+<link rel="stylesheet" type="text/css" href="//netdna.bootstrapcdn.com/bootswatch/3.1.1/cerulean/bootstrap.min.css">
+
     <link href="/wp-content/themes/sho_child/css/fancymenu.css"  rel="stylesheet"> 
     <link href="/wp-content/themes/sho_child/css/style.css" rel="stylesheet" /> 
     <link href="/wp-content/themes/sho_child/css/single-movement.css" rel="stylesheet" /> 
@@ -99,8 +100,9 @@
                     ?>
                     </div><!--/.col-->
 		        </div><!--/.row -->
-
+<hr>
                 <h2>Skill Progression</h2>
+
                 <div class="row">
                     <div class="col-xs-12 col-md-4">
                     <?php
