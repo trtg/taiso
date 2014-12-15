@@ -17,8 +17,8 @@ custom field in the backend for them then add classes prescribed
 and scaled to the portfolio-item div -->
 <?php foreach($prescribed_exercise_array as $exercise){ 
 $exercise_volume = $exercise['sets'] . "x" . $exercise['reps'];
-$exercise_post_id = url_to_postid($exercise['movement_url']);
 
+$exercise_post_id = url_to_postid($exercise['movement_url']);
 $youtube_full_code = get_field('youtube_embed_code',$exercise_post_id);
 preg_match("*youtube.com/embed/(\w+)*",$youtube_full_code,$matches); 
 $youtube_video_id = $matches[1];
@@ -56,11 +56,18 @@ $exercise_title = $exercise_post->post_title;
 $exercise_volume = $exercise['sets'] . "x" . $exercise['reps'];
 $exercise_post = get_post(url_to_postid($exercise['movement_url']));
 $exercise_title = $exercise_post->post_title;
+
+$exercise_post_id = url_to_postid($exercise['movement_url']);
+$youtube_full_code = get_field('youtube_embed_code',$exercise_post_id);
+preg_match("*youtube.com/embed/(\w+)*",$youtube_full_code,$matches); 
+$youtube_video_id = $matches[1];
+$youtube_thumbnail_url = "http://img.youtube.com/vi/$youtube_video_id/default.jpg";
+
 ?>
              <!-- Portfolio Item Video Expander  -->                   
             <div class="portfolio-item one-four scaled ">
             
-            <div class="portfolio-image">
+            <div class="portfolio-image" style=<?php echo "background-image:url($youtube_thumbnail_url);background-repeat:no-repeat;background-size:cover;background-position:center;" ?>>
                      <div class="video-wrapper">
                             <div class="video-container">
                             </div> <!-- /video -->
