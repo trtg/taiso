@@ -22,7 +22,7 @@ $exercise_post_id = url_to_postid($exercise['movement_url']);
 $youtube_full_code = get_field('youtube_embed_code',$exercise_post_id);
 preg_match("*youtube.com/embed/(\w+)*",$youtube_full_code,$matches); 
 $youtube_video_id = $matches[1];
-$youtube_thumbnail_url = "http://img.youtube.com/vi/$youtube_video_id/default.jpg"
+$youtube_thumbnail_url = "http://img.youtube.com/vi/$youtube_video_id/default.jpg";
 
 $exercise_post = get_post(url_to_postid($exercise['movement_url']));
 $exercise_title = $exercise_post->post_title;
