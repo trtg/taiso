@@ -12,6 +12,7 @@
                     <li><a class="fancy-nav-close scroll" href=""><span> </span></a></li>
                     <li><a class="fancy-nav-close scroll" href="/about-sho"><span style="text-transform:none; font-size:13px">About Sho</span></a></li>
                     <li><a class="fancy-nav-close scroll" href="/about_total_taiso"><span style="text-transform:none; font-size:13px; line-height:18px;">About Taiso</span></a></li>
+                    <li><a class="fancy-nav-close scroll" href="/contact-us"><span style="text-transform:none; font-size:13px; line-height:18px;">Contact Us</span></a></li>
                     <!-- <li><a class="fancy-nav-close scroll" href="#contact"><span>Contact</span></a></li> -->
                     
                   

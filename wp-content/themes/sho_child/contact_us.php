@@ -6,129 +6,77 @@
  * @package taiso
  */
 
-get_header(); ?>
-<link rel="stylesheet" type="text/css" href="/wp-content/themes/sho_child/css/contact_us.css">
+ ?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Total Taiso</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+    <meta name="viewport" content="width=device-width; initial-scale=1; minimal-ui">
 
-
-<body>
-<?php include 'navbar.php';?>
-    <section class="contact" id="contact">
+    <meta name="author" content="Sho Nakomori">
+    <meta name="description" content="Total Taiso desc" />
+    <meta name="author" content="TotalTaiso  Campaign">
+    <meta name="keywords" content="strength, balance, flexibility ....">
     
-        <div class="container">
-            <div class="row">
-                <h1>contact</h1>
-            </div>
-            <div class="row">
-                <div class="sub-text-line"></div>
-            </div>
-            <div class="row">
-                <div class="sub-text link-svgline">Let us work with you to achieve <a href="#" data-gal="m_PageScroll2id" data-ps2id-offset="65">your goals<svg class="link-svgline"><use xlink:href="#svg_line"></use></svg></a> </div>
-            </div>
-            <div class="clear"></div>
-            <div class="row">
-                <h4>for questions, feel free to contact us</h4>
-            </div>      
-            <div class="clear"></div>
-            <form name="ajax-form" id="ajax-form" action="/wp-content/themes/sho_child/mail-it.php" method="post">
-               <div class="row">
-                <div class="col-lg-6 col-md-6 col-sm-6  col-xs-12 data">
-                    <label for="name"> 
-                        <span class="error" id="err-name">please enter name</span>
-                    </label>
-                    <input name="name" id="name" type="text"   placeholder="Your Name: *"/>
-                </div>
-                
-                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 data">
-                    <label for="email"> 
-                        <span class="error" id="err-email">please enter e-mail</span>
-                        <span class="error" id="err-emailvld">e-mail is not a valid format</span>
-                    </label>
-                    <input name="email" id="email" type="text"  placeholder="E-Mail: *"/>
-                </div>
-           
-              <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 data">
-                    <label for="subject"> 
-                        <span class="error" id="err-subject">please enter subject</span>
-                        <span class="error" id="err-subject">subject is not a valid format</span>
-                    </label>
-                    <input name="subject" id="subject" type="text"  placeholder="Subject: *"/>
-                </div>    
+    <!-- Bootstrap core CSS -->
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,400' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Abel' rel='stylesheet' type='text/css'>
+   <!--  <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/fancymenu.css"  rel="stylesheet">  -->
+    <!-- <script src="js/jquery-1.10.2.js"></script>
+    <script src="js/jquery1.8.3.js" type="text/javascript"></script>  
+    <script src="js/jquery-ui.min.js"></script> -->
+   <!--  <script src="weljs/jquery.ui.touch-punch.min.js" type="text/javascript"></script> -->
+   <!--  <script src="js/bannerscollection_zoominout.js" type="text/javascript"></script> -->
+    <!-- support till IE8 and a bit 7 -->
+    <!--[if lt IE 9]>
+        <link href="font-awesome/css/font-awesome-ie7.min.css" rel="stylesheet">
+         <script src="js/html5shiv.js" type="text/javascript"></script>
+         <script src="js/respond.src.js" type="text/javascript"></script>
+         <link href="css/border-radius.htc" rel="stylesheet">
+     <![endif]-->
 
-            </div>
+    <!--[if lt IE 8]>
+    <link href="css/bootstrap-ie7.css" rel="stylesheet">
+    <![endif]-->
 
+    <!--[if IE]><link rel="stylesheet" href="css/ie.css" type="text/css" media="screen, projection" /><![endif]-->
 
-            
+    <!--[if lt IE 8]>
+   <style> .btn{ behavior: url(css/border-radius.htc); position: relative;} .vert-text{ margin-top:50px;} </style>
+<![endif]-->
+    <!-- Add custom CSS here -->
+    <link href="/wp-content/themes/sho_child/css/bootstrap.min.css" rel="stylesheet" />   
+    <link href="/wp-content/themes/sho_child/css/fancymenu.css"  rel="stylesheet"> 
+     <link href="/wp-content/themes/sho_child/css/style.css" rel="stylesheet" /> 
+     <link href="/wp-content/themes/sho_child/css/aboutsho.css" rel="stylesheet" />
+    
+    <link rel="stylesheet" href="/wp-content/themes/sho_child/css/prettyPhoto.css" type="text/css" media="screen" />    
+    <link href="/wp-content/themes/sho_child/css/jquery.bxslider.css" rel="stylesheet" />
+    <link href="/wp-content/themes/sho_child/css/font-awesome.min.css" rel="stylesheet" />
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700' rel='stylesheet' type='text/css' />
+    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
 
+   <!--  <link href="main.css" rel="stylesheet">
+    <link href="css/jquery.bxslider.css" rel="stylesheet" />
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
+ -->
+</head>
 
-
-                 <div class="row">
-                            <div class="col-lg-12 col-md-12 col-xs-12 data">
-                                <label for="message"></label>
-                                <textarea name="message" id="message" placeholder="Tell Us Everything"></textarea>
+<link rel="stylesheet" type="text/css" href="/wp-content/themes/sho_child/css/contact_us.css">
+<body>
+   <?php  include 'menu.php'; ?>
+<div id="contact_form" class="row">
+                            <div class="col-xs-12 col-sm-12 col-md-12" >
+                            <?php echo do_shortcode( '[contact-form-7 id="48" title="Contact form 1"]' ); ?>
                             </div>
-
-               </div>
-               
-
-                <div class="row">
-                
-                    <div id="button-con"><button class="send_message" id="send"><span data-hover="submit">submit</span></button></div>
-                
-                </div>
-
-                <div class="clear"></div>   
-                <div class="error text-align-center" id="err-form">There was a problem validating the form please check!</div>
-                <div class="error text-align-center" id="err-timedout">The connection to the server timed out!</div>
-                <div class="error" id="err-state"></div>
-            </form> 
-
-
-
-            <div class="clear"></div>
-            <div id="ajaxsuccess">Successfully sent!!</div> 
-        </div>
-        
-        <div class="clear"></div>
-
-        <div class="con-detal-wrapper">
-            <div class="container">
-                <div class="row">
-                           
-                            <!-- <div class="one-third column" data-scroll-reveal="enter left move 200px over 1s after 0.2s"> -->
-                            <div class="col-lg-4 col-md-4 col-sm-4  col-xs-12 data">
-                                <h5>office:</h5>
-                                <p>coming soon!</p>
-                            </div>
-                            
-                            <!-- <div class="one-third column" data-scroll-reveal="enter top move 200px over 1s after 0.1s"> -->
-                            <div class="col-lg-4 col-md-4 col-sm-4  col-xs-12 data ">
-                                <h5>phone:</h5>
-                                <p>+415 777 77 77</p>
-                            </div>
-                            
-                           <!--  <div class="one-third column" data-scroll-reveal="enter right move 200px over 1s after 0.2s"> -->
-                           <div class="col-lg-4 col-md-4 col-sm-4  col-xs-12 data">
-                                <h5>e-mail:</h5>
-                                <p>tt@totaltaiso.com</p>
-                            </div>
-
-                </div>
-            </div>
-        </div>
-        
-        <div class="clear"></div>
-        
-        
-        
-        
-        
-        
-    </section>  
-
-
-    <!-- end contact -->
-   
-
+                    </div>
 
 <?php include 'footer.php';?>
 
@@ -137,6 +85,18 @@ $(document).ready(function(){
     $('.nav_link').removeClass('active');
 });
 </script>
+
+<script src="/wp-content/themes/sho_child/js/jquery.prettyPhoto.js" type="text/javascript"></script>
+    <script src="/wp-content/themes/sho_child/js/isotope.js" type="text/javascript"></script>
+    <script src="/wp-content/themes/sho_child/js/jquery.bxslider.min.js"></script>
+    <script src="/wp-content/themes/sho_child/js/jquery.tweet.js"></script>
+    <script src="/wp-content/themes/sho_child/js/jquery.cycle.all.js" type="text/javascript" charset="utf-8"></script>
+    <script src="/wp-content/themes/sho_child/js/jquery.maximage.js" type="text/javascript" charset="utf-8"></script>
+    <script src="/wp-content/themes/sho_child/js/sscr.js"></script>
+    <script src="/wp-content/themes/sho_child/js/skrollr.js"></script>
+    <script src="/wp-content/themes/sho_child/js/jquery.jigowatt.js"></script>
+    <script src="/wp-content/themes/sho_child/js/classie.js" type="text/javascript"></script>
+    <script src="/wp-content/themes/sho_child/js/fancymenu-rollin.js" type="text/javascript"></script>
     </body>
 </html>
 
