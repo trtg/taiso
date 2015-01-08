@@ -9,6 +9,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
     display: block;
 }
 body {
+    background-color:#000;
 }
 ol, ul {
     list-style: none;
@@ -2053,7 +2054,7 @@ textarea {
     
     #menu_top_inside {
         /*background-image:url(img/menu_bottom_top_bg.png);*/
-        background-image:url(img/up.png);
+        background-image:url("/wp-content/images/up.png);
         opacity: 0.4;
     /*  background-size:50px 50px;
         background-position: 0 0;

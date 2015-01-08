@@ -86,6 +86,7 @@ $(document).ready(function(){
 });
 </script>
 
+<script src='http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.js'></script>
 <script src="/wp-content/themes/sho_child/js/jquery.prettyPhoto.js" type="text/javascript"></script>
     <script src="/wp-content/themes/sho_child/js/isotope.js" type="text/javascript"></script>
     <script src="/wp-content/themes/sho_child/js/jquery.bxslider.min.js"></script>
