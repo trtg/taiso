@@ -1866,6 +1866,8 @@ label {
 }
 input[type="submit"]{
     background: red;
+    margin-bottom: 20px;
+    border-radius:2px;
 }
 input {
     width: 96%;
