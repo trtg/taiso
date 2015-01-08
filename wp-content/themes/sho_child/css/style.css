@@ -1315,6 +1315,8 @@ body.royal_loader {
 
 #newsletter{
 	position: static;
+    padding-bottom:80px;
+    /*to keep from overlapping back to top button*/
 	/*margin-top: 50px;*/
 }
     
@@ -3958,7 +3960,21 @@ height: 30px;
 	vertical-align: top;
 }
 
+.nm_mc_form li {
+    display:inline-block;
+}
 
+.nm_mc_form input[type="text"]{
+    background-color:white;
+    color: black;
+}
+
+.nm_mc_form input[type="submit"]{
+    background-color:white;
+    border-radius:2px;
+    margin:10px;
+    padding:5px;
+}
 
 
 /* end  Responsive Media Querries */
@@ -3970,6 +3986,5 @@ height: 30px;
 /*div.blog-post.masonry.isotope-item{
     min-width:300px;
 }/*
-
 
 

@@ -243,22 +243,15 @@ endwhile; ?>
     
     	<!-- Container -->
 		<div class="container small-width">
-        
         	<div class="newsletter-left">
-    
-    			<input type="text" value="Enter your e-mail" onblur="if(this.value == '') { this.value = 'Enter your e-mail'; }" onfocus="if(this.value == 'Enter your e-mail') { this.value = ''; }" size="30">
-    		
+    		<!--	<input type="text" value="Enter your e-mail" onblur="if(this.value == '') { this.value = 'Enter your e-mail'; }" onfocus="if(this.value == 'Enter your e-mail') { this.value = ''; }" size="30">-->
+            <?php echo do_shortcode('[nm-mc-form fid="1"]'); ?>
             </div>
             
             
-            <!-- <div id="button-con"><button class="send_message" id="send"><span data-hover="Subscribe Now">Subscribe Now</span></button></div> -->
-            
-            <div class="newsletter-right">
-            
+<!--            <div class="newsletter-right">
     			<a class="newave-button medium outline white">Subscribe now</a>
-            
-            </div>
-    
+            </div>-->
     	</div>
         <!--/Container -->
     
