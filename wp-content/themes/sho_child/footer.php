@@ -20,7 +20,7 @@
                   </ul>
               </div><!--/disclaimerFaq-->
 
-             <span>&copy;2014 TotalTaiso Crafted in California</span>
+             <span>&copy;2015 TotalTaiso Crafted in California</span>
         </div><!--/container-->
     </footer> <!--/Footer -->
 

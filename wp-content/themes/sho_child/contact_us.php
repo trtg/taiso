@@ -24,50 +24,13 @@
     <meta name="author" content="TotalTaiso  Campaign">
     <meta name="keywords" content="strength, balance, flexibility ....">
     
-    <!-- Bootstrap core CSS -->
-    <link href='http://fonts.googleapis.com/css?family=Lato:300,400' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Abel' rel='stylesheet' type='text/css'>
-   <!--  <link href="css/bootstrap.css" rel="stylesheet">
-    <link href="css/fancymenu.css"  rel="stylesheet">  -->
-    <!-- <script src="js/jquery-1.10.2.js"></script>
-    <script src="js/jquery1.8.3.js" type="text/javascript"></script>  
-    <script src="js/jquery-ui.min.js"></script> -->
-   <!--  <script src="weljs/jquery.ui.touch-punch.min.js" type="text/javascript"></script> -->
-   <!--  <script src="js/bannerscollection_zoominout.js" type="text/javascript"></script> -->
-    <!-- support till IE8 and a bit 7 -->
-    <!--[if lt IE 9]>
-        <link href="font-awesome/css/font-awesome-ie7.min.css" rel="stylesheet">
-         <script src="js/html5shiv.js" type="text/javascript"></script>
-         <script src="js/respond.src.js" type="text/javascript"></script>
-         <link href="css/border-radius.htc" rel="stylesheet">
-     <![endif]-->
-
-    <!--[if lt IE 8]>
-    <link href="css/bootstrap-ie7.css" rel="stylesheet">
-    <![endif]-->
-
-    <!--[if IE]><link rel="stylesheet" href="css/ie.css" type="text/css" media="screen, projection" /><![endif]-->
-
-    <!--[if lt IE 8]>
-   <style> .btn{ behavior: url(css/border-radius.htc); position: relative;} .vert-text{ margin-top:50px;} </style>
-<![endif]-->
-    <!-- Add custom CSS here -->
+</head>
     <link href="/wp-content/themes/sho_child/css/bootstrap.min.css" rel="stylesheet" />   
     <link href="/wp-content/themes/sho_child/css/fancymenu.css"  rel="stylesheet"> 
-     <link href="/wp-content/themes/sho_child/css/style.css" rel="stylesheet" /> 
-     <link href="/wp-content/themes/sho_child/css/aboutsho.css" rel="stylesheet" />
-    
-    <link rel="stylesheet" href="/wp-content/themes/sho_child/css/prettyPhoto.css" type="text/css" media="screen" />    
-    <link href="/wp-content/themes/sho_child/css/jquery.bxslider.css" rel="stylesheet" />
-    <link href="/wp-content/themes/sho_child/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="/wp-content/themes/sho_child/css/style.css" rel="stylesheet" /> 
+
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700' rel='stylesheet' type='text/css' />
     <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
-
-   <!--  <link href="main.css" rel="stylesheet">
-    <link href="css/jquery.bxslider.css" rel="stylesheet" />
-    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
- -->
-</head>
 
 <link rel="stylesheet" type="text/css" href="/wp-content/themes/sho_child/css/contact_us.css">
 <body>
@@ -80,25 +43,24 @@
 
 <?php include 'footer.php';?>
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-
+        <script src='http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.js'></script>
+        <script src="/wp-content/themes/sho_child/js/jquery.sticky.js"></script>     
+        <script src="/wp-content/themes/sho_child/js/jquery.easing-1.3.pack.js" type="text/javascript"></script>
+        <script src="/wp-content/themes/sho_child/js/bootstrap.min.js" type="text/javascript"></script>
+        <script src="/wp-content/themes/sho_child/js/jquery.parallax-1.1.3.js" type="text/javascript"></script>
+        <script src="/wp-content/themes/sho_child/js/appear.js" type="text/javascript" ></script>
+        <script src="/wp-content/themes/sho_child/js/modernizr.js" type="text/javascript"></script>
+        <script src="/wp-content/themes/sho_child/js/classie.js" type="text/javascript"></script>
+        <script src="/wp-content/themes/sho_child/js/fancymenu-rollin.js" type="text/javascript"></script>
 <script>
-$(document).ready(function(){
-    $('.nav_link').removeClass('active');
+$(function() {
+    $('#back-top').click(function() {
+        $('html, body').stop().animate({
+            scrollTop: 0
+        }, 1500, 'easeInOutExpo');
+    });
 });
 </script>
 
-<script src="/wp-content/themes/sho_child/js/jquery.prettyPhoto.js" type="text/javascript"></script>
-    <script src="/wp-content/themes/sho_child/js/isotope.js" type="text/javascript"></script>
-    <script src="/wp-content/themes/sho_child/js/jquery.bxslider.min.js"></script>
-    <script src="/wp-content/themes/sho_child/js/jquery.tweet.js"></script>
-    <script src="/wp-content/themes/sho_child/js/jquery.cycle.all.js" type="text/javascript" charset="utf-8"></script>
-    <script src="/wp-content/themes/sho_child/js/jquery.maximage.js" type="text/javascript" charset="utf-8"></script>
-    <script src="/wp-content/themes/sho_child/js/sscr.js"></script>
-    <script src="/wp-content/themes/sho_child/js/skrollr.js"></script>
-    <script src="/wp-content/themes/sho_child/js/jquery.jigowatt.js"></script>
-    <script src="/wp-content/themes/sho_child/js/classie.js" type="text/javascript"></script>
-    <script src="/wp-content/themes/sho_child/js/fancymenu-rollin.js" type="text/javascript"></script>
     </body>
 </html>
-

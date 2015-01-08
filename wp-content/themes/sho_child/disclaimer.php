@@ -171,13 +171,10 @@ While the information contained within this site is periodically updated, no gua
 </section>
 
 
-
     
     <!-- Footer -->
    <?php  include 'footer.php'; ?>
     <!--/Footer -->
-
- 
 
 
         <!-- JavaScript -->
@@ -207,24 +204,6 @@ While the information contained within this site is periodically updated, no gua
     </script>
     <script src="/wp-content/themes/sho_child/js/disclaimer.js" type="text/javascript"></script> 
         
-        
-         
-
-
-
-<!--  google analitics  -->
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'here_needs-tobe_tracking_code', 'totaltaiso.com');
-  ga('send', 'pageview');
-
-</script>
-
-
 </body>
 
 </html>
