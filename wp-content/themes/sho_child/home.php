@@ -307,6 +307,14 @@ endwhile; ?>
     <script  src="/wp-content/themes/sho_child/js/isotope.js" type="text/javascript"></script> 
     <script src="/wp-content/themes/sho_child/js/jquery.bxslider.min.js"></script>
 
+<script>
+mailchimp_vars = {
+    ajaxurl: "http://totaltaiso.dreamhosters.com/wp-admin/admin-ajax.php", 
+        mailchimp_plugin_url: "http://totaltaiso.dreamhosters.com/wp-content/plugins/nmedia-mailchimp-widget/", 
+        redirect_to: ""};
+    </script>
+
+<script type='text/javascript' src='http://totaltaiso.dreamhosters.com/wp-content/plugins/nmedia-mailchimp-widget/js/ajax.js?ver=3.5.2'></script>
 
     
     <script src="/wp-content/themes/sho_child/js/royal_preloader.min.js"></script>
