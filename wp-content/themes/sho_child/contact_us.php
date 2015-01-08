@@ -80,13 +80,14 @@
 
 <?php include 'footer.php';?>
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+
 <script>
 $(document).ready(function(){
     $('.nav_link').removeClass('active');
 });
 </script>
 
-<script src='http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.js'></script>
 <script src="/wp-content/themes/sho_child/js/jquery.prettyPhoto.js" type="text/javascript"></script>
     <script src="/wp-content/themes/sho_child/js/isotope.js" type="text/javascript"></script>
     <script src="/wp-content/themes/sho_child/js/jquery.bxslider.min.js"></script>
