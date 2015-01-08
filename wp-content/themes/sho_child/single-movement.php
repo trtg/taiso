@@ -74,7 +74,8 @@
                             $apparatus_icon = "/wp-content/themes/sho_child/img/floor_icon.png";
                             break;
                         }
-                        echo "<a href=\"$apparatus_link\"> <img class=\"apparatus_icon\" src=\"$apparatus_icon\"></a>";
+                        //FIXME: temporarily hide the apparatus icon until the archive pages are fixed
+                        //echo "<a href=\"$apparatus_link\"> <img class=\"apparatus_icon\" src=\"$apparatus_icon\"></a>";
                     }
                 ?>
                     </div>
