@@ -2032,7 +2032,7 @@ textarea {
         position:relative;
         padding:40px 0;
         text-align:center;
-        background-color: #222;
+        background-color: transparent;
     }
     
     footer ul.socials-icons {
