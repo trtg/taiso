@@ -1868,6 +1868,7 @@ input[type="submit"]{
     background: red;
     margin-bottom: 20px;
     border-radius:2px;
+    padding:5px;
 }
 input {
     width: 96%;
