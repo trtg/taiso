@@ -3975,6 +3975,19 @@ height: 30px;
     margin:10px;
     padding:5px;
 }
+/*Used for the read more links on blog main page*/
+a.more-link {
+    border-radius:3px;	
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing:0;
+    text-transform:uppercase;
+    display:inline-block;	
+    font-size:12px;
+    line-height:14px;
+    padding:5px 9px 7px 9px;
+    line-height:12px;
+    color:#FFF;
+}
 
 
 /* end  Responsive Media Querries */

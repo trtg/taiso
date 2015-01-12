@@ -74,7 +74,7 @@ $more = 0;
                         <div class="blog-content">
                             <?php the_content('Read more ...');?>
                         </div><!--/blog-content-->
-                        <a href="blog-post.php" class="newave-button small grey external">Read More</a>
+                        <!--<a href="blog-post.php" class="newave-button small grey external">Read More</a>-->
                     </div> <!--/post-content -->
                 </div> <!--/blog-post masonry-->
 
