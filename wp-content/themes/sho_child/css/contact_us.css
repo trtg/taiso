@@ -1865,7 +1865,7 @@ label {
     line-height:30px;
 }
 input[type="submit"]{
-    background: red;
+    background: #757575;
     margin-bottom: 20px;
     border-radius:2px;
     padding:5px;
