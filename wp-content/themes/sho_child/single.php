@@ -31,6 +31,7 @@
     <link href="/wp-content/themes/sho_child/css/fancymenu.css"  rel="stylesheet"> 
     <link href="/wp-content/themes/sho_child/css/style.css" rel="stylesheet" /> 
     <link href="/wp-content/themes/sho_child/css/single.css" rel="stylesheet" /> 
+    <link href="/wp-content/themes/sho_child/css/single-movement.css" rel="stylesheet" /> 
     
     
     
