@@ -25,7 +25,8 @@
     <meta name="keywords" content="strength, balance, flexibility ....">
     
 </head>
-    <link href="/wp-content/themes/sho_child/css/bootstrap.min.css" rel="stylesheet" />   
+    <link rel="stylesheet" type="text/css" href="//netdna.bootstrapcdn.com/bootswatch/3.1.1/cerulean/bootstrap.min.css">
+    <!--<link href="/wp-content/themes/sho_child/css/bootstrap.min.css" rel="stylesheet" />   -->
     <link href="/wp-content/themes/sho_child/css/fancymenu.css"  rel="stylesheet"> 
     <link href="/wp-content/themes/sho_child/css/style.css" rel="stylesheet" /> 
 
@@ -35,11 +36,23 @@
 <link rel="stylesheet" type="text/css" href="/wp-content/themes/sho_child/css/contact_us.css">
 <body>
    <?php  include 'menu.php'; ?>
+<div class="container-fluid">
+<div class="row">
+
+<div class="col-md-6 col-xs-12">
 <div id="contact_form" class="row">
-                            <div class="col-xs-12 col-sm-12 col-md-12" >
-                            <?php echo do_shortcode( '[contact-form-7 id="48" title="Contact form 1"]' ); ?>
-                            </div>
-                    </div>
+        <div class="col-xs-12 col-sm-12 col-md-12" >
+        <?php echo do_shortcode( '[contact-form-7 id="48" title="Contact form 1"]' ); ?>
+        </div>
+</div>
+</div>
+
+<div class="col-md-6 col-xs-12 photo_column">
+<img class="img-responsive" src="http://placehold.it/640x480">
+</div>
+
+</div><!--/row-->
+</div><!--/container-->
 
 <?php include 'footer.php';?>
 
