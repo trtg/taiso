@@ -36,6 +36,7 @@
 <link rel="stylesheet" type="text/css" href="/wp-content/themes/sho_child/css/contact_us.css">
 <body>
    <?php  include 'menu.php'; ?>
+<h1>Contact Us</h1>
 <div class="container-fluid">
 <div class="row">
 
