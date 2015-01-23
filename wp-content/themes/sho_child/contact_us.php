@@ -50,7 +50,7 @@
 
 <div class="col-md-6 col-xs-12 photo_column">
 
-<img class="img-responsive" src="/wp-content/images/steph_stretching_small.jpg">
+<img class="img-responsive img-thumbnail" src="/wp-content/images/steph_stretching_small.jpg">
 </div>
 
 </div><!--/row-->
