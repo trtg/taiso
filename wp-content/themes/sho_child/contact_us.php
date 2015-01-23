@@ -40,7 +40,7 @@
 <div class="row">
 
 <div class="col-md-6 col-xs-12">
-<div id="contact_form" class="row">
+<div id="contact_form">
         <div class="col-xs-12 col-sm-12 col-md-12" >
         <?php echo do_shortcode( '[contact-form-7 id="48" title="Contact form 1"]' ); ?>
         </div>
@@ -48,7 +48,8 @@
 </div>
 
 <div class="col-md-6 col-xs-12 photo_column">
-<img class="img-responsive" src="http://placehold.it/640x480">
+
+<img class="img-responsive" src="/wp-content/images/steph_stretching_small.jpg">
 </div>
 
 </div><!--/row-->

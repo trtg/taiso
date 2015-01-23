@@ -2087,7 +2087,10 @@ textarea {
     
     
     
-    
+    .photo_column img {
+        margin-left:auto;
+        margin-right:auto;
+    }
     
     
 
