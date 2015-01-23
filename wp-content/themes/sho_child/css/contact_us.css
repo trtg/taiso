@@ -1871,7 +1871,7 @@ input[type="submit"]{
     padding:5px;
 }
 input {
-    width: 60%;
+    width: 90%;
     border:none;
     font-family:'Lato', sans-serif;
     font-weight:400;
@@ -1883,7 +1883,7 @@ input {
     background:#FFF;
 }
 textarea {
-    width:60%;
+    width:90%;
     font-family:'Lato', sans-serif;
     font-weight:400;
     text-transform:uppercase;
