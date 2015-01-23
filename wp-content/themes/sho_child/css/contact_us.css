@@ -2094,6 +2094,9 @@ textarea {
     
     
 
+    .contact_form input[type="text"], input[type="text"] {
+        color:black;
+    }
 
 
 
