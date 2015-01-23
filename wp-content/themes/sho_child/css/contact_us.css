@@ -2094,7 +2094,7 @@ textarea {
     
     
 
-    .contact_form input[type="text"], input[type="text"] {
+    .contact_form input[type="text"], input[type="text"],input[type="email"] {
         color:black;
     }
 
