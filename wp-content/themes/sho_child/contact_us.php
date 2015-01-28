@@ -41,7 +41,7 @@
 <div class="container-fluid">
 <div class="row">
 
-<div class="col-md-6 col-xs-12 photo_column visible-md-block">
+<div class="col-md-6 col-xs-12 photo_column hidden-xs hidden-sm">
 <img class="img-responsive img-thumbnail " src="/wp-content/images/steph_stretching_small.jpg">
 </div>
 
