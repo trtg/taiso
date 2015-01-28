@@ -40,6 +40,10 @@
 <div class="container-fluid">
 <div class="row">
 
+<div class="col-md-6 col-xs-12 photo_column visible-lg-*">
+<img class="img-responsive img-thumbnail " src="/wp-content/images/steph_stretching_small.jpg">
+</div>
+
 <div class="col-md-6 col-xs-12">
 <div id="contact_form">
         <div class="col-xs-12 col-sm-12 col-md-12" >
@@ -48,10 +52,6 @@
 </div>
 </div>
 
-<div class="col-md-6 col-xs-12 photo_column">
-
-<img class="img-responsive img-thumbnail" src="/wp-content/images/steph_stretching_small.jpg">
-</div>
 
 </div><!--/row-->
 </div><!--/container-->
