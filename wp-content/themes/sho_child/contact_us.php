@@ -25,7 +25,8 @@
     <meta name="keywords" content="strength, balance, flexibility ....">
     
 </head>
-    <link rel="stylesheet" type="text/css" href="//netdna.bootstrapcdn.com/bootswatch/3.1.1/cerulean/bootstrap.min.css">
+
+    <link rel="stylesheet" type="text/css" href="//netdna.bootstrapcdn.com/bootswatch/3.3.2/cerulean/bootstrap.min.css">
     <!--<link href="/wp-content/themes/sho_child/css/bootstrap.min.css" rel="stylesheet" />   -->
     <link href="/wp-content/themes/sho_child/css/fancymenu.css"  rel="stylesheet"> 
     <link href="/wp-content/themes/sho_child/css/style.css" rel="stylesheet" /> 
