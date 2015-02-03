@@ -20,3 +20,10 @@
     margin-top: 20px;
     margin-bottom: 20px;
 }
+
+@media only screen and (min-width: 768px) {
+    .instagram_wrapper iframe{
+        height: 480px !important;
+    }
+}
+
