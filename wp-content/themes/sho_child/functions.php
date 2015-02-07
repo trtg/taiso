@@ -4,6 +4,7 @@
  * quote shown on the homepage*/
 function sho_theme_menu(){
     add_theme_page( 'Home page quote', 'Theme Options', 'manage_options', 'sho_theme_options.php', 'sho_theme_page');
+    //add_menu_page( $page_title, $menu_title, $capability, $menu_slug, $function, $icon_url, $position ); 
 }
 add_action('admin_menu','sho_theme_menu');
 

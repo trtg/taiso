@@ -16,4 +16,4 @@ function sho_theme_page() {
     </div>
     <?php
 }
-}
+
