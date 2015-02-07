@@ -5,7 +5,7 @@
 function sho_theme_menu(){
     add_theme_page( 'Home page quote', 'Theme Options', 'manage_options', 'sho_theme_options.php', 'sho_theme_page');
 }
-add_action('admin_menu','sho_them_menu');
+add_action('admin_menu','sho_theme_menu');
 
 /*display extra text on each section */
 function sho_display_section($section){
