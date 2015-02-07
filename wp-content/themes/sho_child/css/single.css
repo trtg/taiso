@@ -40,3 +40,10 @@ iframe{
     margin-top:20px;
     margin-bottom:20px;
 }
+
+@media only screen and (max-width: 767px) {
+    iframe{
+        height: 430px !important;
+    }
+}
+
