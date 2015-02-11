@@ -94,7 +94,7 @@
                         <div class="row">
 
                             <div class="one_half text-center">
-                                 <img class="first-left-coaching"src="/wp-content/images/sho_tablet.png"> 
+                                 <img class="first-left-coaching"src="/wp-content/images/coaching_private.jpg"> 
                             </div>
 
 
@@ -165,7 +165,7 @@ No matter where you are in the world, connect virtually with a TotalTaiso coach 
                   <div class="item">
                         <div class="row">
                             <div class="col-md-6 col-xs-6 col-lg-6 text-center left">
-                                <img src="/wp-content/images/sho_tablet.png">
+                                <img src="/wp-content/images/coaching_seminar.jpg">
                             </div>
 
                             <div class="col-md-6">
