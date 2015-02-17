@@ -28,3 +28,14 @@ background:#D4D4D4;
 h1{
     color:#FFFFFF;
 }
+
+@media only screen and (min-width: 768px) {
+    iframe{
+        min-height:310px;
+        }
+}
+@media only screen and (max-width: 768px) {
+    iframe{
+        min-height:310px;
+        }
+}
