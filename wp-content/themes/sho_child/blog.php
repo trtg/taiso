@@ -21,6 +21,7 @@
     <link href="/wp-content/themes/sho_child/css/prettyPhoto.css" type="text/css" media="screen" rel="stylesheet"/>   
 	<link href="/wp-content/themes/sho_child/css/jquery.bxslider.css" rel="stylesheet" />
     <link href="/wp-content/themes/sho_child/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="/wp-content/themes/sho_child/css/blog.css" rel="stylesheet" />
     <link rel="icon" type="image/ico" href="/wp-content/image/favicon.ico" />
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700' rel='stylesheet' type='text/css' />    
     <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>

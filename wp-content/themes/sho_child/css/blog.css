@@ -1,34 +1,3 @@
-/*conceal share links to save space
- * only show them on the individual post pages*/
-.sharedaddy{
-    display:none;
-}
-
-body{
-    background-image:url("/wp-content/images/binding_dark.png");
-    background-repeat:repeat;
-}
-
-/*default white, grey on hover,
- * page background is textured*/
-.blog_post{
-    background:#FFFFFF;
-    margin-bottom:20px;
-}
-.blog_post:hover{
--webkit-transition-duration: .3s;
--moz-transition-duration: .3s;
--o-transition-duration: .3s;
--ms-transition-duration: .3s;
-background:#D4D4D4;
-}
-.copyright_text{
-    color:#FFFFFF;
-}
-h1{
-    color:#FFFFFF;
-}
-
 @media only screen and (min-width: 768px) {
     iframe{
         min-height:310px;
