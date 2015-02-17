@@ -1,6 +1,6 @@
 @media only screen and (min-width: 768px) {
     iframe{
-        min-height:310px;
+        min-height:350px;
         }
 }
 @media only screen and (max-width: 768px) {
