@@ -60,6 +60,10 @@ function sho_register_settings(){
     add_settings_section( 'sho_text_section', 'Text box Title', 'sho_display_section', 'sho_theme_options.php' );
 
     // Create textbox field
+    //the option that ends up in the wp_options table will
+    //be sho_theme_options_homepage_quote and it will contain 
+    //a key equal to the value of either id or name, so
+    //currently sho_textbox
     $field_args = array(
       'type'      => 'text',
       'id'        => 'sho_textbox',
