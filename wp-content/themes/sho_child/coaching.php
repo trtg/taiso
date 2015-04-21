@@ -93,7 +93,7 @@
 
                         <div class="row">
 
-                            <div class="one_half text-center">
+                            <div class="one_half text-center col-md-6 col-xs-6 col-lg-6 text-center left ">
                                  <img class="first-left-coaching"src="/wp-content/images/coaching_private.jpg"> 
                             </div>
 
@@ -101,7 +101,7 @@
                            
 
 
-                            <div class="one_half last text-center">
+                            <div class="one_half last text-center col-md-6 col-xs-6 col-lg-6">
                                 <!-- <h2>Private Coaching</h2> -->
 
                                 <ul class="fa-ul">
