@@ -54,6 +54,9 @@ $exercise_title = $exercise_post->post_title;
 
 <?php foreach($scaled_exercise_array as $exercise){ 
 $exercise_volume = $exercise['sets'] . "x" . $exercise['reps'];
+//if url_to_postid returns 0, make sure the proper URL prefix
+//is being used, at this point everything should
+//reference totaltaiso.com not totaltaiso.dreamhosters.com
 $exercise_post = get_post(url_to_postid($exercise['movement_url']));
 $exercise_title = $exercise_post->post_title;
 
