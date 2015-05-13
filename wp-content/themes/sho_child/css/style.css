@@ -2867,7 +2867,7 @@ font-family: 'Montserrat', sans-serif;
 /*date*/
 
 .date {
-width: 85px;
+width: 100px;
 height: 55px;
 background: #fcfcfc;
 background: linear-gradient(top, #fcfcfc 0%,#dad8d8 100%);
