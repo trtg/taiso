@@ -75,6 +75,18 @@ function sho_register_settings(){
     );
 
     add_settings_field( 'homepage_quote_textbox', 'Homepage Quote Textbox', 'sho_display_setting', 'sho_theme_options.php', 'sho_text_section', $field_args ); 
+
+    $field_args = array(
+      'type'      => 'text',
+      'id'        => 'sho_quote_author',
+      'name'      => 'sho_quote_author',
+      'desc'      => 'quote author',
+      'std'       => '',
+      'label_for' => 'sho_quote_author',
+      'class'     => 'css_class'
+    );
+
+    add_settings_field( 'homepage_quote_author', 'Homepage Quote Author', 'sho_display_setting', 'sho_theme_options.php', 'sho_text_section', $field_args ); 
 }
 
 add_action( 'init', 'create_post_types' );

@@ -225,7 +225,7 @@ endwhile; ?>
         <div class="parallax-overlay parallax-background-color">
             <div class="container quote">   
             <h1><span class="quote-img"><img src="/wp-content/images/quote1.png" alt="" /></span> <?php echo get_option('sho_theme_options_homepage_quote')['sho_textbox']; ?><span class="quote-img"><img src="/wp-content/images/quote2.png" alt="" /></span></h1>
-                <p>- Total Taiso -</p>
+                <p> <?php echo get_option('sho_theme_options_homepage_quote')['sho_quote_author']; ?></p>
             </div>    
         </div>
                     
