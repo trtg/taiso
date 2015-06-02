@@ -66,11 +66,13 @@
              <span class="list-header"> <%= title %> 
                  <img src="/wp-content/images/<%= level.toLowerCase() %>_30x30.png" class="skill_level_icon"> 
                  <% _.each(apparatus,function(one_apparatus) {%>
-                     <a href="/apparatus/<%= one_apparatus.toLowerCase() %>" ><img src="/wp-content/images/<%= one_apparatus.toLowerCase() %>_30x30.png" class="apparatus_icon"> </a>
+                     <!--<a href="/apparatus/<%= one_apparatus.toLowerCase() %>" ><img src="/wp-content/images/<%= one_apparatus.toLowerCase() %>_30x30.png" class="apparatus_icon"> </a>-->
+                     <img src="/wp-content/images/<%= one_apparatus.toLowerCase() %>_30x30.png" class="apparatus_icon"> 
                  <% }) ; %>
 
                  <% _.each(movement_function,function(one_function) {%>
-                     <a href="/function/<%= one_function.toLowerCase() %>" ><img src="/wp-content/images/<%= one_function.toLowerCase() %>_30x30.png" class="function_icon"> </a>
+                     <!--<a href="/function/<%= one_function.toLowerCase() %>" ><img src="/wp-content/images/<%= one_function.toLowerCase() %>_30x30.png" class="function_icon"> </a>-->
+                     <img src="/wp-content/images/<%= one_function.toLowerCase() %>_30x30.png" class="function_icon">
                  <% }) ; %>
 
 
