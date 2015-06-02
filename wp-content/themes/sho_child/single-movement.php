@@ -82,7 +82,7 @@
                 </div>
 
                 <div class="row" role="main">
-                    <div class="col-xs-12">
+                    <div class="col-xs-12 col-md-8 col-md-offset-2" style="float:none;margin: 0 auto;">
                 <?php $youtube_embed_code =  get_field('youtube_embed_code');
                     if ($youtube_embed_code){
                         echo $youtube_embed_code;
