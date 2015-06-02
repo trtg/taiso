@@ -102,7 +102,7 @@
                     </div><!--/.col-->
 		        </div><!--/.row -->
 <hr>
-                <h2>Skill Progression</h2>
+                <h2 style="text-align:center;">Skill Progression</h2>
 
                 <div class="row">
                     <div class="col-xs-12 col-md-4">
