@@ -121,7 +121,7 @@
                         $easier_post = get_post($easier_postid);
                         $easier_post_title = $easier_post->post_title;
                         ?>
-                            <li> <a href=<?php $murl = get_sub_field('movement_url'); echo "\"$murl\"";?>> 
+                            <li> <a class="btn" style="background-color:aliceblue;" href=<?php $murl = get_sub_field('movement_url'); echo "\"$murl\"";?>> 
                                     <?php echo "$easier_post_title"; ?> 
                                 </a> 
                             </li>                    
@@ -151,7 +151,7 @@
                         $harder_post = get_post($harder_postid);
                         $harder_post_title = $harder_post->post_title;
                     ?>
-                            <li> <a href=<?php $murl = get_sub_field('movement_url'); echo "\"$murl\"";?>> 
+                            <li> <a class="btn" style="background-color:aliceblue;" href=<?php $murl = get_sub_field('movement_url'); echo "\"$murl\"";?>> 
                                     <?php echo "$harder_post_title"; ?> 
                                 </a> 
                             </li>                    
