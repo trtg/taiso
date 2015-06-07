@@ -3967,7 +3967,7 @@ height: 30px;
 }
 
 .nm_mc_button:hover {
-    background-color:#D8D8D8;
+    background-color:#D8D8D8!important;
 }
 
 .nm_mc_form li {
