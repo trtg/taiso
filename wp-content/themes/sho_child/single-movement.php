@@ -102,7 +102,7 @@
                     </div><!--/.col-->
 		        </div><!--/.row -->
 <hr>
-                <h2 style="text-align:center;">Skill Progression</h2>
+                <h2 style="text-align:center;margin:20px;">Skill Progression</h2>
 
                 <div class="row">
                     <div class="col-xs-12 col-md-4">
@@ -134,14 +134,14 @@
                     ?>
                     </div>
                     <div class="col-xs-12 col-md-4">
-                    <h3>Current skill: </h3>
-                        <?php the_title(); ?>
+                    <h3 style="margin:5px;">Current skill: </h3>
+                        <span style="font-size:14px;"><?php the_title(); ?></span>
                     </div>
                     
                     <div class="col-xs-12 col-md-4">
                     <?php
                         if( have_rows('harder_movements') ):
-                            echo "<h3>Harder: </h3>";
+                            echo "<h3 style='margin:5px;'>Harder: </h3>";
                         // loop through the rows of data
                             echo "<ul>";
                         while ( have_rows('harder_movements') ) : 
