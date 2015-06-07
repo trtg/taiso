@@ -134,7 +134,7 @@
                     ?>
                     </div>
                     <div class="col-xs-12 col-md-4">
-                    <h3 style="margin:5px;">Current skill: </h3>
+                    <h3>Current:</h3>
                         <span style="font-size:14px;"><?php the_title(); ?></span>
                     </div>
                     
