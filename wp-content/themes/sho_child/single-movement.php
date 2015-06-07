@@ -159,7 +159,7 @@
                         endwhile;
                         echo "</ul>";
                         else:
-                            echo "<h3>Harder:</h3><br> <span style:'font-size:14px!important;'>N/A</span>";
+                            echo "<h3>Harder:</h3><br> <span style='font-size:14px!important;'>N/A</span>";
                     endif;
                     ?>
 
