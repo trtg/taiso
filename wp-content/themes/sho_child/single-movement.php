@@ -104,7 +104,7 @@
 <hr>
                 <h2 style="text-align:center;margin:20px;">Skill Progression</h2>
 
-                <div class="row">
+                <div class="row" style="margin-bottom:30px;">
                     <div class="col-xs-12 col-md-4">
                     <?php
                     // check if the repeater field has rows of data
@@ -129,7 +129,7 @@
                         endwhile;
                         echo "</ul>";
                     else:
-                        echo "<h3>Easier:</h3><br><span style='font-size:14px!important;'>N/A</span>";
+                        echo "<h3>Easier:</h3><span style='font-size:14px!important;'>N/A</span>";
                     endif;
                     ?>
                     </div>
@@ -159,7 +159,7 @@
                         endwhile;
                         echo "</ul>";
                         else:
-                            echo "<h3>Harder:</h3><br> <span style='font-size:14px!important;'>N/A</span>";
+                            echo "<h3>Harder:</h3> <span style='font-size:14px!important;'>N/A</span>";
                     endif;
                     ?>
 
