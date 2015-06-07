@@ -75,3 +75,7 @@ ul#listing li .details {
 	padding:20px;
 	font-size:0.9em;
 }
+/*used by every read more button*/
+.movement_read_more{
+    font-family: "Open Sans", sans-serif;
+}

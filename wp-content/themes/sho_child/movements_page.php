@@ -80,7 +80,7 @@
              <div class="details">
                  apparatus: <%= apparatus %> <br>
                  <img src="<%= thumbnail_url[0] %>">
-                 <a href="<%= permalink %>">Read more </a>
+                 <a class="movement_read_more btn" href="<%= permalink %>">Read more </a>
              </div>
     </script>
 
