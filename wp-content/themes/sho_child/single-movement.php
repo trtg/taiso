@@ -121,7 +121,7 @@
                         $easier_post = get_post($easier_postid);
                         $easier_post_title = $easier_post->post_title;
                         ?>
-                            <li> <a class="btn" style="background-color:aliceblue;text-decoration:underline;" href=<?php $murl = get_sub_field('movement_url'); echo "\"$murl\"";?>> 
+                            <li> <a class="btn" style="background-color:aliceblue;text-decoration:underline;margin:10px;padding:3px 3px!important;" href=<?php $murl = get_sub_field('movement_url'); echo "\"$murl\"";?>> 
                                     <?php echo "$easier_post_title"; ?> 
                                 </a> 
                             </li>                    
