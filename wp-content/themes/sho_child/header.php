@@ -26,5 +26,8 @@
         <link rel="stylesheet" href="/wp-content/themes/sho_child/css/bootstrap-theme.min.css">
         <link rel="stylesheet" href="/wp-content/themes/sho_child/css/main.css">
 
-        <script src="/wp-content/themes/sho_child/js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
-    </head>
+<script src="/wp-content/themes/sho_child/js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+<script type="text/javascript">var switchTo5x=true;</script>
+<script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
+<script type="text/javascript">stLight.options({publisher: "3e7f202e-2574-4839-a12c-d045842aefdc", doNotHash: false, doNotCopy: false, hashAddressBar: false});</script>
+</head>
