@@ -41,6 +41,10 @@
     <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
 
 <!--<link rel="stylesheet" type="text/css" href="/wp-content/themes/sho_child/css/movement_directory.css">-->
+<script type="text/javascript">var switchTo5x=true;</script>
+<script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
+<script type="text/javascript">stLight.options({publisher: "3e7f202e-2574-4839-a12c-d045842aefdc", doNotHash: false, doNotCopy: false, hashAddressBar: false});</script>
+
 </head>
 
 <body>
@@ -58,26 +62,7 @@
 
                 <div class="row" role="main">
                     <div class="col-xs-12">
-                <?php
-                    the_post_thumbnail('movement_thumbnail');
-                    $apparatus_terms = get_the_terms(get_the_ID(),'apparatus'); 
-                    foreach ($apparatus_terms as $term){
-                        $apparatus_link =  (get_term_link($term->slug,'apparatus')) ; 
-                        switch($term->slug){
-                        case "mushroom":
-                            $apparatus_icon = "/wp-content/themes/sho_child/img/mushroom_icon.png";
-                            break;
-                        case "rings":
-                            $apparatus_icon = "/wp-content/themes/sho_child/img/rings_icon.png";
-                            break;
-                        case "floor":
-                            $apparatus_icon = "/wp-content/themes/sho_child/img/floor_icon.png";
-                            break;
-                        }
-                        //FIXME: temporarily hide the apparatus icon until the archive pages are fixed
-                        //echo "<a href=\"$apparatus_link\"> <img class=\"apparatus_icon\" src=\"$apparatus_icon\"></a>";
-                    }
-                ?>
+                <?php ?>
                     </div>
                 </div>
 
@@ -93,7 +78,7 @@
                         $youtube_thumbnail_url = "http://img.youtube.com/vi/$youtube_video_id/default.jpg";
                         $exercise_post = get_post(url_to_postid($exercise['movement_url']));
                         $exercise_title = $exercise_post->post_title;
-                        echo "$exercise_volume $exercise_title";
+                        echo "$exercise_volume $exercise_title <br>";
                     }
 
 ?>
