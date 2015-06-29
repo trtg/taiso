@@ -112,6 +112,8 @@ $youtube_thumbnail_url = "http://img.youtube.com/vi/$youtube_video_id/default.jp
         <?php the_content(); ?>
     </article>
 
+<a href="<?php the_permalink(); ?>">Read More</a>
+
  <div class="share"> 
       <div class="cell"> 
 </div>
