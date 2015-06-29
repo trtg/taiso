@@ -113,6 +113,10 @@ $youtube_thumbnail_url = "http://img.youtube.com/vi/$youtube_video_id/default.jp
     </article>
 
 <a href="<?php the_permalink(); ?>">Read More</a>
+<a class="twitter-share-button"
+href="https://twitter.com/intent/tweet?url=<?php the_permalink();?>"
+  data-size="large">
+Tweet</a>
 
  <div class="share"> 
       <div class="cell"> 
