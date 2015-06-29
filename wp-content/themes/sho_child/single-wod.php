@@ -83,14 +83,20 @@
 
                 <div class="row" role="main">
                     <div class="col-xs-12 col-md-8 col-md-offset-2" style="float:none;margin: 0 auto;">
-                <?php $youtube_embed_code =  get_field('youtube_embed_code');
-                    if ($youtube_embed_code){
-                        echo $youtube_embed_code;
-                    }else{
-                        echo '<div class="well video_placeholder">Video coming soon</div>';
+                <?php $prescribed_exercise_array =  get_field('prescribed_exercise');
+                    foreach($prescribed_exercise_array as $exercise){ 
+                        $exercise_volume = $exercise['sets'] . "x" . $exercise['reps'];
+                        $exercise_post_id = url_to_postid($exercise['movement_url']);
+                        $youtube_full_code = get_field('youtube_embed_code',$exercise_post_id);
+                        preg_match("*youtube.com/embed/(\w+)*",$youtube_full_code,$matches); 
+                        $youtube_video_id = $matches[1];
+                        $youtube_thumbnail_url = "http://img.youtube.com/vi/$youtube_video_id/default.jpg";
+                        $exercise_post = get_post(url_to_postid($exercise['movement_url']));
+                        $exercise_title = $exercise_post->post_title;
+                        echo "$exercise_volume $exercise_title";
                     }
 
-                ?>
+?>
                     </div>
                     </div>
 
@@ -106,65 +112,7 @@
 
                 <div class="row" style="margin-bottom:30px;">
                     <div class="col-xs-12 col-md-4">
-                    <?php
-                    // check if the repeater field has rows of data
-                    if( have_rows('easier_movements') ):
-                        echo "<h3>Easier: </h3>";
-                        // loop through the rows of data
-                        echo "<ul>";
-                    while ( have_rows('easier_movements') ) : 
-                        //the_row() has to come before the get_sub_field()
-                        $temp_row = the_row();  
-                        // display a sub field value
-                        //use url_to_postid() to get postid and then post title
-                        $easier_postid = url_to_postid(get_sub_field('movement_url'));
-                        $easier_post = get_post($easier_postid);
-                        $easier_post_title = $easier_post->post_title;
-                        ?>
-                            <li> <a class="btn progression_button"  href=<?php $murl = get_sub_field('movement_url'); echo "\"$murl\"";?>> 
-                                    <?php echo "$easier_post_title"; ?> 
-                                </a> 
-                            </li>                    
-                    <?php
-                        endwhile;
-                        echo "</ul>";
-                    else:
-                        echo "<h3>Easier:</h3><span style='font-size:14px!important;'>N/A</span>";
-                    endif;
-                    ?>
                     </div>
-                    <div class="col-xs-12 col-md-4">
-                    <h3>Current:</h3>
-                        <span style="font-size:14px;"><?php the_title(); ?></span>
-                    </div>
-                    
-                    <div class="col-xs-12 col-md-4">
-                    <?php
-                        if( have_rows('harder_movements') ):
-                            echo "<h3 style='margin:5px;'>Harder: </h3>";
-                        // loop through the rows of data
-                            echo "<ul>";
-                        while ( have_rows('harder_movements') ) : 
-                        $temp_row = the_row();  
-
-                        $harder_postid = url_to_postid(get_sub_field('movement_url'));
-                        $harder_post = get_post($harder_postid);
-                        $harder_post_title = $harder_post->post_title;
-                    ?>
-                            <li> <a class="btn progression_button"  href=<?php $murl = get_sub_field('movement_url'); echo "\"$murl\"";?>> 
-                                    <?php echo "$harder_post_title"; ?> 
-                                </a> 
-                            </li>                    
-                    <?php
-                        endwhile;
-                        echo "</ul>";
-                        else:
-                            echo "<h3>Harder:</h3> <span style='font-size:14px!important;'>N/A</span>";
-                    endif;
-                    ?>
-
-                    </div>
-
                 </div>
 <span class='st_facebook_large' displayText='Facebook'></span>
 <span class='st_twitter_large' displayText='Tweet'></span>
