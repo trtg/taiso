@@ -60,30 +60,8 @@
         
             <?php  while ( have_posts() ) : the_post();?>
 
-                <div class="row" role="main">
-                    <div class="col-xs-12">
-                <?php ?>
-                    </div>
-                </div>
-
-                <div class="row" role="main">
-                    <div class="col-xs-12 col-md-8 col-md-offset-2" style="float:none;margin: 0 auto;">
-                <?php $prescribed_exercise_array =  get_field('prescribed_exercise');
-                    foreach($prescribed_exercise_array as $exercise){ 
-                        $exercise_volume = $exercise['sets'] . "x" . $exercise['reps'];
-                        $exercise_post_id = url_to_postid($exercise['movement_url']);
-                        $youtube_full_code = get_field('youtube_embed_code',$exercise_post_id);
-                        preg_match("*youtube.com/embed/(\w+)*",$youtube_full_code,$matches); 
-                        $youtube_video_id = $matches[1];
-                        $youtube_thumbnail_url = "http://img.youtube.com/vi/$youtube_video_id/default.jpg";
-                        $exercise_post = get_post(url_to_postid($exercise['movement_url']));
-                        $exercise_title = $exercise_post->post_title;
-                        echo "$exercise_volume $exercise_title <br>";
-                    }
-
-?>
-                    </div>
-                    </div>
+               
+                
 
                 <div class="row" role="main">
                     <div class="col-xs-12">
@@ -93,7 +71,6 @@
                     </div><!--/.col-->
 		        </div><!--/.row -->
 <hr>
-                <h2 style="text-align:center;margin:20px;">Skill Progression</h2>
 
                 <div class="row" style="margin-bottom:30px;">
                     <div class="col-xs-12 col-md-4">
