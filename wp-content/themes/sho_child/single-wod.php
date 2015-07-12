@@ -59,8 +59,33 @@
 
         
             <?php  while ( have_posts() ) : the_post();?>
+<div class="toggle-wrap">        
+        <?php  
 
-               
+        $wod_index = 0;
+        $prescribed_exercise_array = get_field('prescribed_exercise');
+        $scaled_exercise_array = get_field('scaled_exercise');
+            $wod_date = DateTime::createFromFormat('Ymd',get_field('wod_date'))->format('m/d');
+            $wod_day_of_week = DateTime::createFromFormat('Ymd',get_field('wod_date'))->format('l');
+            $workoutDay="$wod_date <span>$wod_day_of_week</span>"; 
+            $exerciseSequence=the_title('','',false); 
+            $id="wod" . $wod_index; 
+            include 'toggletitle.php'; ?>
+
+        <div class="toggle_container">  
+            <?php  $wrapper='portfolio-wrap' . "$wod_index"; $filters="filters" . "$wod_index"; 
+            $pbottom="portfolio-bottom" . "$wod_index"; $pageL="wod/burpees.html"; $all="all" . "$wod_index"; 
+            $projectPageHolder="project-page-holder" . "$wod_index"; $pageData="project-page-data" . "$wod_index"; 
+            $projectClose = "project_close" . "$wod_index";
+            
+            $top="portfolio-top" . "$wod_index";
+            include 'wod.php'; ?>
+        </div>
+</div>
+
+
+
+<?php endwhile;?>
                 
 
                 <div class="row" role="main">
@@ -98,15 +123,31 @@
 					if ( comments_open() || get_comments_number() ) {
 						comments_template();
 					}
-				endwhile;
+				//endwhile;
 			?>
             
 	</div><!--/.container -->
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
         <!--menu depends on classie and modernizr-->
-         <script src="/wp-content/themes/sho_child/js/classie.js" type="text/javascript"></script>
-         <script src="/wp-content/themes/sho_child/js/modernizr.js" type="text/javascript"></script>
+                    <script  src="/wp-content/themes/sho_child/js/jquery.sticky.js"></script>        
+                    <script  src="/wp-content/themes/sho_child/js/jquery.easing-1.3.pack.js" type="text/javascript"></script>
+                    <script  src="/wp-content/themes/sho_child/js/bootstrap.min.js" type="text/javascript"></script>
+                    <script src="/wp-content/themes/sho_child/js/classie.js" type="text/javascript"></script>
+                    <script  src="/wp-content/themes/sho_child/js/modernizr.js" type="text/javascript"></script>
+                    <script src="/wp-content/themes/sho_child/js/appear.js"></script>
+                    <script  src="/wp-content/themes/sho_child/js/jquery.parallax-1.1.3.js" type="text/javascript"></script>
+                    <script src="/wp-content/themes/sho_child/js/jquery.prettyPhoto.js" type="text/javascript"></script>
+                    <script  src="/wp-content/themes/sho_child/js/isotope.js" type="text/javascript"></script> 
+                    <script src="/wp-content/themes/sho_child/js/jquery.bxslider.min.js"></script>
+
+                    <script src="/wp-content/themes/sho_child/js/jquery.cycle.all.js" type="text/javascript" charset="utf-8"></script>
+                    <script src="/wp-content/themes/sho_child/js/jquery.maximage.js" type="text/javascript" charset="utf-8"></script>
+                    <script src="/wp-content/themes/sho_child/js/sscr.js"></script>
+                    <script src="/wp-content/themes/sho_child/js/skrollr.js"></script>
+                    <script src="/wp-content/themes/sho_child/js/jquery.jigowatt.js"></script>
+
          <script src="/wp-content/themes/sho_child/js/fancymenu-rollin.js" type="text/javascript"></script>
+                    <script src="/wp-content/themes/sho_child/js/scripts.js" type="text/javascript"></script>
 
 <?php include 'footer.php';?>
 
