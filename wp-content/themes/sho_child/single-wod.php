@@ -122,8 +122,12 @@ $youtube_video_id = $matches[1];
 $youtube_thumbnail_url = "http://img.youtube.com/vi/$youtube_video_id/default.jpg";
 
 ?>
- 
-<h4 class="project-name"><?php echo "$exercise_volume $exercise_title"; ?> </h4>
+  <div class="holder">
+  <div class="video-container">
+<?php echo $youtube_full_code; ?>
+    <div class="overlay"> <h4 class="project-name"><?php echo "$exercise_volume $exercise_title"; ?> </h4>  </div>
+  </div><!--/video-container-->
+  </div><!--/holder-->
 <?php }?>
    
   </div>
