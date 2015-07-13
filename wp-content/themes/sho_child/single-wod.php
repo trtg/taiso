@@ -226,7 +226,7 @@ $youtube_thumbnail_url = "http://img.youtube.com/vi/$youtube_video_id/default.jp
                 </script>
                     <script>
                     //hide video overlay text when you start playing a video
-                    $('.video-container').click(function(){$('.video-overlay',this).hide() });
+                    $('.video-container').click(function(e){$('.video-overlay',this).hide() });
                     </script>
     </body>
 </html>
