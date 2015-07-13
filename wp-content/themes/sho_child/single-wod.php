@@ -34,6 +34,7 @@
     <link href="/wp-content/themes/sho_child/css/fancymenu.css"  rel="stylesheet"> 
     <link href="/wp-content/themes/sho_child/css/style.css" rel="stylesheet" /> 
     <link href="/wp-content/themes/sho_child/css/single-movement.css" rel="stylesheet" /> 
+    <link href="/wp-content/themes/sho_child/css/single-wod.css" rel="stylesheet" /> 
     
     
     
@@ -92,33 +93,19 @@
 $exercise_post = get_post(url_to_postid($exercise['movement_url']));
 $exercise_title = $exercise_post->post_title;
 ?>
-             <!-- Portfolio Item Video Expander  -->                   
-            <div class="portfolio-item one-four prescribed ">
-            
-            <div class="portfolio-image" style=<?php echo "background-image:url($youtube_thumbnail_url);background-repeat:no-repeat;background-size:cover;background-position:center;" ?> >
-                     <div class="video-wrapper">
-                            <div class="video-container">
-                            </div> <!-- /video -->
-                        </div>
-            </div>
-            
-            <div class="project-overlay">
-                <div class="open-project-link">
-                 <a class="open-project" 
-                 href=<?php echo "/video_overlay/?movement_id=" . url_to_postid($exercise['movement_url']) . "&close_id=". $projectClose; ?> 
-                title=<?php echo $exercise_title; ?>></a> 
-                </div>
-                <div class="project-info">
-                <h4 class="project-name"><?php echo "$exercise_volume $exercise_title"; ?> </h4>
-                    <div class="zoom-icon"></div>
-                    <!-- <p class="project-categories">Low body</p>  -->   
-                </div>
-            </div>
-            </div> <!--/Portfolio Item Video Expander  -->     
+ <div class="holder">
+  <div class="video-container">
+<?php echo $youtube_full_code; ?>
+    <div class="overlay"> <h4 class="project-name"><?php echo "$exercise_volume $exercise_title"; ?> </h4>  </div>
+  </div><!--/video-container-->
+  </div><!--/holder-->
+              
+
 <?php }?>
 
 
   </div><!--/.prescribed-->
+
   <div id="scaled" class="tab-pane fade">
  <?php foreach($scaled_exercise_array as $exercise){ 
 $exercise_volume = $exercise['sets'] . "x" . $exercise['reps'];
@@ -135,29 +122,8 @@ $youtube_video_id = $matches[1];
 $youtube_thumbnail_url = "http://img.youtube.com/vi/$youtube_video_id/default.jpg";
 
 ?>
-             <!-- Portfolio Item Video Expander  -->                   
-            <div class="portfolio-item one-four scaled ">
-            
-            <div class="portfolio-image" style=<?php echo "background-image:url($youtube_thumbnail_url);background-repeat:no-repeat;background-size:cover;background-position:center;" ?>>
-                     <div class="video-wrapper">
-                            <div class="video-container">
-                            </div> <!-- /video -->
-                        </div>
-            </div>
-            
-            <div class="project-overlay">
-                <div class="open-project-link">
-                 <a class="open-project" 
-                 href=<?php echo "/video_overlay/?movement_id=" . url_to_postid($exercise['movement_url']) . "&close_id=". $projectClose; ?> 
-                title=<?php echo $exercise_title; ?>></a> 
-                </div>
-                <div class="project-info">
-                <h4 class="project-name"><?php echo "$exercise_volume $exercise_title"; ?> </h4>
-                    <div class="zoom-icon"></div>
-                    <!-- <p class="project-categories">Low body</p>  -->   
-                </div>
-            </div>
-            </div> <!--/Portfolio Item Video Expander  -->     
+ 
+<h4 class="project-name"><?php echo "$exercise_volume $exercise_title"; ?> </h4>
 <?php }?>
    
   </div>
