@@ -70,14 +70,8 @@
             $workoutDay="$wod_date <span>$wod_day_of_week</span>"; 
             $exerciseSequence=the_title('','',false); 
             $id="wod" . $wod_index; 
-
-            $wrapper='portfolio-wrap' . "$wod_index"; $filters="filters" . "$wod_index"; 
-            $pbottom="portfolio-bottom" . "$wod_index"; $pageL="wod/burpees.html"; $all="all" . "$wod_index"; 
-            $projectPageHolder="project-page-holder" . "$wod_index"; $pageData="project-page-data" . "$wod_index"; 
-            $projectClose = "project_close" . "$wod_index";
             
-            $top="portfolio-top" . "$wod_index";
-            include 'wod.php'; ?>
+             ?>
 
 <ul class="nav nav-pills">
   <li class="active"><a data-toggle="pill" href="#prescribed">Prescribed</a></li>
@@ -86,12 +80,86 @@
 
 <div class="tab-content">
   <div id="prescribed" class="tab-pane fade">
-    <h3>Menu 1</h3>
-    <p>Some content in menu 1.</p>
-  </div>
+<?php foreach($prescribed_exercise_array as $exercise){ 
+    $exercise_volume = $exercise['sets'] . "x" . $exercise['reps'];
+
+    $exercise_post_id = url_to_postid($exercise['movement_url']);
+    $youtube_full_code = get_field('youtube_embed_code',$exercise_post_id);
+    preg_match("*youtube.com/embed/(\w+)*",$youtube_full_code,$matches); 
+    $youtube_video_id = $matches[1];
+    $youtube_thumbnail_url = "http://img.youtube.com/vi/$youtube_video_id/default.jpg";
+
+$exercise_post = get_post(url_to_postid($exercise['movement_url']));
+$exercise_title = $exercise_post->post_title;
+?>
+             <!-- Portfolio Item Video Expander  -->                   
+            <div class="portfolio-item one-four prescribed ">
+            
+            <div class="portfolio-image" style=<?php echo "background-image:url($youtube_thumbnail_url);background-repeat:no-repeat;background-size:cover;background-position:center;" ?> >
+                     <div class="video-wrapper">
+                            <div class="video-container">
+                            </div> <!-- /video -->
+                        </div>
+            </div>
+            
+            <div class="project-overlay">
+                <div class="open-project-link">
+                 <a class="open-project" 
+                 href=<?php echo "/video_overlay/?movement_id=" . url_to_postid($exercise['movement_url']) . "&close_id=". $projectClose; ?> 
+                title=<?php echo $exercise_title; ?>></a> 
+                </div>
+                <div class="project-info">
+                <h4 class="project-name"><?php echo "$exercise_volume $exercise_title"; ?> </h4>
+                    <div class="zoom-icon"></div>
+                    <!-- <p class="project-categories">Low body</p>  -->   
+                </div>
+            </div>
+            </div> <!--/Portfolio Item Video Expander  -->     
+<?php }?>
+
+
+  </div><!--/.prescribed-->
   <div id="scaled" class="tab-pane fade">
-    <h3>Menu 2</h3>
-    <p>Some content in menu 2.</p>
+ <?php foreach($scaled_exercise_array as $exercise){ 
+$exercise_volume = $exercise['sets'] . "x" . $exercise['reps'];
+//if url_to_postid returns 0, make sure the proper URL prefix
+//is being used, at this point everything should
+//reference totaltaiso.com not totaltaiso.dreamhosters.com
+$exercise_post = get_post(url_to_postid($exercise['movement_url']));
+$exercise_title = $exercise_post->post_title;
+
+$exercise_post_id = url_to_postid($exercise['movement_url']);
+$youtube_full_code = get_field('youtube_embed_code',$exercise_post_id);
+preg_match("*youtube.com/embed/(\w+)*",$youtube_full_code,$matches); 
+$youtube_video_id = $matches[1];
+$youtube_thumbnail_url = "http://img.youtube.com/vi/$youtube_video_id/default.jpg";
+
+?>
+             <!-- Portfolio Item Video Expander  -->                   
+            <div class="portfolio-item one-four scaled ">
+            
+            <div class="portfolio-image" style=<?php echo "background-image:url($youtube_thumbnail_url);background-repeat:no-repeat;background-size:cover;background-position:center;" ?>>
+                     <div class="video-wrapper">
+                            <div class="video-container">
+                            </div> <!-- /video -->
+                        </div>
+            </div>
+            
+            <div class="project-overlay">
+                <div class="open-project-link">
+                 <a class="open-project" 
+                 href=<?php echo "/video_overlay/?movement_id=" . url_to_postid($exercise['movement_url']) . "&close_id=". $projectClose; ?> 
+                title=<?php echo $exercise_title; ?>></a> 
+                </div>
+                <div class="project-info">
+                <h4 class="project-name"><?php echo "$exercise_volume $exercise_title"; ?> </h4>
+                    <div class="zoom-icon"></div>
+                    <!-- <p class="project-categories">Low body</p>  -->   
+                </div>
+            </div>
+            </div> <!--/Portfolio Item Video Expander  -->     
+<?php }?>
+   
   </div>
 </div>
 
