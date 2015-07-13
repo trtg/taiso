@@ -183,7 +183,7 @@ $youtube_thumbnail_url = "http://img.youtube.com/vi/$youtube_video_id/default.jp
  <div class="share"> 
       <div class="cell"> 
         <a class="twitter-share-button" href="https://twitter.com/intent/tweet?url=<?php the_permalink();?>" data-size="large"> Tweet</a>
-        <a href="https://www.facebook.com/sharer/sharer.php?u=<?php the_permalink();?>"><img src=/images/facebook_icon.png" alt="Share on Facebook"></a>
+        <a href="https://www.facebook.com/sharer/sharer.php?u=<?php the_permalink();?>"><img src=/wp-content/images/facebook_icon.png" alt="Share on Facebook"></a>
         <a href="https://pinterest.com/pin/create/button/?url=&media=<?php the_permalink();?>&description=">Pin on Pinterest</a>
         <a href="https://plus.google.com/share?url=<?php the_permalink();?>">Share on Google+</a>
     </div>
@@ -194,6 +194,24 @@ $youtube_thumbnail_url = "http://img.youtube.com/vi/$youtube_video_id/default.jp
 <span class='st_pinterest_large' displayText='Pinterest'></span>
 <span class='st_googleplus_large' displayText='Google +'></span>
 <span class='st_email_large' displayText='Email'></span>
+<!--Twitter widget loader-->
+<script>window.twttr = (function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0],
+          t = window.twttr || {};
+  if (d.getElementById(id)) return t;
+  js = d.createElement(s);
+    js.id = id;
+    js.src = "https://platform.twitter.com/widgets.js";
+      fjs.parentNode.insertBefore(js, fjs);
+     
+      t._e = [];
+        t.ready = function(f) {
+                t._e.push(f);
+                  };
+       
+        return t;
+}(document, "script", "twitter-wjs"));</script>
+
         <?php
 
 					/*
