@@ -226,7 +226,21 @@ $youtube_thumbnail_url = "http://img.youtube.com/vi/$youtube_video_id/default.jp
                 </script>
                     <script>
                     //hide video overlay text then click underlying iframe to start playing a video
-                    $('.video-container').click(function(e){$('.video-overlay',this).hide();$('iframe',this).trigger('click'); });
+                    //$('.video-container').click(function(e){$('.video-overlay',this).hide();$('iframe',this).trigger('click'); });
+                    var video-containers = document.getElementsByClassName('video-overlay');
+                    for (var i =0;i < video-containers.length; i++){
+                        video-containers[i].addEventListener('click',function(e){
+                            //hide the text overlay
+                            this.style.display = 'none';
+                            //click the video container
+                            var clickEvent = new MouseEvent('click', {
+                                'view': window,
+                                    'bubbles': true,
+                                    'cancelable': true
+                            });
+                            this.parentNode.dispatchEvent(clickEvent);
+                        });
+                    };
                     </script>
     </body>
 </html>
