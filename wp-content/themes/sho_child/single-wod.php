@@ -28,8 +28,9 @@
     <link href="/wp-content/themes/sho_child/css/bootstrap-responsive.min.css" rel="stylesheet" />  -->
 
     <!--sergey depends on old bootstrap elsewhere, but new bootstrap is much simpler  -->
-<link rel="stylesheet" type="text/css" href="//netdna.bootstrapcdn.com/bootswatch/3.1.1/cerulean/bootstrap.min.css">
-
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script> 
     <link href="/wp-content/themes/sho_child/css/fancymenu.css"  rel="stylesheet"> 
     <link href="/wp-content/themes/sho_child/css/style.css" rel="stylesheet" /> 
     <link href="/wp-content/themes/sho_child/css/single-movement.css" rel="stylesheet" /> 
@@ -102,7 +103,6 @@
 			?>
             
 	</div><!--/.container -->
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
         <!--menu depends on classie and modernizr-->
          <script src="/wp-content/themes/sho_child/js/classie.js" type="text/javascript"></script>
          <script src="/wp-content/themes/sho_child/js/modernizr.js" type="text/javascript"></script>
