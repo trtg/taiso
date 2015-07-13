@@ -29,7 +29,7 @@
 
     <!--sergey depends on old bootstrap elsewhere, but new bootstrap is much simpler  -->
 <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
      <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script> 
     <link href="/wp-content/themes/sho_child/css/fancymenu.css"  rel="stylesheet"> 
     <link href="/wp-content/themes/sho_child/css/style.css" rel="stylesheet" /> 
@@ -60,7 +60,6 @@
 
         
             <?php  while ( have_posts() ) : the_post();?>
-<div class="toggle-wrap">        
         <?php  
 
         $wod_index = 0;
@@ -71,19 +70,30 @@
             $workoutDay="$wod_date <span>$wod_day_of_week</span>"; 
             $exerciseSequence=the_title('','',false); 
             $id="wod" . $wod_index; 
-            include 'toggletitle.php'; ?>
 
-        <div class="toggle_container">  
-            <?php  $wrapper='portfolio-wrap' . "$wod_index"; $filters="filters" . "$wod_index"; 
+            $wrapper='portfolio-wrap' . "$wod_index"; $filters="filters" . "$wod_index"; 
             $pbottom="portfolio-bottom" . "$wod_index"; $pageL="wod/burpees.html"; $all="all" . "$wod_index"; 
             $projectPageHolder="project-page-holder" . "$wod_index"; $pageData="project-page-data" . "$wod_index"; 
             $projectClose = "project_close" . "$wod_index";
             
             $top="portfolio-top" . "$wod_index";
             include 'wod.php'; ?>
-        </div>
-</div>
 
+<ul class="nav nav-pills">
+  <li class="active"><a data-toggle="pill" href="#prescribed">Prescribed</a></li>
+  <li><a data-toggle="pill" href="#scaled">Scaled</a></li>
+</ul>
+
+<div class="tab-content">
+  <div id="prescribed" class="tab-pane fade">
+    <h3>Menu 1</h3>
+    <p>Some content in menu 1.</p>
+  </div>
+  <div id="scaled" class="tab-pane fade">
+    <h3>Menu 2</h3>
+    <p>Some content in menu 2.</p>
+  </div>
+</div>
 
 
 <?php endwhile;?>
