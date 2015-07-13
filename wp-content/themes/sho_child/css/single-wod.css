@@ -24,4 +24,11 @@
     z-index:50;
     color:#fff;
 }
-
+/*used for writing exercise sets and reps on
+ * top of youtube video embeds*/
+.video-overlay-text{
+    margin-top:100px;
+    text-align:center;
+    font-size:50;
+    color:white;
+}

@@ -96,7 +96,7 @@ $exercise_title = $exercise_post->post_title;
  <div class="holder">
   <div class="video-container">
 <?php echo $youtube_full_code; ?>
-    <div class="video-overlay"> <h4 class="project-name"><?php echo "$exercise_volume $exercise_title"; ?> </h4>  </div>
+    <div class="video-overlay"> <h4 class="video-overlay-text"><?php echo "$exercise_volume $exercise_title"; ?> </h4>  </div>
   </div><!--/video-container-->
   </div><!--/holder-->
               
@@ -125,7 +125,7 @@ $youtube_thumbnail_url = "http://img.youtube.com/vi/$youtube_video_id/default.jp
   <div class="holder">
   <div class="video-container">
 <?php echo $youtube_full_code; ?>
-    <div class="video-overlay"> <h4 class="project-name"><?php echo "$exercise_volume $exercise_title"; ?> </h4>  </div>
+    <div class="video-overlay"> <h4 class="video-overlay-text"><?php echo "$exercise_volume $exercise_title"; ?> </h4>  </div>
   </div><!--/video-container-->
   </div><!--/holder-->
 <?php }?>
@@ -231,5 +231,9 @@ $youtube_thumbnail_url = "http://img.youtube.com/vi/$youtube_video_id/default.jp
                     $('.nav_link').removeClass('active');
                 });
                 </script>
+                    <script>
+                    //hide video overlay text when you start playing a video
+                    $('.video-container').click(function(){$('.video-overlay',this).hide() });
+                    </script>
     </body>
 </html>
