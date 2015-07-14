@@ -225,14 +225,16 @@ $youtube_thumbnail_url = "http://img.youtube.com/vi/$youtube_video_id/default.jp
                 });
                 </script>
                     <script>
-                    $('.video-container').click(function(e){$('.video-overlay',this).hide();console.log("clicked in video-container"); });
+                    //$('.video-container').click(function(e){$('.video-overlay',this).hide();console.log("clicked in video-container"); });
+                    
                     focus();
                     var listener = addEventListener('blur', function() {
                         //if(document.activeElement === document.getElementsByTagName('iframe')) {
                         if($.inArray(document.activeElement,document.getElementsByTagName('iframe')) != -1) {
                            console.log('clicked iframe'); 
+                           $('.video-overlay',document.activeElement.parentNode).hide();console.log("hid video overlay");
                         }
-                        removeEventListener(listener);
+                        //removeEventListener(listener);
                     });
                     //$('.holder').click(function(e){$('.video-overlay',this).hide();console.log("clicked in .holder"); });
                     //hide video overlay text then click underlying iframe to start playing a video
