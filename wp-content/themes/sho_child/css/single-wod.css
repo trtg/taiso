@@ -30,7 +30,7 @@
  to avoid obscuring the play button.
  * */
 
-@media (max-width:768px){
+@media (max-width:767px){
     .video-overlay-text{
         margin-top:50px;
         text-align:center;
@@ -38,7 +38,7 @@
         color:white;
     }
 }
-@media (max-width:992px){
+@media (min-width:768px) and (max-width:992px){
     .video-overlay-text{
         margin-top:50px;
         text-align:center;
@@ -46,7 +46,15 @@
         color:white;
     }
 }
-@media (max-width:1200px){
+@media (min-width:992px){
+    .video-overlay-text{
+        margin-top:50px;
+        text-align:center;
+        font-size:40;
+        color:white;
+    }
+}
+@media (min-width:1200px){
     .video-overlay-text{
         margin-top:50px;
         text-align:center;
