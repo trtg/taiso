@@ -225,9 +225,9 @@ $youtube_thumbnail_url = "http://img.youtube.com/vi/$youtube_video_id/default.jp
                 });
                 </script>
                     <script>
+                    $('.video-container').click(function(e){$('.video-overlay',this).hide(); });
                     //hide video overlay text then click underlying iframe to start playing a video
-                    //$('.video-container').click(function(e){$('.video-overlay',this).hide();$('iframe',this).trigger('click'); });
-                    var video-containers = document.getElementsByClassName('video-overlay');
+                    /*var video-containers = document.getElementsByClassName('video-overlay');
                     for (var i =0;i < video-containers.length; i++){
                         video-containers[i].addEventListener('click',function(e){
                             //hide the text overlay
@@ -240,7 +240,7 @@ $youtube_thumbnail_url = "http://img.youtube.com/vi/$youtube_video_id/default.jp
                             });
                             this.parentNode.dispatchEvent(clickEvent);
                         });
-                    };
+                    };*/
                     </script>
     </body>
 </html>
