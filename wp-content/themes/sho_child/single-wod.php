@@ -235,7 +235,7 @@ $youtube_thumbnail_url = "http://img.youtube.com/vi/$youtube_video_id/default.jp
                         if($.inArray(document.activeElement,document.getElementsByTagName('iframe')) != -1) {
                            console.log('clicked iframe'); 
                            $('.video-overlay',document.activeElement.parentNode).hide();console.log("hid video overlay");
-                           focus();
+                           document.getElementsByTagName('body')[0].focus()
                         }
                         //removeEventListener(listener);
 
