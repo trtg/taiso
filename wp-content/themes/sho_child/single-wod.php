@@ -236,7 +236,11 @@ $youtube_thumbnail_url = "http://img.youtube.com/vi/$youtube_video_id/default.jp
                            console.log('clicked iframe'); 
                            $('.video-overlay',document.activeElement.parentNode).hide();console.log("hid video overlay");
                            document.activeElement.blur();
-                           document.getElementsByTagName('body')[0].focus()
+                           console.log("blurred activelement");
+                           console.log(document.activeElement);
+                           console.log('focusing window');
+                           window.focus();
+                           setTimeout(function(){window.focus();console.log('refocused window');},50);
                         }
                         //removeEventListener(listener);
 
