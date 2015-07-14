@@ -226,6 +226,7 @@ $youtube_thumbnail_url = "http://img.youtube.com/vi/$youtube_video_id/default.jp
                 </script>
                     <script>
                     $('.video-container').click(function(e){$('.video-overlay',this).hide();console.log("clicked in video-container"); });
+                    $('.holder').click(function(e){$('.video-overlay',this).hide();console.log("clicked in .holder"); });
                     //hide video overlay text then click underlying iframe to start playing a video
                     /*var video-containers = document.getElementsByClassName('video-overlay');
                     for (var i =0;i < video-containers.length; i++){
