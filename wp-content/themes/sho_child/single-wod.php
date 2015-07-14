@@ -235,6 +235,8 @@ $youtube_thumbnail_url = "http://img.youtube.com/vi/$youtube_video_id/default.jp
                            $('.video-overlay',document.activeElement.parentNode).hide();console.log("hid video overlay");
                         }
                         //removeEventListener(listener);
+
+                        focus();
                     });
                     //$('.holder').click(function(e){$('.video-overlay',this).hide();console.log("clicked in .holder"); });
                     //hide video overlay text then click underlying iframe to start playing a video
