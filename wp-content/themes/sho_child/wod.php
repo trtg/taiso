@@ -117,8 +117,6 @@ $youtube_thumbnail_url = "http://img.youtube.com/vi/$youtube_video_id/default.jp
  <div class="share"> 
       <div class="cell"> 
         <a class="twitter-share-button" href="https://twitter.com/intent/tweet?url=<?php the_permalink();?>" data-size="large"> Tweet</a>
-        <a href="https://www.facebook.com/sharer/sharer.php?u=<?php the_permalink();?>"><img src="/wp-content/images/facebook_icon.png" alt="Share on Facebook"></a>
-    <a href="https://pinterest.com/pin/create/button/?url=&media=<?php the_permalink();?>&description=">Pin on Pinterest</a>
-<a href="https://plus.google.com/share?url=<?php the_permalink();?>">Share on Google+</a>
+        <a href="https://www.facebook.com/sharer/sharer.php?u=<?php the_permalink();?>"><img src="/wp-content/images/facebook_icon.png" alt="Share on Facebook" style="padding-bottom:21px;"></a>
 </div>
 </div>
