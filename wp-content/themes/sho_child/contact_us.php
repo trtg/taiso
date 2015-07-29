@@ -41,7 +41,7 @@
 <div class="container-fluid">
 <div class="row">
 
-<div class="col-md-6 col-xs-12 form_div">
+<div class="col-md-12 col-xs-12 form_div">
 <div id="contact_form">
         <div class="col-xs-12 col-sm-12 col-md-12" >
         <?php echo do_shortcode( '[contact-form-7 id="48" title="Contact form 1"]' ); ?>
