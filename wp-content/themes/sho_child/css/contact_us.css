@@ -2112,6 +2112,9 @@ input[type="text"],input[type="email"]{
     max-width:400px;
     opacity:0.8;
 }
+input[type="submit"]{
+    max-width:400px;
+}
 .form_div{
     background-image:url("/wp-content/images/steph_stretching_small.jpg");
     background-repeat:no-repeat;
