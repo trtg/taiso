@@ -82,7 +82,7 @@
 <div class="tab-content">
   <div id="prescribed" class="tab-pane fade in active">
 <?php foreach($prescribed_exercise_array as $exercise){ 
-    if (array_key_exists('duration_seconds',$exercise) && count($exercise['duration_seconds'] > 0)){
+    if (array_key_exists('duration_seconds',$exercise) && is_numeric($exercise['duration_seconds'] )){
         $exercise_volume = $exercise['sets'] . "x" . $exercise['duration_seconds'] . " seconds";
     }else{
         $exercise_volume = $exercise['sets'] . "x" . $exercise['reps'];
@@ -113,7 +113,7 @@ $exercise_title = $exercise_post->post_title;
   <div id="scaled" class="tab-pane fade">
  <?php foreach($scaled_exercise_array as $exercise){ 
 
-     if (array_key_exists('duration_seconds',$exercise) && count($exercise['duration_seconds'] > 0)){
+     if (array_key_exists('duration_seconds',$exercise) && is_numeric($exercise['duration_seconds'])){
         $exercise_volume = $exercise['sets'] . "x" . $exercise['duration_seconds'] . " seconds";
      }else{
          $exercise_volume = $exercise['sets'] . "x" . $exercise['reps'];
