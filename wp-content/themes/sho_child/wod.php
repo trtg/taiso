@@ -16,7 +16,11 @@
 custom field in the backend for them then add classes prescribed 
 and scaled to the portfolio-item div -->
 <?php foreach($prescribed_exercise_array as $exercise){ 
-$exercise_volume = $exercise['sets'] . "x" . $exercise['reps'];
+if (array_key_exists('duration_seconds',$exercise) && is_numeric($exercise['duration_seconds'] )){
+        $exercise_volume = $exercise['sets'] . "x" . $exercise['duration_seconds'] . " seconds";
+    }else{
+        $exercise_volume = $exercise['sets'] . "x" . $exercise['reps'];
+    }
 
 $exercise_post_id = url_to_postid($exercise['movement_url']);
 $youtube_full_code = get_field('youtube_embed_code',$exercise_post_id);
@@ -53,7 +57,12 @@ $exercise_title = $exercise_post->post_title;
 <?php }?>
 
 <?php foreach($scaled_exercise_array as $exercise){ 
-$exercise_volume = $exercise['sets'] . "x" . $exercise['reps'];
+if (array_key_exists('duration_seconds',$exercise) && is_numeric($exercise['duration_seconds'] )){
+        $exercise_volume = $exercise['sets'] . "x" . $exercise['duration_seconds'] . " seconds";
+    }else{
+        $exercise_volume = $exercise['sets'] . "x" . $exercise['reps'];
+    }
+
 //if url_to_postid returns 0, make sure the proper URL prefix
 //is being used, at this point everything should
 //reference totaltaiso.com not totaltaiso.dreamhosters.com
