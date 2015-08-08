@@ -24,7 +24,7 @@ if (array_key_exists('duration_seconds',$exercise) && is_numeric($exercise['dura
 
 $exercise_post_id = url_to_postid($exercise['movement_url']);
 $youtube_full_code = get_field('youtube_embed_code',$exercise_post_id);
-preg_match("*youtube.com/embed/(\w+)*",$youtube_full_code,$matches); 
+preg_match("*youtube.com/embed/([\w-]+)*",$youtube_full_code,$matches); 
 $youtube_video_id = $matches[1];
 $youtube_thumbnail_url = "http://img.youtube.com/vi/$youtube_video_id/default.jpg";
 
@@ -71,7 +71,7 @@ $exercise_title = $exercise_post->post_title;
 
 $exercise_post_id = url_to_postid($exercise['movement_url']);
 $youtube_full_code = get_field('youtube_embed_code',$exercise_post_id);
-preg_match("*youtube.com/embed/(\w+)*",$youtube_full_code,$matches); 
+preg_match("*youtube.com/embed/([\w-]+)*",$youtube_full_code,$matches); 
 $youtube_video_id = $matches[1];
 $youtube_thumbnail_url = "http://img.youtube.com/vi/$youtube_video_id/default.jpg";
 
