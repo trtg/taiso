@@ -222,8 +222,8 @@ $wod_index = $wod_index+1;
 endwhile; ?>
 
 <ul class="wod_navigation_links">
-<li><?php previous_posts_link('Newer posts',$wods->max_num_pages); ?></li>
-<li><?php next_posts_link('Older posts',$wods->max_num_pages); ?></li>
+<li><?php previous_posts_link('Newer WODs',$wods->max_num_pages); ?></li>
+<li><?php next_posts_link('Older WODs',$wods->max_num_pages); ?></li>
 </ul>
 
 </section>
