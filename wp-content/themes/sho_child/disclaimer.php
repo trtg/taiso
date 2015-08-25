@@ -21,7 +21,7 @@
     <meta name="viewport" content="initial-scale=1, maximum-scale=1">
     <meta name="viewport" content="width=device-width; initial-scale=1; minimal-ui">
 
-    <meta name="author" content="Sho Nakomori">
+    <meta name="author" content="Sho Nakamori">
     <meta name="description" content="Total Taiso desc" />
     <meta name="author" content="TotalTaiso  Campaign">
     <meta name="keywords" content="strength, balance, flexibility ....">
