@@ -96,10 +96,6 @@
 Gymnastics, a sport introduced at the first modern Olympics, is a discipline that requires strength, balance, and flexibility. Whether you are a competitive athlete or someone trying to improve your health, these qualities are the same ones required to live a strong and healthy life.
 </span></br>
 
-<span class=" indent2">
-TotalTaiso was built upon these qualities, and introduces numerous gymnastics and bodyweight-based elements, to allow anybody, regardless of your physical background, to develop the strength, balance, and flexibility to improve your quality of life.
-</span></br>
-
 
 <span class=" indent2">
 Built upon these foundational elements, TotalTaiso introduces numerous gymnastics and bodyweight-based exercises. This allows anybody, regardless of physical background, to develop the strength, balance, and flexibility needed to improve quality of life.
