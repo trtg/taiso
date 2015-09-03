@@ -18,8 +18,9 @@
     
 
     <meta name="author" content="Sho Nakamori">
-    <meta name="description" content="Total Taiso desc" />
-    <meta name="author" content="TotalTaiso  Campaign">
+    <meta name="description" content="TotalTaiso was built upon the PRINCIPLES OF GYMNASTICS, a sport that combines the elements of STRENGTH, BALANCE, AND FLEXIBILITY to lead a healthier lifestyle. While the direct translation for the Japanese word, ‘Taiso,’ is gymnastics, it’s more than the TYPE OF GYMNASTICS you see on TV. More broadly, ‘TAISO’ refers to the ACT OF MANIPULATING THE BODY, and using the body as an apparatus for achieving fitness."/>
+
+<meta property="og:image" content="http://www.totaltaiso.com/wp-content/images/sho_pommel_horse-desktop.jpg" />
     <meta name="keywords" content="strength, balance, flexibility ....">
     
 <!--    <link href="/wp-content/themes/sho_child/css/bootstrap.min.css" rel="stylesheet" /> 
