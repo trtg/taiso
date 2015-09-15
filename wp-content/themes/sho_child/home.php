@@ -18,6 +18,8 @@
     <meta name="author" content="Sho Nakamori">
     <meta charset="UTF-8" />
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+   <!-- for google owner verification--> 
+    <meta name="google-site-verification" content="Nz0bsxKYoORRasLTBS_eYkihv1GzAgmKZVKhgz2_A3c" />
     
 	<link rel="icon" type="image/ico" href="/wp-content/images/favicon.ico" />
 
